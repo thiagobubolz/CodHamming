@@ -1,0 +1,112 @@
+$comment
+	File created using the following command:
+		vcd file trabalhototal.msim.vcd -direction
+$end
+$date
+	Fri Jul 03 10:49:36 2015
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module decod_hamming_vlg_vec_tst $end
+$var reg 7 ! entrada_dec [0:6] $end
+$var wire 1 " LED $end
+$var wire 1 # n_corrigido [0] $end
+$var wire 1 $ n_corrigido [1] $end
+$var wire 1 % n_corrigido [2] $end
+$var wire 1 & n_corrigido [3] $end
+$var wire 1 ' n_corrigido [4] $end
+$var wire 1 ( n_corrigido [5] $end
+$var wire 1 ) n_corrigido [6] $end
+$var wire 1 * saida_corrigido [0] $end
+$var wire 1 + saida_corrigido [1] $end
+$var wire 1 , saida_corrigido [2] $end
+$var wire 1 - saida_corrigido [3] $end
+$var wire 1 . saida_posicao [0] $end
+$var wire 1 / saida_posicao [1] $end
+$var wire 1 0 saida_posicao [2] $end
+$var wire 1 1 saida_recebido [0] $end
+$var wire 1 2 saida_recebido [1] $end
+$var wire 1 3 saida_recebido [2] $end
+$var wire 1 4 saida_recebido [3] $end
+$var wire 1 5 sampler $end
+$scope module i1 $end
+$var wire 1 6 gnd $end
+$var wire 1 7 vcc $end
+$var wire 1 8 unknown $end
+$var tri1 1 9 devclrn $end
+$var tri1 1 : devpor $end
+$var tri1 1 ; devoe $end
+$var wire 1 < posicao~0_combout $end
+$var wire 1 = posicao~1_combout $end
+$var wire 1 > posicao~2_combout $end
+$var wire 1 ? n_corrigido~0_combout $end
+$var wire 1 @ n_corrigido~1_combout $end
+$var wire 1 A n_corrigido~2_combout $end
+$var wire 1 B n_corrigido~3_combout $end
+$var wire 1 C n_corrigido~4_combout $end
+$var wire 1 D n_corrigido~5_combout $end
+$var wire 1 E n_corrigido~6_combout $end
+$var wire 1 F Mux0~0_combout $end
+$var wire 1 G entrada_dec~combout [0] $end
+$var wire 1 H entrada_dec~combout [1] $end
+$var wire 1 I entrada_dec~combout [2] $end
+$var wire 1 J entrada_dec~combout [3] $end
+$var wire 1 K entrada_dec~combout [4] $end
+$var wire 1 L entrada_dec~combout [5] $end
+$var wire 1 M entrada_dec~combout [6] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010011 !
+1"
+1)
+1(
+0'
+0&
+0%
+0$
+1#
+1-
+1,
+0+
+0*
+10
+1/
+0.
+14
+13
+02
+11
+x5
+06
+17
+x8
+19
+1:
+1;
+0<
+1=
+1>
+1?
+1@
+0A
+0B
+0C
+0D
+1E
+0F
+1M
+1L
+0K
+0J
+1I
+0H
+1G
+$end
+#1000000

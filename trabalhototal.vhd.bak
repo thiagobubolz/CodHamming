@@ -1,0 +1,59 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY trabalhototal IS
+	PORT (
+		a, b: in std_logic_vector (3 downto 0);
+		s: out std_logic_vector (6 downto 0);
+		c: out std_logic
+		);
+	END trabalhototal;
+	
+	ARCHITECTURE ARQ_trabalhototal OF trabalhototal IS
+	
+	SIGNAL sout: std_logic_vector (3 downto 0);
+	
+	COMPONENT injeta_erro
+		PORT (
+		
+		);
+	END COMPONENT;
+	
+	COMPONENT decod_hamming
+		PORT (
+		
+		);
+	END COMPONENT;
+	
+	COMPONENT cod_hamming
+		PORT (
+		entrada: in std_logic_vector (0 to 3);
+		saida: out std_logic_vector (0 to 6)
+		);
+	END COMPONENT;
+	
+	COMPONENT somador4
+		PORT (
+		a, b: in std_logic_vector (3 downto 0);
+		s: out std_logic_vector (3 downto 0);
+		c3: out std_logic
+		);
+	END COMPONENT;
+	
+	COMPONENT seg7
+		PORT (
+		a: in std_logic_vector (3 downto 0);
+		s: out std_logic_vector (6 downto 0)
+		);
+	END COMPONENT;
+	
+	BEGIN
+		
+		SAIDA1: somador4
+			port map(a => a, b => b, c3 => c, s => sout);
+			
+		SAIDA2: seg7
+			port map(a => sout, s => s);
+		
+			
+	END ARQ_trabalhototal;

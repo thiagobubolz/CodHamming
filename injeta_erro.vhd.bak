@@ -1,0 +1,38 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY decod_hamming IS
+	PORT (
+		injetor: in std_logic_vector (0 to 6);
+		n_recebido, n_corrigido: out std_logic_vector (0 to 6);
+		posicao: out std_logic_vector (0 to 2)
+		);
+	END decod_hamming;
+	
+	ARCHITECTURE ARQ_decod_hamming OF decod_hamming IS
+	
+	SIGNAL saida: std_logic_vector (0 to 6);
+
+	BEGIN
+	
+	n_recebido <= entrada_dec;
+	
+	posicao(0) <= entrada_dec(0) XOR entrada_dec(2) XOR entrada_dec(4) XOR entrada_dec(6);
+	posicao(1) <= entrada_dec(1) XOR entrada_dec(2) XOR entrada_dec(5) XOR entrada_dec(6);
+	posicao(2) <= entrada_dec(3) XOR entrada_dec(4) XOR entrada_dec(5) XOR entrada_dec(6);
+	
+	with posicao select
+	
+saida<= "0000001" when "001",
+		  "0000010" when "010",
+		  "0000100" when "011",
+		  "0001000" when "100",
+		  "0010000" when "101",
+		  "0100000" when "110",
+		  "1000000" when "111",
+		  "0000000" when others;
+	
+		n_corrigido <= n_recebido XOR saida;
+		
+		
+	END ARQ_decod_hamming;

@@ -1,0 +1,23 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY cod_hamming IS
+	PORT (
+		entrada: in std_logic_vector (0 to 3);
+		saida: out std_logic_vector (0 to 6)
+		);
+	END cod_hamming;
+	
+	ARCHITECTURE ARQ_cod_hamming OF cod_hamming IS
+
+	BEGIN
+	
+	saida(0) <= entrada(0) xor entrada(1) xor entrada(3);
+	saida(1) <= entrada(0) xor entrada(2) xor entrada(3);
+	saida(2) <= entrada(0);
+	saida(3) <= entrada(1) xor entrada(2) xor entrada(3);
+	saida(4) <= entrada(1);
+	saida(5) <= entrada(2);
+	saida(6) <= entrada(3);
+	
+	END ARQ_cod_hamming;

@@ -1,0 +1,17 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY SC IS
+	PORT (
+		a0, b0: in std_logic;
+		s0, c1: out std_logic
+		);
+	END SC;
+	
+	ARCHITECTURE ARQ_SC OF SC IS
+	BEGIN
+	
+	s0 <= a0 XOR b0;
+	c1 <= a0 AND b0;
+	
+	END ARQ_SC;

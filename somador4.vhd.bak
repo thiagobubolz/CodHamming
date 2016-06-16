@@ -1,0 +1,41 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY somador4 IS
+	PORT (
+		a, b: in std_logic_vector (3 downto 0);
+		s: out std_logic_vector (3 downto 0);
+		c3: out std_logic
+		);
+	END somador4;
+	
+	ARCHITECTURE ARQ_somador4 OF somador4 IS
+	
+	SIGNAL c: std_logic_vector (2 downto 0);
+	
+	COMPONENT aula3
+		PORT (
+		a0, b0: in std_logic;
+		s0, c1: out std_logic
+		);
+	END COMPONENT;
+	
+	COMPONENT aulaa3
+		PORT (
+		ai, bi, ci: in std_logic;
+		si, cout: out std_logic
+		);
+	END COMPONENT;
+	
+	BEGIN
+		
+		SOMA1: aula3
+			port map(a0 => a(0), b0 => b(0), s0 => s(0), c1 => c(0));
+		SOMA2: aulaa3
+			port map(ai => a(1), bi => b(1), ci => c(0), si => s(1), cout => c(1));
+		SOMA3: aulaa3
+			port map (ai => a(2), bi => b(2), ci => c(1), si => s(2), cout => c(2));
+		SOMA4: aulaa3
+			port map (ai => a(3), bi => b(3), ci => c(2), si => s(3), cout => c3);
+			
+	END ARQ_somador4;

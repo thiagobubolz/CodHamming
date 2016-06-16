@@ -1,0 +1,1932 @@
+TimeQuest Timing Analyzer report for trabalhototal
+Fri Jul 03 10:50:15 2015
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; trabalhototal                                                     ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C35F672C6                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++---------------------------------------------------------------------+
+; Propagation Delay                                                   ;
++------------+--------------------+--------+--------+--------+--------+
+; Input Port ; Output Port        ; RR     ; RF     ; FR     ; FF     ;
++------------+--------------------+--------+--------+--------+--------+
+; posicao[0] ; saida_led          ; 8.602  ;        ;        ; 8.602  ;
+; posicao[0] ; saida_posicao_n[0] ; 7.429  ; 7.429  ; 7.429  ; 7.429  ;
+; posicao[0] ; saida_posicao_n[1] ; 7.622  ;        ;        ; 7.622  ;
+; posicao[0] ; saida_posicao_n[2] ;        ; 7.372  ; 7.372  ;        ;
+; posicao[0] ; saida_posicao_n[3] ; 7.675  ; 7.675  ; 7.675  ; 7.675  ;
+; posicao[0] ; saida_posicao_n[4] ; 7.684  ;        ;        ; 7.684  ;
+; posicao[0] ; saida_posicao_n[5] ;        ; 7.879  ; 7.879  ;        ;
+; posicao[0] ; saida_posicao_n[6] ; 7.668  ; 7.668  ; 7.668  ; 7.668  ;
+; posicao[0] ; saida_seg14dezc[0] ; 11.916 ; 11.916 ; 11.916 ; 11.916 ;
+; posicao[0] ; saida_seg14dezc[3] ; 11.931 ; 11.931 ; 11.931 ; 11.931 ;
+; posicao[0] ; saida_seg14dezc[4] ; 11.911 ; 11.911 ; 11.911 ; 11.911 ;
+; posicao[0] ; saida_seg14dezc[5] ; 11.911 ; 11.911 ; 11.911 ; 11.911 ;
+; posicao[0] ; saida_seg14dezr[0] ; 10.686 ; 10.686 ; 10.686 ; 10.686 ;
+; posicao[0] ; saida_seg14dezr[3] ; 10.656 ; 10.656 ; 10.656 ; 10.656 ;
+; posicao[0] ; saida_seg14dezr[4] ; 10.656 ; 10.656 ; 10.656 ; 10.656 ;
+; posicao[0] ; saida_seg14dezr[5] ; 10.704 ; 10.704 ; 10.704 ; 10.704 ;
+; posicao[0] ; saida_seg14unic[0] ; 11.901 ; 11.901 ; 11.901 ; 11.901 ;
+; posicao[0] ; saida_seg14unic[1] ; 11.898 ; 11.898 ; 11.898 ; 11.898 ;
+; posicao[0] ; saida_seg14unic[2] ; 11.786 ; 11.786 ; 11.786 ; 11.786 ;
+; posicao[0] ; saida_seg14unic[3] ; 11.615 ; 11.615 ; 11.615 ; 11.615 ;
+; posicao[0] ; saida_seg14unic[4] ; 11.625 ; 11.625 ; 11.625 ; 11.625 ;
+; posicao[0] ; saida_seg14unic[5] ; 11.628 ; 11.628 ; 11.628 ; 11.628 ;
+; posicao[0] ; saida_seg14unic[6] ; 11.796 ; 11.796 ; 11.796 ; 11.796 ;
+; posicao[0] ; saida_seg14unir[0] ; 10.376 ; 10.376 ; 10.376 ; 10.376 ;
+; posicao[0] ; saida_seg14unir[1] ; 10.373 ; 10.373 ; 10.373 ; 10.373 ;
+; posicao[0] ; saida_seg14unir[2] ; 10.403 ; 10.403 ; 10.403 ; 10.403 ;
+; posicao[0] ; saida_seg14unir[3] ; 10.598 ; 10.598 ; 10.598 ; 10.598 ;
+; posicao[0] ; saida_seg14unir[4] ; 10.619 ; 10.619 ; 10.619 ; 10.619 ;
+; posicao[0] ; saida_seg14unir[5] ; 10.601 ; 10.601 ; 10.601 ; 10.601 ;
+; posicao[0] ; saida_seg14unir[6] ; 10.601 ; 10.601 ; 10.601 ; 10.601 ;
+; posicao[1] ; saida_led          ; 8.365  ;        ;        ; 8.365  ;
+; posicao[1] ; saida_posicao_n[0] ;        ; 7.144  ; 7.144  ;        ;
+; posicao[1] ; saida_posicao_n[1] ; 7.319  ; 7.319  ; 7.319  ; 7.319  ;
+; posicao[1] ; saida_posicao_n[2] ; 7.116  ;        ;        ; 7.116  ;
+; posicao[1] ; saida_posicao_n[3] ; 7.389  ; 7.389  ; 7.389  ; 7.389  ;
+; posicao[1] ; saida_posicao_n[4] ;        ; 7.397  ; 7.397  ;        ;
+; posicao[1] ; saida_posicao_n[5] ; 7.593  ;        ;        ; 7.593  ;
+; posicao[1] ; saida_posicao_n[6] ; 7.383  ; 7.383  ; 7.383  ; 7.383  ;
+; posicao[1] ; saida_seg14dezc[0] ; 11.548 ; 11.548 ; 11.548 ; 11.548 ;
+; posicao[1] ; saida_seg14dezc[3] ; 11.563 ; 11.563 ; 11.563 ; 11.563 ;
+; posicao[1] ; saida_seg14dezc[4] ; 11.543 ; 11.543 ; 11.543 ; 11.543 ;
+; posicao[1] ; saida_seg14dezc[5] ; 11.543 ; 11.543 ; 11.543 ; 11.543 ;
+; posicao[1] ; saida_seg14dezr[0] ; 10.332 ; 10.332 ; 10.332 ; 10.332 ;
+; posicao[1] ; saida_seg14dezr[3] ; 10.302 ; 10.302 ; 10.302 ; 10.302 ;
+; posicao[1] ; saida_seg14dezr[4] ; 10.302 ; 10.302 ; 10.302 ; 10.302 ;
+; posicao[1] ; saida_seg14dezr[5] ; 10.350 ; 10.350 ; 10.350 ; 10.350 ;
+; posicao[1] ; saida_seg14unic[0] ; 11.533 ; 11.533 ; 11.533 ; 11.533 ;
+; posicao[1] ; saida_seg14unic[1] ; 11.530 ; 11.530 ; 11.530 ; 11.530 ;
+; posicao[1] ; saida_seg14unic[2] ; 11.418 ; 11.418 ; 11.418 ; 11.418 ;
+; posicao[1] ; saida_seg14unic[3] ; 11.247 ; 11.247 ; 11.247 ; 11.247 ;
+; posicao[1] ; saida_seg14unic[4] ; 11.257 ; 11.257 ; 11.257 ; 11.257 ;
+; posicao[1] ; saida_seg14unic[5] ; 11.260 ; 11.260 ; 11.260 ; 11.260 ;
+; posicao[1] ; saida_seg14unic[6] ; 11.428 ; 11.428 ; 11.428 ; 11.428 ;
+; posicao[1] ; saida_seg14unir[0] ; 10.485 ; 10.485 ; 10.485 ; 10.485 ;
+; posicao[1] ; saida_seg14unir[1] ; 10.482 ; 10.482 ; 10.482 ; 10.482 ;
+; posicao[1] ; saida_seg14unir[2] ; 10.512 ; 10.512 ; 10.512 ; 10.512 ;
+; posicao[1] ; saida_seg14unir[3] ; 10.707 ; 10.707 ; 10.707 ; 10.707 ;
+; posicao[1] ; saida_seg14unir[4] ; 10.728 ; 10.728 ; 10.728 ; 10.728 ;
+; posicao[1] ; saida_seg14unir[5] ; 10.710 ; 10.710 ; 10.710 ; 10.710 ;
+; posicao[1] ; saida_seg14unir[6] ; 10.710 ; 10.710 ; 10.710 ; 10.710 ;
+; posicao[2] ; saida_led          ; 8.771  ;        ;        ; 8.771  ;
+; posicao[2] ; saida_posicao_n[0] ; 7.596  ; 7.596  ; 7.596  ; 7.596  ;
+; posicao[2] ; saida_posicao_n[1] ; 7.783  ; 7.783  ; 7.783  ; 7.783  ;
+; posicao[2] ; saida_posicao_n[2] ;        ; 7.542  ; 7.542  ;        ;
+; posicao[2] ; saida_posicao_n[3] ; 7.838  ; 7.838  ; 7.838  ; 7.838  ;
+; posicao[2] ; saida_posicao_n[4] ; 7.844  ;        ;        ; 7.844  ;
+; posicao[2] ; saida_posicao_n[5] ; 8.043  ;        ;        ; 8.043  ;
+; posicao[2] ; saida_posicao_n[6] ; 7.833  ;        ;        ; 7.833  ;
+; posicao[2] ; saida_seg14dezc[0] ; 11.902 ; 11.902 ; 11.902 ; 11.902 ;
+; posicao[2] ; saida_seg14dezc[3] ; 11.917 ; 11.917 ; 11.917 ; 11.917 ;
+; posicao[2] ; saida_seg14dezc[4] ; 11.897 ; 11.897 ; 11.897 ; 11.897 ;
+; posicao[2] ; saida_seg14dezc[5] ; 11.897 ; 11.897 ; 11.897 ; 11.897 ;
+; posicao[2] ; saida_seg14dezr[0] ; 10.673 ; 10.673 ; 10.673 ; 10.673 ;
+; posicao[2] ; saida_seg14dezr[3] ; 10.643 ; 10.643 ; 10.643 ; 10.643 ;
+; posicao[2] ; saida_seg14dezr[4] ; 10.643 ; 10.643 ; 10.643 ; 10.643 ;
+; posicao[2] ; saida_seg14dezr[5] ; 10.691 ; 10.691 ; 10.691 ; 10.691 ;
+; posicao[2] ; saida_seg14unic[0] ; 11.887 ; 11.887 ; 11.887 ; 11.887 ;
+; posicao[2] ; saida_seg14unic[1] ; 11.884 ; 11.884 ; 11.884 ; 11.884 ;
+; posicao[2] ; saida_seg14unic[2] ; 11.772 ; 11.772 ; 11.772 ; 11.772 ;
+; posicao[2] ; saida_seg14unic[3] ; 11.601 ; 11.601 ; 11.601 ; 11.601 ;
+; posicao[2] ; saida_seg14unic[4] ; 11.611 ; 11.611 ; 11.611 ; 11.611 ;
+; posicao[2] ; saida_seg14unic[5] ; 11.614 ; 11.614 ; 11.614 ; 11.614 ;
+; posicao[2] ; saida_seg14unic[6] ; 11.782 ; 11.782 ; 11.782 ; 11.782 ;
+; posicao[2] ; saida_seg14unir[0] ; 10.639 ; 10.639 ; 10.639 ; 10.639 ;
+; posicao[2] ; saida_seg14unir[1] ; 10.636 ; 10.636 ; 10.636 ; 10.636 ;
+; posicao[2] ; saida_seg14unir[2] ; 10.666 ; 10.666 ; 10.666 ; 10.666 ;
+; posicao[2] ; saida_seg14unir[3] ; 10.861 ; 10.861 ; 10.861 ; 10.861 ;
+; posicao[2] ; saida_seg14unir[4] ; 10.882 ; 10.882 ; 10.882 ; 10.882 ;
+; posicao[2] ; saida_seg14unir[5] ; 10.864 ; 10.864 ; 10.864 ; 10.864 ;
+; posicao[2] ; saida_seg14unir[6] ; 10.864 ; 10.864 ; 10.864 ; 10.864 ;
+; valor1[0]  ; overflow           ; 11.710 ;        ;        ; 11.710 ;
+; valor1[0]  ; saida_seg14dezc[0] ; 14.137 ; 14.137 ; 14.137 ; 14.137 ;
+; valor1[0]  ; saida_seg14dezc[3] ; 14.152 ; 14.152 ; 14.152 ; 14.152 ;
+; valor1[0]  ; saida_seg14dezc[4] ; 14.132 ; 14.132 ; 14.132 ; 14.132 ;
+; valor1[0]  ; saida_seg14dezc[5] ; 14.132 ; 14.132 ; 14.132 ; 14.132 ;
+; valor1[0]  ; saida_seg14dezr[0] ; 13.717 ; 13.717 ; 13.717 ; 13.717 ;
+; valor1[0]  ; saida_seg14dezr[3] ; 13.687 ; 13.687 ; 13.687 ; 13.687 ;
+; valor1[0]  ; saida_seg14dezr[4] ; 13.687 ; 13.687 ; 13.687 ; 13.687 ;
+; valor1[0]  ; saida_seg14dezr[5] ; 13.735 ; 13.735 ; 13.735 ; 13.735 ;
+; valor1[0]  ; saida_seg14unic[0] ; 14.135 ; 14.135 ; 14.135 ; 14.135 ;
+; valor1[0]  ; saida_seg14unic[1] ; 14.110 ; 14.110 ; 14.110 ; 14.110 ;
+; valor1[0]  ; saida_seg14unic[2] ; 14.024 ; 14.024 ; 14.024 ; 14.024 ;
+; valor1[0]  ; saida_seg14unic[3] ; 13.842 ; 13.842 ; 13.842 ; 13.842 ;
+; valor1[0]  ; saida_seg14unic[4] ; 13.847 ; 13.847 ; 13.847 ; 13.847 ;
+; valor1[0]  ; saida_seg14unic[5] ; 13.846 ; 13.846 ; 13.846 ; 13.846 ;
+; valor1[0]  ; saida_seg14unic[6] ; 14.009 ; 14.009 ; 14.009 ; 14.009 ;
+; valor1[0]  ; saida_seg14unir[0] ; 13.870 ; 13.870 ; 13.870 ; 13.870 ;
+; valor1[0]  ; saida_seg14unir[1] ; 13.867 ; 13.867 ; 13.867 ; 13.867 ;
+; valor1[0]  ; saida_seg14unir[2] ; 13.897 ; 13.897 ; 13.897 ; 13.897 ;
+; valor1[0]  ; saida_seg14unir[3] ; 14.092 ; 14.092 ; 14.092 ; 14.092 ;
+; valor1[0]  ; saida_seg14unir[4] ; 14.113 ; 14.113 ; 14.113 ; 14.113 ;
+; valor1[0]  ; saida_seg14unir[5] ; 14.095 ; 14.095 ; 14.095 ; 14.095 ;
+; valor1[0]  ; saida_seg14unir[6] ; 14.095 ; 14.095 ; 14.095 ; 14.095 ;
+; valor1[1]  ; overflow           ; 12.300 ;        ;        ; 12.300 ;
+; valor1[1]  ; saida_seg14dezc[0] ; 13.141 ; 13.141 ; 13.141 ; 13.141 ;
+; valor1[1]  ; saida_seg14dezc[3] ; 13.156 ; 13.156 ; 13.156 ; 13.156 ;
+; valor1[1]  ; saida_seg14dezc[4] ; 13.136 ; 13.136 ; 13.136 ; 13.136 ;
+; valor1[1]  ; saida_seg14dezc[5] ; 13.136 ; 13.136 ; 13.136 ; 13.136 ;
+; valor1[1]  ; saida_seg14dezr[0] ; 13.264 ; 13.264 ; 13.264 ; 13.264 ;
+; valor1[1]  ; saida_seg14dezr[3] ; 13.234 ; 13.234 ; 13.234 ; 13.234 ;
+; valor1[1]  ; saida_seg14dezr[4] ; 13.234 ; 13.234 ; 13.234 ; 13.234 ;
+; valor1[1]  ; saida_seg14dezr[5] ; 13.282 ; 13.282 ; 13.282 ; 13.282 ;
+; valor1[1]  ; saida_seg14unic[0] ; 13.139 ; 13.139 ; 13.139 ; 13.139 ;
+; valor1[1]  ; saida_seg14unic[1] ; 13.114 ; 13.114 ; 13.114 ; 13.114 ;
+; valor1[1]  ; saida_seg14unic[2] ; 13.028 ; 13.028 ; 13.028 ; 13.028 ;
+; valor1[1]  ; saida_seg14unic[3] ; 12.846 ; 12.846 ; 12.846 ; 12.846 ;
+; valor1[1]  ; saida_seg14unic[4] ; 12.851 ; 12.851 ; 12.851 ; 12.851 ;
+; valor1[1]  ; saida_seg14unic[5] ; 12.850 ; 12.850 ; 12.850 ; 12.850 ;
+; valor1[1]  ; saida_seg14unic[6] ; 13.013 ; 13.013 ; 13.013 ; 13.013 ;
+; valor1[1]  ; saida_seg14unir[0] ; 12.909 ; 12.909 ; 12.909 ; 12.909 ;
+; valor1[1]  ; saida_seg14unir[1] ; 12.899 ; 12.899 ; 12.899 ; 12.899 ;
+; valor1[1]  ; saida_seg14unir[2] ; 12.903 ; 12.903 ; 12.903 ; 12.903 ;
+; valor1[1]  ; saida_seg14unir[3] ; 13.131 ; 13.131 ; 13.131 ; 13.131 ;
+; valor1[1]  ; saida_seg14unir[4] ; 13.120 ; 13.120 ; 13.120 ; 13.120 ;
+; valor1[1]  ; saida_seg14unir[5] ; 13.101 ; 13.101 ; 13.101 ; 13.101 ;
+; valor1[1]  ; saida_seg14unir[6] ; 13.100 ; 13.100 ; 13.100 ; 13.100 ;
+; valor1[2]  ; overflow           ; 12.850 ;        ;        ; 12.850 ;
+; valor1[2]  ; saida_seg14dezc[0] ; 14.850 ; 14.850 ; 14.850 ; 14.850 ;
+; valor1[2]  ; saida_seg14dezc[3] ; 14.865 ; 14.865 ; 14.865 ; 14.865 ;
+; valor1[2]  ; saida_seg14dezc[4] ; 14.845 ; 14.845 ; 14.845 ; 14.845 ;
+; valor1[2]  ; saida_seg14dezc[5] ; 14.845 ; 14.845 ; 14.845 ; 14.845 ;
+; valor1[2]  ; saida_seg14dezr[0] ; 13.830 ; 13.830 ; 13.830 ; 13.830 ;
+; valor1[2]  ; saida_seg14dezr[3] ; 13.800 ; 13.800 ; 13.800 ; 13.800 ;
+; valor1[2]  ; saida_seg14dezr[4] ; 13.800 ; 13.800 ; 13.800 ; 13.800 ;
+; valor1[2]  ; saida_seg14dezr[5] ; 13.848 ; 13.848 ; 13.848 ; 13.848 ;
+; valor1[2]  ; saida_seg14unic[0] ; 14.835 ; 14.835 ; 14.835 ; 14.835 ;
+; valor1[2]  ; saida_seg14unic[1] ; 14.832 ; 14.832 ; 14.832 ; 14.832 ;
+; valor1[2]  ; saida_seg14unic[2] ; 14.720 ; 14.720 ; 14.720 ; 14.720 ;
+; valor1[2]  ; saida_seg14unic[3] ; 14.549 ; 14.549 ; 14.549 ; 14.549 ;
+; valor1[2]  ; saida_seg14unic[4] ; 14.559 ; 14.559 ; 14.559 ; 14.559 ;
+; valor1[2]  ; saida_seg14unic[5] ; 14.562 ; 14.562 ; 14.562 ; 14.562 ;
+; valor1[2]  ; saida_seg14unic[6] ; 14.730 ; 14.730 ; 14.730 ; 14.730 ;
+; valor1[2]  ; saida_seg14unir[0] ; 13.703 ; 13.703 ; 13.703 ; 13.703 ;
+; valor1[2]  ; saida_seg14unir[1] ; 13.700 ; 13.700 ; 13.700 ; 13.700 ;
+; valor1[2]  ; saida_seg14unir[2] ; 13.730 ; 13.730 ; 13.730 ; 13.730 ;
+; valor1[2]  ; saida_seg14unir[3] ; 13.925 ; 13.925 ; 13.925 ; 13.925 ;
+; valor1[2]  ; saida_seg14unir[4] ; 13.946 ; 13.946 ; 13.946 ; 13.946 ;
+; valor1[2]  ; saida_seg14unir[5] ; 13.928 ; 13.928 ; 13.928 ; 13.928 ;
+; valor1[2]  ; saida_seg14unir[6] ; 13.928 ; 13.928 ; 13.928 ; 13.928 ;
+; valor1[3]  ; overflow           ; 12.822 ;        ;        ; 12.822 ;
+; valor1[3]  ; saida_seg14dezc[0] ; 14.170 ; 14.170 ; 14.170 ; 14.170 ;
+; valor1[3]  ; saida_seg14dezc[3] ; 14.185 ; 14.185 ; 14.185 ; 14.185 ;
+; valor1[3]  ; saida_seg14dezc[4] ; 14.165 ; 14.165 ; 14.165 ; 14.165 ;
+; valor1[3]  ; saida_seg14dezc[5] ; 14.165 ; 14.165 ; 14.165 ; 14.165 ;
+; valor1[3]  ; saida_seg14dezr[0] ; 13.802 ; 13.802 ; 13.802 ; 13.802 ;
+; valor1[3]  ; saida_seg14dezr[3] ; 13.772 ; 13.772 ; 13.772 ; 13.772 ;
+; valor1[3]  ; saida_seg14dezr[4] ; 13.772 ; 13.772 ; 13.772 ; 13.772 ;
+; valor1[3]  ; saida_seg14dezr[5] ; 13.820 ; 13.820 ; 13.820 ; 13.820 ;
+; valor1[3]  ; saida_seg14unic[0] ; 14.155 ; 14.155 ; 14.155 ; 14.155 ;
+; valor1[3]  ; saida_seg14unic[1] ; 14.152 ; 14.152 ; 14.152 ; 14.152 ;
+; valor1[3]  ; saida_seg14unic[2] ; 14.040 ; 14.040 ; 14.040 ; 14.040 ;
+; valor1[3]  ; saida_seg14unic[3] ; 13.869 ; 13.869 ; 13.869 ; 13.869 ;
+; valor1[3]  ; saida_seg14unic[4] ; 13.879 ; 13.879 ; 13.879 ; 13.879 ;
+; valor1[3]  ; saida_seg14unic[5] ; 13.882 ; 13.882 ; 13.882 ; 13.882 ;
+; valor1[3]  ; saida_seg14unic[6] ; 14.050 ; 14.050 ; 14.050 ; 14.050 ;
+; valor1[3]  ; saida_seg14unir[0] ; 13.675 ; 13.675 ; 13.675 ; 13.675 ;
+; valor1[3]  ; saida_seg14unir[1] ; 13.672 ; 13.672 ; 13.672 ; 13.672 ;
+; valor1[3]  ; saida_seg14unir[2] ; 13.702 ; 13.702 ; 13.702 ; 13.702 ;
+; valor1[3]  ; saida_seg14unir[3] ; 13.897 ; 13.897 ; 13.897 ; 13.897 ;
+; valor1[3]  ; saida_seg14unir[4] ; 13.918 ; 13.918 ; 13.918 ; 13.918 ;
+; valor1[3]  ; saida_seg14unir[5] ; 13.900 ; 13.900 ; 13.900 ; 13.900 ;
+; valor1[3]  ; saida_seg14unir[6] ; 13.900 ; 13.900 ; 13.900 ; 13.900 ;
+; valor2[0]  ; overflow           ; 7.560  ;        ;        ; 7.560  ;
+; valor2[0]  ; saida_seg14dezc[0] ; 9.075  ; 9.075  ; 9.075  ; 9.075  ;
+; valor2[0]  ; saida_seg14dezc[3] ; 9.090  ; 9.090  ; 9.090  ; 9.090  ;
+; valor2[0]  ; saida_seg14dezc[4] ; 9.070  ; 9.070  ; 9.070  ; 9.070  ;
+; valor2[0]  ; saida_seg14dezc[5] ; 9.070  ; 9.070  ; 9.070  ; 9.070  ;
+; valor2[0]  ; saida_seg14dezr[0] ; 8.936  ; 8.936  ; 8.936  ; 8.936  ;
+; valor2[0]  ; saida_seg14dezr[3] ; 8.906  ; 8.906  ; 8.906  ; 8.906  ;
+; valor2[0]  ; saida_seg14dezr[4] ; 8.906  ; 8.906  ; 8.906  ; 8.906  ;
+; valor2[0]  ; saida_seg14dezr[5] ; 8.954  ; 8.954  ; 8.954  ; 8.954  ;
+; valor2[0]  ; saida_seg14unic[0] ; 9.073  ; 9.073  ; 9.073  ; 9.073  ;
+; valor2[0]  ; saida_seg14unic[1] ; 9.048  ; 9.048  ; 9.048  ; 9.048  ;
+; valor2[0]  ; saida_seg14unic[2] ; 8.962  ; 8.962  ; 8.962  ; 8.962  ;
+; valor2[0]  ; saida_seg14unic[3] ; 8.780  ; 8.780  ; 8.780  ; 8.780  ;
+; valor2[0]  ; saida_seg14unic[4] ; 8.785  ; 8.785  ; 8.785  ; 8.785  ;
+; valor2[0]  ; saida_seg14unic[5] ; 8.784  ; 8.784  ; 8.784  ; 8.784  ;
+; valor2[0]  ; saida_seg14unic[6] ; 8.947  ; 8.947  ; 8.947  ; 8.947  ;
+; valor2[0]  ; saida_seg14unir[0] ; 8.809  ; 8.809  ; 8.809  ; 8.809  ;
+; valor2[0]  ; saida_seg14unir[1] ; 8.806  ; 8.806  ; 8.806  ; 8.806  ;
+; valor2[0]  ; saida_seg14unir[2] ; 8.836  ; 8.836  ; 8.836  ; 8.836  ;
+; valor2[0]  ; saida_seg14unir[3] ; 9.031  ; 9.031  ; 9.031  ; 9.031  ;
+; valor2[0]  ; saida_seg14unir[4] ; 9.052  ; 9.052  ; 9.052  ; 9.052  ;
+; valor2[0]  ; saida_seg14unir[5] ; 9.034  ; 9.034  ; 9.034  ; 9.034  ;
+; valor2[0]  ; saida_seg14unir[6] ; 9.034  ; 9.034  ; 9.034  ; 9.034  ;
+; valor2[1]  ; overflow           ; 8.419  ;        ;        ; 8.419  ;
+; valor2[1]  ; saida_seg14dezc[0] ; 9.264  ; 9.264  ; 9.264  ; 9.264  ;
+; valor2[1]  ; saida_seg14dezc[3] ; 9.279  ; 9.279  ; 9.279  ; 9.279  ;
+; valor2[1]  ; saida_seg14dezc[4] ; 9.259  ; 9.259  ; 9.259  ; 9.259  ;
+; valor2[1]  ; saida_seg14dezc[5] ; 9.259  ; 9.259  ; 9.259  ; 9.259  ;
+; valor2[1]  ; saida_seg14dezr[0] ; 9.125  ; 9.125  ; 9.125  ; 9.125  ;
+; valor2[1]  ; saida_seg14dezr[3] ; 9.095  ; 9.095  ; 9.095  ; 9.095  ;
+; valor2[1]  ; saida_seg14dezr[4] ; 9.095  ; 9.095  ; 9.095  ; 9.095  ;
+; valor2[1]  ; saida_seg14dezr[5] ; 9.143  ; 9.143  ; 9.143  ; 9.143  ;
+; valor2[1]  ; saida_seg14unic[0] ; 9.262  ; 9.262  ; 9.262  ; 9.262  ;
+; valor2[1]  ; saida_seg14unic[1] ; 9.237  ; 9.237  ; 9.237  ; 9.237  ;
+; valor2[1]  ; saida_seg14unic[2] ; 9.151  ; 9.151  ; 9.151  ; 9.151  ;
+; valor2[1]  ; saida_seg14unic[3] ; 8.969  ; 8.969  ; 8.969  ; 8.969  ;
+; valor2[1]  ; saida_seg14unic[4] ; 8.974  ; 8.974  ; 8.974  ; 8.974  ;
+; valor2[1]  ; saida_seg14unic[5] ; 8.973  ; 8.973  ; 8.973  ; 8.973  ;
+; valor2[1]  ; saida_seg14unic[6] ; 9.136  ; 9.136  ; 9.136  ; 9.136  ;
+; valor2[1]  ; saida_seg14unir[0] ; 8.998  ; 8.998  ; 8.998  ; 8.998  ;
+; valor2[1]  ; saida_seg14unir[1] ; 8.995  ; 8.995  ; 8.995  ; 8.995  ;
+; valor2[1]  ; saida_seg14unir[2] ; 9.025  ; 9.025  ; 9.025  ; 9.025  ;
+; valor2[1]  ; saida_seg14unir[3] ; 9.220  ; 9.220  ; 9.220  ; 9.220  ;
+; valor2[1]  ; saida_seg14unir[4] ; 9.241  ; 9.241  ; 9.241  ; 9.241  ;
+; valor2[1]  ; saida_seg14unir[5] ; 9.223  ; 9.223  ; 9.223  ; 9.223  ;
+; valor2[1]  ; saida_seg14unir[6] ; 9.223  ; 9.223  ; 9.223  ; 9.223  ;
+; valor2[2]  ; overflow           ; 8.651  ;        ;        ; 8.651  ;
+; valor2[2]  ; saida_seg14dezc[0] ; 9.997  ; 9.997  ; 9.997  ; 9.997  ;
+; valor2[2]  ; saida_seg14dezc[3] ; 10.012 ; 10.012 ; 10.012 ; 10.012 ;
+; valor2[2]  ; saida_seg14dezc[4] ; 9.992  ; 9.992  ; 9.992  ; 9.992  ;
+; valor2[2]  ; saida_seg14dezc[5] ; 9.992  ; 9.992  ; 9.992  ; 9.992  ;
+; valor2[2]  ; saida_seg14dezr[0] ; 9.631  ; 9.631  ; 9.631  ; 9.631  ;
+; valor2[2]  ; saida_seg14dezr[3] ; 9.601  ; 9.601  ; 9.601  ; 9.601  ;
+; valor2[2]  ; saida_seg14dezr[4] ; 9.601  ; 9.601  ; 9.601  ; 9.601  ;
+; valor2[2]  ; saida_seg14dezr[5] ; 9.649  ; 9.649  ; 9.649  ; 9.649  ;
+; valor2[2]  ; saida_seg14unic[0] ; 9.982  ; 9.982  ; 9.982  ; 9.982  ;
+; valor2[2]  ; saida_seg14unic[1] ; 9.979  ; 9.979  ; 9.979  ; 9.979  ;
+; valor2[2]  ; saida_seg14unic[2] ; 9.867  ; 9.867  ; 9.867  ; 9.867  ;
+; valor2[2]  ; saida_seg14unic[3] ; 9.696  ; 9.696  ; 9.696  ; 9.696  ;
+; valor2[2]  ; saida_seg14unic[4] ; 9.706  ; 9.706  ; 9.706  ; 9.706  ;
+; valor2[2]  ; saida_seg14unic[5] ; 9.709  ; 9.709  ; 9.709  ; 9.709  ;
+; valor2[2]  ; saida_seg14unic[6] ; 9.877  ; 9.877  ; 9.877  ; 9.877  ;
+; valor2[2]  ; saida_seg14unir[0] ; 9.504  ; 9.504  ; 9.504  ; 9.504  ;
+; valor2[2]  ; saida_seg14unir[1] ; 9.501  ; 9.501  ; 9.501  ; 9.501  ;
+; valor2[2]  ; saida_seg14unir[2] ; 9.531  ; 9.531  ; 9.531  ; 9.531  ;
+; valor2[2]  ; saida_seg14unir[3] ; 9.726  ; 9.726  ; 9.726  ; 9.726  ;
+; valor2[2]  ; saida_seg14unir[4] ; 9.747  ; 9.747  ; 9.747  ; 9.747  ;
+; valor2[2]  ; saida_seg14unir[5] ; 9.729  ; 9.729  ; 9.729  ; 9.729  ;
+; valor2[2]  ; saida_seg14unir[6] ; 9.729  ; 9.729  ; 9.729  ; 9.729  ;
+; valor2[3]  ; overflow           ; 8.842  ;        ;        ; 8.842  ;
+; valor2[3]  ; saida_seg14dezc[0] ; 10.188 ; 10.188 ; 10.188 ; 10.188 ;
+; valor2[3]  ; saida_seg14dezc[3] ; 10.203 ; 10.203 ; 10.203 ; 10.203 ;
+; valor2[3]  ; saida_seg14dezc[4] ; 10.183 ; 10.183 ; 10.183 ; 10.183 ;
+; valor2[3]  ; saida_seg14dezc[5] ; 10.183 ; 10.183 ; 10.183 ; 10.183 ;
+; valor2[3]  ; saida_seg14dezr[0] ; 9.822  ; 9.822  ; 9.822  ; 9.822  ;
+; valor2[3]  ; saida_seg14dezr[3] ; 9.792  ; 9.792  ; 9.792  ; 9.792  ;
+; valor2[3]  ; saida_seg14dezr[4] ; 9.792  ; 9.792  ; 9.792  ; 9.792  ;
+; valor2[3]  ; saida_seg14dezr[5] ; 9.840  ; 9.840  ; 9.840  ; 9.840  ;
+; valor2[3]  ; saida_seg14unic[0] ; 10.173 ; 10.173 ; 10.173 ; 10.173 ;
+; valor2[3]  ; saida_seg14unic[1] ; 10.170 ; 10.170 ; 10.170 ; 10.170 ;
+; valor2[3]  ; saida_seg14unic[2] ; 10.058 ; 10.058 ; 10.058 ; 10.058 ;
+; valor2[3]  ; saida_seg14unic[3] ; 9.887  ; 9.887  ; 9.887  ; 9.887  ;
+; valor2[3]  ; saida_seg14unic[4] ; 9.897  ; 9.897  ; 9.897  ; 9.897  ;
+; valor2[3]  ; saida_seg14unic[5] ; 9.900  ; 9.900  ; 9.900  ; 9.900  ;
+; valor2[3]  ; saida_seg14unic[6] ; 10.068 ; 10.068 ; 10.068 ; 10.068 ;
+; valor2[3]  ; saida_seg14unir[0] ; 9.695  ; 9.695  ; 9.695  ; 9.695  ;
+; valor2[3]  ; saida_seg14unir[1] ; 9.692  ; 9.692  ; 9.692  ; 9.692  ;
+; valor2[3]  ; saida_seg14unir[2] ; 9.722  ; 9.722  ; 9.722  ; 9.722  ;
+; valor2[3]  ; saida_seg14unir[3] ; 9.917  ; 9.917  ; 9.917  ; 9.917  ;
+; valor2[3]  ; saida_seg14unir[4] ; 9.938  ; 9.938  ; 9.938  ; 9.938  ;
+; valor2[3]  ; saida_seg14unir[5] ; 9.920  ; 9.920  ; 9.920  ; 9.920  ;
+; valor2[3]  ; saida_seg14unir[6] ; 9.920  ; 9.920  ; 9.920  ; 9.920  ;
++------------+--------------------+--------+--------+--------+--------+
+
+
++---------------------------------------------------------------------+
+; Minimum Propagation Delay                                           ;
++------------+--------------------+--------+--------+--------+--------+
+; Input Port ; Output Port        ; RR     ; RF     ; FR     ; FF     ;
++------------+--------------------+--------+--------+--------+--------+
+; posicao[0] ; saida_led          ; 8.602  ;        ;        ; 8.602  ;
+; posicao[0] ; saida_posicao_n[0] ; 7.429  ; 7.429  ; 7.429  ; 7.429  ;
+; posicao[0] ; saida_posicao_n[1] ; 7.622  ;        ;        ; 7.622  ;
+; posicao[0] ; saida_posicao_n[2] ;        ; 7.372  ; 7.372  ;        ;
+; posicao[0] ; saida_posicao_n[3] ; 7.675  ; 7.675  ; 7.675  ; 7.675  ;
+; posicao[0] ; saida_posicao_n[4] ; 7.684  ;        ;        ; 7.684  ;
+; posicao[0] ; saida_posicao_n[5] ;        ; 7.879  ; 7.879  ;        ;
+; posicao[0] ; saida_posicao_n[6] ; 7.668  ; 7.668  ; 7.668  ; 7.668  ;
+; posicao[0] ; saida_seg14dezc[0] ; 9.213  ; 9.213  ; 9.213  ; 9.213  ;
+; posicao[0] ; saida_seg14dezc[3] ; 9.228  ; 9.228  ; 9.228  ; 9.228  ;
+; posicao[0] ; saida_seg14dezc[4] ; 9.208  ; 9.208  ; 9.208  ; 9.208  ;
+; posicao[0] ; saida_seg14dezc[5] ; 9.208  ; 9.208  ; 9.208  ; 9.208  ;
+; posicao[0] ; saida_seg14dezr[0] ; 10.223 ; 10.223 ; 10.223 ; 10.223 ;
+; posicao[0] ; saida_seg14dezr[3] ; 10.193 ; 10.193 ; 10.193 ; 10.193 ;
+; posicao[0] ; saida_seg14dezr[4] ; 10.193 ; 10.193 ; 10.193 ; 10.193 ;
+; posicao[0] ; saida_seg14dezr[5] ; 10.241 ; 10.241 ; 10.241 ; 10.241 ;
+; posicao[0] ; saida_seg14unic[0] ; 9.198  ; 9.198  ; 9.198  ; 9.198  ;
+; posicao[0] ; saida_seg14unic[1] ; 9.195  ; 9.195  ; 9.195  ; 9.195  ;
+; posicao[0] ; saida_seg14unic[2] ; 9.083  ; 9.083  ; 9.083  ; 9.083  ;
+; posicao[0] ; saida_seg14unic[3] ; 8.912  ; 8.912  ; 8.912  ; 8.912  ;
+; posicao[0] ; saida_seg14unic[4] ; 8.922  ; 8.922  ; 8.922  ; 8.922  ;
+; posicao[0] ; saida_seg14unic[5] ; 8.925  ; 8.925  ; 8.925  ; 8.925  ;
+; posicao[0] ; saida_seg14unic[6] ; 9.093  ; 9.093  ; 9.093  ; 9.093  ;
+; posicao[0] ; saida_seg14unir[0] ; 10.032 ; 10.032 ; 10.032 ; 10.032 ;
+; posicao[0] ; saida_seg14unir[1] ; 10.021 ; 10.021 ; 10.021 ; 10.021 ;
+; posicao[0] ; saida_seg14unir[2] ; 10.028 ; 10.028 ; 10.028 ; 10.028 ;
+; posicao[0] ; saida_seg14unir[3] ; 10.254 ; 10.254 ; 10.254 ; 10.254 ;
+; posicao[0] ; saida_seg14unir[4] ; 10.242 ; 10.242 ; 10.242 ; 10.242 ;
+; posicao[0] ; saida_seg14unir[5] ; 10.225 ; 10.225 ; 10.225 ; 10.225 ;
+; posicao[0] ; saida_seg14unir[6] ; 10.220 ; 10.220 ; 10.220 ; 10.220 ;
+; posicao[1] ; saida_led          ; 8.365  ;        ;        ; 8.365  ;
+; posicao[1] ; saida_posicao_n[0] ;        ; 7.144  ; 7.144  ;        ;
+; posicao[1] ; saida_posicao_n[1] ; 7.319  ; 7.319  ; 7.319  ; 7.319  ;
+; posicao[1] ; saida_posicao_n[2] ; 7.116  ;        ;        ; 7.116  ;
+; posicao[1] ; saida_posicao_n[3] ; 7.389  ; 7.389  ; 7.389  ; 7.389  ;
+; posicao[1] ; saida_posicao_n[4] ;        ; 7.397  ; 7.397  ;        ;
+; posicao[1] ; saida_posicao_n[5] ; 7.593  ;        ;        ; 7.593  ;
+; posicao[1] ; saida_posicao_n[6] ; 7.383  ; 7.383  ; 7.383  ; 7.383  ;
+; posicao[1] ; saida_seg14dezc[0] ; 9.323  ; 9.323  ; 9.323  ; 9.323  ;
+; posicao[1] ; saida_seg14dezc[3] ; 9.338  ; 9.338  ; 9.338  ; 9.338  ;
+; posicao[1] ; saida_seg14dezc[4] ; 9.318  ; 9.318  ; 9.318  ; 9.318  ;
+; posicao[1] ; saida_seg14dezc[5] ; 9.318  ; 9.318  ; 9.318  ; 9.318  ;
+; posicao[1] ; saida_seg14dezr[0] ; 10.194 ; 10.194 ; 10.194 ; 10.194 ;
+; posicao[1] ; saida_seg14dezr[3] ; 10.164 ; 10.164 ; 10.164 ; 10.164 ;
+; posicao[1] ; saida_seg14dezr[4] ; 10.164 ; 10.164 ; 10.164 ; 10.164 ;
+; posicao[1] ; saida_seg14dezr[5] ; 10.212 ; 10.212 ; 10.212 ; 10.212 ;
+; posicao[1] ; saida_seg14unic[0] ; 9.308  ; 9.308  ; 9.308  ; 9.308  ;
+; posicao[1] ; saida_seg14unic[1] ; 9.305  ; 9.305  ; 9.305  ; 9.305  ;
+; posicao[1] ; saida_seg14unic[2] ; 9.193  ; 9.193  ; 9.193  ; 9.193  ;
+; posicao[1] ; saida_seg14unic[3] ; 9.022  ; 9.022  ; 9.022  ; 9.022  ;
+; posicao[1] ; saida_seg14unic[4] ; 9.032  ; 9.032  ; 9.032  ; 9.032  ;
+; posicao[1] ; saida_seg14unic[5] ; 9.035  ; 9.035  ; 9.035  ; 9.035  ;
+; posicao[1] ; saida_seg14unic[6] ; 9.203  ; 9.203  ; 9.203  ; 9.203  ;
+; posicao[1] ; saida_seg14unir[0] ; 9.664  ; 9.664  ; 9.664  ; 9.664  ;
+; posicao[1] ; saida_seg14unir[1] ; 9.653  ; 9.653  ; 9.653  ; 9.653  ;
+; posicao[1] ; saida_seg14unir[2] ; 9.660  ; 9.660  ; 9.660  ; 9.660  ;
+; posicao[1] ; saida_seg14unir[3] ; 9.886  ; 9.886  ; 9.886  ; 9.886  ;
+; posicao[1] ; saida_seg14unir[4] ; 9.874  ; 9.874  ; 9.874  ; 9.874  ;
+; posicao[1] ; saida_seg14unir[5] ; 9.857  ; 9.857  ; 9.857  ; 9.857  ;
+; posicao[1] ; saida_seg14unir[6] ; 9.852  ; 9.852  ; 9.852  ; 9.852  ;
+; posicao[2] ; saida_led          ; 8.771  ;        ;        ; 8.771  ;
+; posicao[2] ; saida_posicao_n[0] ; 7.596  ; 7.596  ; 7.596  ; 7.596  ;
+; posicao[2] ; saida_posicao_n[1] ; 7.783  ; 7.783  ; 7.783  ; 7.783  ;
+; posicao[2] ; saida_posicao_n[2] ;        ; 7.542  ; 7.542  ;        ;
+; posicao[2] ; saida_posicao_n[3] ; 7.838  ; 7.838  ; 7.838  ; 7.838  ;
+; posicao[2] ; saida_posicao_n[4] ; 7.844  ;        ;        ; 7.844  ;
+; posicao[2] ; saida_posicao_n[5] ; 8.043  ;        ;        ; 8.043  ;
+; posicao[2] ; saida_posicao_n[6] ; 7.833  ;        ;        ; 7.833  ;
+; posicao[2] ; saida_seg14dezc[0] ; 9.476  ; 9.476  ; 9.476  ; 9.476  ;
+; posicao[2] ; saida_seg14dezc[3] ; 9.491  ; 9.491  ; 9.491  ; 9.491  ;
+; posicao[2] ; saida_seg14dezc[4] ; 9.471  ; 9.471  ; 9.471  ; 9.471  ;
+; posicao[2] ; saida_seg14dezc[5] ; 9.471  ; 9.471  ; 9.471  ; 9.471  ;
+; posicao[2] ; saida_seg14dezr[0] ; 10.486 ; 10.486 ; 10.486 ; 10.486 ;
+; posicao[2] ; saida_seg14dezr[3] ; 10.456 ; 10.456 ; 10.456 ; 10.456 ;
+; posicao[2] ; saida_seg14dezr[4] ; 10.456 ; 10.456 ; 10.456 ; 10.456 ;
+; posicao[2] ; saida_seg14dezr[5] ; 10.504 ; 10.504 ; 10.504 ; 10.504 ;
+; posicao[2] ; saida_seg14unic[0] ; 9.313  ; 9.313  ; 9.313  ; 9.313  ;
+; posicao[2] ; saida_seg14unic[1] ; 9.314  ; 9.314  ; 9.314  ; 9.314  ;
+; posicao[2] ; saida_seg14unic[2] ; 9.201  ; 9.201  ; 9.201  ; 9.201  ;
+; posicao[2] ; saida_seg14unic[3] ; 9.021  ; 9.021  ; 9.021  ; 9.021  ;
+; posicao[2] ; saida_seg14unic[4] ; 9.023  ; 9.023  ; 9.023  ; 9.023  ;
+; posicao[2] ; saida_seg14unic[5] ; 9.025  ; 9.025  ; 9.025  ; 9.025  ;
+; posicao[2] ; saida_seg14unic[6] ; 9.190  ; 9.190  ; 9.190  ; 9.190  ;
+; posicao[2] ; saida_seg14unir[0] ; 10.018 ; 10.018 ; 10.018 ; 10.018 ;
+; posicao[2] ; saida_seg14unir[1] ; 10.007 ; 10.007 ; 10.007 ; 10.007 ;
+; posicao[2] ; saida_seg14unir[2] ; 10.014 ; 10.014 ; 10.014 ; 10.014 ;
+; posicao[2] ; saida_seg14unir[3] ; 10.240 ; 10.240 ; 10.240 ; 10.240 ;
+; posicao[2] ; saida_seg14unir[4] ; 10.228 ; 10.228 ; 10.228 ; 10.228 ;
+; posicao[2] ; saida_seg14unir[5] ; 10.211 ; 10.211 ; 10.211 ; 10.211 ;
+; posicao[2] ; saida_seg14unir[6] ; 10.206 ; 10.206 ; 10.206 ; 10.206 ;
+; valor1[0]  ; overflow           ; 11.710 ;        ;        ; 11.710 ;
+; valor1[0]  ; saida_seg14dezc[0] ; 14.137 ; 14.137 ; 14.137 ; 14.137 ;
+; valor1[0]  ; saida_seg14dezc[3] ; 14.152 ; 14.152 ; 14.152 ; 14.152 ;
+; valor1[0]  ; saida_seg14dezc[4] ; 14.132 ; 14.132 ; 14.132 ; 14.132 ;
+; valor1[0]  ; saida_seg14dezc[5] ; 14.132 ; 14.132 ; 14.132 ; 14.132 ;
+; valor1[0]  ; saida_seg14dezr[0] ; 13.717 ; 13.717 ; 13.717 ; 13.717 ;
+; valor1[0]  ; saida_seg14dezr[3] ; 13.687 ; 13.687 ; 13.687 ; 13.687 ;
+; valor1[0]  ; saida_seg14dezr[4] ; 13.687 ; 13.687 ; 13.687 ; 13.687 ;
+; valor1[0]  ; saida_seg14dezr[5] ; 13.735 ; 13.735 ; 13.735 ; 13.735 ;
+; valor1[0]  ; saida_seg14unic[0] ; 14.135 ; 14.135 ; 14.135 ; 14.135 ;
+; valor1[0]  ; saida_seg14unic[1] ; 14.110 ; 14.110 ; 14.110 ; 14.110 ;
+; valor1[0]  ; saida_seg14unic[2] ; 14.024 ; 14.024 ; 14.024 ; 14.024 ;
+; valor1[0]  ; saida_seg14unic[3] ; 13.842 ; 13.842 ; 13.842 ; 13.842 ;
+; valor1[0]  ; saida_seg14unic[4] ; 13.847 ; 13.847 ; 13.847 ; 13.847 ;
+; valor1[0]  ; saida_seg14unic[5] ; 13.846 ; 13.846 ; 13.846 ; 13.846 ;
+; valor1[0]  ; saida_seg14unic[6] ; 14.009 ; 14.009 ; 14.009 ; 14.009 ;
+; valor1[0]  ; saida_seg14unir[0] ; 13.870 ; 13.870 ; 13.870 ; 13.870 ;
+; valor1[0]  ; saida_seg14unir[1] ; 13.867 ; 13.867 ; 13.867 ; 13.867 ;
+; valor1[0]  ; saida_seg14unir[2] ; 13.897 ; 13.897 ; 13.897 ; 13.897 ;
+; valor1[0]  ; saida_seg14unir[3] ; 14.092 ; 14.092 ; 14.092 ; 14.092 ;
+; valor1[0]  ; saida_seg14unir[4] ; 14.113 ; 14.113 ; 14.113 ; 14.113 ;
+; valor1[0]  ; saida_seg14unir[5] ; 14.095 ; 14.095 ; 14.095 ; 14.095 ;
+; valor1[0]  ; saida_seg14unir[6] ; 14.095 ; 14.095 ; 14.095 ; 14.095 ;
+; valor1[1]  ; overflow           ; 12.300 ;        ;        ; 12.300 ;
+; valor1[1]  ; saida_seg14dezc[0] ; 12.347 ; 12.347 ; 12.347 ; 12.347 ;
+; valor1[1]  ; saida_seg14dezc[3] ; 12.362 ; 12.362 ; 12.362 ; 12.362 ;
+; valor1[1]  ; saida_seg14dezc[4] ; 12.342 ; 12.342 ; 12.342 ; 12.342 ;
+; valor1[1]  ; saida_seg14dezc[5] ; 12.342 ; 12.342 ; 12.342 ; 12.342 ;
+; valor1[1]  ; saida_seg14dezr[0] ; 13.002 ; 13.002 ; 13.002 ; 13.002 ;
+; valor1[1]  ; saida_seg14dezr[3] ; 12.972 ; 12.972 ; 12.972 ; 12.972 ;
+; valor1[1]  ; saida_seg14dezr[4] ; 12.972 ; 12.972 ; 12.972 ; 12.972 ;
+; valor1[1]  ; saida_seg14dezr[5] ; 13.020 ; 13.020 ; 13.020 ; 13.020 ;
+; valor1[1]  ; saida_seg14unic[0] ; 12.344 ; 12.344 ; 12.344 ; 12.344 ;
+; valor1[1]  ; saida_seg14unic[1] ; 12.346 ; 12.346 ; 12.346 ; 12.346 ;
+; valor1[1]  ; saida_seg14unic[2] ; 12.232 ; 12.232 ; 12.232 ; 12.232 ;
+; valor1[1]  ; saida_seg14unic[3] ; 12.051 ; 12.051 ; 12.051 ; 12.051 ;
+; valor1[1]  ; saida_seg14unic[4] ; 12.052 ; 12.052 ; 12.052 ; 12.052 ;
+; valor1[1]  ; saida_seg14unic[5] ; 12.060 ; 12.060 ; 12.060 ; 12.060 ;
+; valor1[1]  ; saida_seg14unic[6] ; 12.224 ; 12.224 ; 12.224 ; 12.224 ;
+; valor1[1]  ; saida_seg14unir[0] ; 12.875 ; 12.875 ; 12.875 ; 12.875 ;
+; valor1[1]  ; saida_seg14unir[1] ; 12.872 ; 12.872 ; 12.872 ; 12.872 ;
+; valor1[1]  ; saida_seg14unir[2] ; 12.902 ; 12.902 ; 12.902 ; 12.902 ;
+; valor1[1]  ; saida_seg14unir[3] ; 13.097 ; 13.097 ; 13.097 ; 13.097 ;
+; valor1[1]  ; saida_seg14unir[4] ; 13.118 ; 13.118 ; 13.118 ; 13.118 ;
+; valor1[1]  ; saida_seg14unir[5] ; 13.100 ; 13.100 ; 13.100 ; 13.100 ;
+; valor1[1]  ; saida_seg14unir[6] ; 13.098 ; 13.098 ; 13.098 ; 13.098 ;
+; valor1[2]  ; overflow           ; 12.850 ;        ;        ; 12.850 ;
+; valor1[2]  ; saida_seg14dezc[0] ; 12.640 ; 12.640 ; 12.640 ; 12.640 ;
+; valor1[2]  ; saida_seg14dezc[3] ; 12.655 ; 12.655 ; 12.655 ; 12.655 ;
+; valor1[2]  ; saida_seg14dezc[4] ; 12.635 ; 12.635 ; 12.635 ; 12.635 ;
+; valor1[2]  ; saida_seg14dezc[5] ; 12.635 ; 12.635 ; 12.635 ; 12.635 ;
+; valor1[2]  ; saida_seg14dezr[0] ; 13.415 ; 13.415 ; 13.415 ; 13.415 ;
+; valor1[2]  ; saida_seg14dezr[3] ; 13.385 ; 13.385 ; 13.385 ; 13.385 ;
+; valor1[2]  ; saida_seg14dezr[4] ; 13.385 ; 13.385 ; 13.385 ; 13.385 ;
+; valor1[2]  ; saida_seg14dezr[5] ; 13.433 ; 13.433 ; 13.433 ; 13.433 ;
+; valor1[2]  ; saida_seg14unic[0] ; 12.637 ; 12.637 ; 12.637 ; 12.637 ;
+; valor1[2]  ; saida_seg14unic[1] ; 12.639 ; 12.639 ; 12.639 ; 12.639 ;
+; valor1[2]  ; saida_seg14unic[2] ; 12.525 ; 12.525 ; 12.525 ; 12.525 ;
+; valor1[2]  ; saida_seg14unic[3] ; 12.344 ; 12.344 ; 12.344 ; 12.344 ;
+; valor1[2]  ; saida_seg14unic[4] ; 12.345 ; 12.345 ; 12.345 ; 12.345 ;
+; valor1[2]  ; saida_seg14unic[5] ; 12.353 ; 12.353 ; 12.353 ; 12.353 ;
+; valor1[2]  ; saida_seg14unic[6] ; 12.517 ; 12.517 ; 12.517 ; 12.517 ;
+; valor1[2]  ; saida_seg14unir[0] ; 12.966 ; 12.966 ; 12.966 ; 12.966 ;
+; valor1[2]  ; saida_seg14unir[1] ; 12.955 ; 12.955 ; 12.955 ; 12.955 ;
+; valor1[2]  ; saida_seg14unir[2] ; 12.962 ; 12.962 ; 12.962 ; 12.962 ;
+; valor1[2]  ; saida_seg14unir[3] ; 13.188 ; 13.188 ; 13.188 ; 13.188 ;
+; valor1[2]  ; saida_seg14unir[4] ; 13.176 ; 13.176 ; 13.176 ; 13.176 ;
+; valor1[2]  ; saida_seg14unir[5] ; 13.159 ; 13.159 ; 13.159 ; 13.159 ;
+; valor1[2]  ; saida_seg14unir[6] ; 13.154 ; 13.154 ; 13.154 ; 13.154 ;
+; valor1[3]  ; overflow           ; 12.822 ;        ;        ; 12.822 ;
+; valor1[3]  ; saida_seg14dezc[0] ; 12.612 ; 12.612 ; 12.612 ; 12.612 ;
+; valor1[3]  ; saida_seg14dezc[3] ; 12.627 ; 12.627 ; 12.627 ; 12.627 ;
+; valor1[3]  ; saida_seg14dezc[4] ; 12.607 ; 12.607 ; 12.607 ; 12.607 ;
+; valor1[3]  ; saida_seg14dezc[5] ; 12.607 ; 12.607 ; 12.607 ; 12.607 ;
+; valor1[3]  ; saida_seg14dezr[0] ; 12.816 ; 12.816 ; 12.816 ; 12.816 ;
+; valor1[3]  ; saida_seg14dezr[3] ; 12.786 ; 12.786 ; 12.786 ; 12.786 ;
+; valor1[3]  ; saida_seg14dezr[4] ; 12.786 ; 12.786 ; 12.786 ; 12.786 ;
+; valor1[3]  ; saida_seg14dezr[5] ; 12.834 ; 12.834 ; 12.834 ; 12.834 ;
+; valor1[3]  ; saida_seg14unic[0] ; 12.609 ; 12.609 ; 12.609 ; 12.609 ;
+; valor1[3]  ; saida_seg14unic[1] ; 12.611 ; 12.611 ; 12.611 ; 12.611 ;
+; valor1[3]  ; saida_seg14unic[2] ; 12.497 ; 12.497 ; 12.497 ; 12.497 ;
+; valor1[3]  ; saida_seg14unic[3] ; 12.316 ; 12.316 ; 12.316 ; 12.316 ;
+; valor1[3]  ; saida_seg14unic[4] ; 12.317 ; 12.317 ; 12.317 ; 12.317 ;
+; valor1[3]  ; saida_seg14unic[5] ; 12.325 ; 12.325 ; 12.325 ; 12.325 ;
+; valor1[3]  ; saida_seg14unic[6] ; 12.489 ; 12.489 ; 12.489 ; 12.489 ;
+; valor1[3]  ; saida_seg14unir[0] ; 12.286 ; 12.286 ; 12.286 ; 12.286 ;
+; valor1[3]  ; saida_seg14unir[1] ; 12.275 ; 12.275 ; 12.275 ; 12.275 ;
+; valor1[3]  ; saida_seg14unir[2] ; 12.282 ; 12.282 ; 12.282 ; 12.282 ;
+; valor1[3]  ; saida_seg14unir[3] ; 12.508 ; 12.508 ; 12.508 ; 12.508 ;
+; valor1[3]  ; saida_seg14unir[4] ; 12.496 ; 12.496 ; 12.496 ; 12.496 ;
+; valor1[3]  ; saida_seg14unir[5] ; 12.479 ; 12.479 ; 12.479 ; 12.479 ;
+; valor1[3]  ; saida_seg14unir[6] ; 12.474 ; 12.474 ; 12.474 ; 12.474 ;
+; valor2[0]  ; overflow           ; 7.560  ;        ;        ; 7.560  ;
+; valor2[0]  ; saida_seg14dezc[0] ; 9.075  ; 9.075  ; 9.075  ; 9.075  ;
+; valor2[0]  ; saida_seg14dezc[3] ; 9.090  ; 9.090  ; 9.090  ; 9.090  ;
+; valor2[0]  ; saida_seg14dezc[4] ; 9.070  ; 9.070  ; 9.070  ; 9.070  ;
+; valor2[0]  ; saida_seg14dezc[5] ; 9.070  ; 9.070  ; 9.070  ; 9.070  ;
+; valor2[0]  ; saida_seg14dezr[0] ; 8.936  ; 8.936  ; 8.936  ; 8.936  ;
+; valor2[0]  ; saida_seg14dezr[3] ; 8.906  ; 8.906  ; 8.906  ; 8.906  ;
+; valor2[0]  ; saida_seg14dezr[4] ; 8.906  ; 8.906  ; 8.906  ; 8.906  ;
+; valor2[0]  ; saida_seg14dezr[5] ; 8.954  ; 8.954  ; 8.954  ; 8.954  ;
+; valor2[0]  ; saida_seg14unic[0] ; 9.073  ; 9.073  ; 9.073  ; 9.073  ;
+; valor2[0]  ; saida_seg14unic[1] ; 9.048  ; 9.048  ; 9.048  ; 9.048  ;
+; valor2[0]  ; saida_seg14unic[2] ; 8.962  ; 8.962  ; 8.962  ; 8.962  ;
+; valor2[0]  ; saida_seg14unic[3] ; 8.780  ; 8.780  ; 8.780  ; 8.780  ;
+; valor2[0]  ; saida_seg14unic[4] ; 8.785  ; 8.785  ; 8.785  ; 8.785  ;
+; valor2[0]  ; saida_seg14unic[5] ; 8.784  ; 8.784  ; 8.784  ; 8.784  ;
+; valor2[0]  ; saida_seg14unic[6] ; 8.947  ; 8.947  ; 8.947  ; 8.947  ;
+; valor2[0]  ; saida_seg14unir[0] ; 8.809  ; 8.809  ; 8.809  ; 8.809  ;
+; valor2[0]  ; saida_seg14unir[1] ; 8.806  ; 8.806  ; 8.806  ; 8.806  ;
+; valor2[0]  ; saida_seg14unir[2] ; 8.836  ; 8.836  ; 8.836  ; 8.836  ;
+; valor2[0]  ; saida_seg14unir[3] ; 9.031  ; 9.031  ; 9.031  ; 9.031  ;
+; valor2[0]  ; saida_seg14unir[4] ; 9.052  ; 9.052  ; 9.052  ; 9.052  ;
+; valor2[0]  ; saida_seg14unir[5] ; 9.034  ; 9.034  ; 9.034  ; 9.034  ;
+; valor2[0]  ; saida_seg14unir[6] ; 9.034  ; 9.034  ; 9.034  ; 9.034  ;
+; valor2[1]  ; overflow           ; 8.419  ;        ;        ; 8.419  ;
+; valor2[1]  ; saida_seg14dezc[0] ; 8.350  ; 8.350  ; 8.350  ; 8.350  ;
+; valor2[1]  ; saida_seg14dezc[3] ; 8.365  ; 8.365  ; 8.365  ; 8.365  ;
+; valor2[1]  ; saida_seg14dezc[4] ; 8.345  ; 8.345  ; 8.345  ; 8.345  ;
+; valor2[1]  ; saida_seg14dezc[5] ; 8.345  ; 8.345  ; 8.345  ; 8.345  ;
+; valor2[1]  ; saida_seg14dezr[0] ; 8.986  ; 8.986  ; 8.986  ; 8.986  ;
+; valor2[1]  ; saida_seg14dezr[3] ; 8.956  ; 8.956  ; 8.956  ; 8.956  ;
+; valor2[1]  ; saida_seg14dezr[4] ; 8.956  ; 8.956  ; 8.956  ; 8.956  ;
+; valor2[1]  ; saida_seg14dezr[5] ; 9.004  ; 9.004  ; 9.004  ; 9.004  ;
+; valor2[1]  ; saida_seg14unic[0] ; 8.347  ; 8.347  ; 8.347  ; 8.347  ;
+; valor2[1]  ; saida_seg14unic[1] ; 8.349  ; 8.349  ; 8.349  ; 8.349  ;
+; valor2[1]  ; saida_seg14unic[2] ; 8.235  ; 8.235  ; 8.235  ; 8.235  ;
+; valor2[1]  ; saida_seg14unic[3] ; 8.054  ; 8.054  ; 8.054  ; 8.054  ;
+; valor2[1]  ; saida_seg14unic[4] ; 8.055  ; 8.055  ; 8.055  ; 8.055  ;
+; valor2[1]  ; saida_seg14unic[5] ; 8.063  ; 8.063  ; 8.063  ; 8.063  ;
+; valor2[1]  ; saida_seg14unic[6] ; 8.227  ; 8.227  ; 8.227  ; 8.227  ;
+; valor2[1]  ; saida_seg14unir[0] ; 8.631  ; 8.631  ; 8.631  ; 8.631  ;
+; valor2[1]  ; saida_seg14unir[1] ; 8.621  ; 8.621  ; 8.621  ; 8.621  ;
+; valor2[1]  ; saida_seg14unir[2] ; 8.625  ; 8.625  ; 8.625  ; 8.625  ;
+; valor2[1]  ; saida_seg14unir[3] ; 8.853  ; 8.853  ; 8.853  ; 8.853  ;
+; valor2[1]  ; saida_seg14unir[4] ; 8.842  ; 8.842  ; 8.842  ; 8.842  ;
+; valor2[1]  ; saida_seg14unir[5] ; 8.823  ; 8.823  ; 8.823  ; 8.823  ;
+; valor2[1]  ; saida_seg14unir[6] ; 8.820  ; 8.820  ; 8.820  ; 8.820  ;
+; valor2[2]  ; overflow           ; 8.651  ;        ;        ; 8.651  ;
+; valor2[2]  ; saida_seg14dezc[0] ; 8.441  ; 8.441  ; 8.441  ; 8.441  ;
+; valor2[2]  ; saida_seg14dezc[3] ; 8.456  ; 8.456  ; 8.456  ; 8.456  ;
+; valor2[2]  ; saida_seg14dezc[4] ; 8.436  ; 8.436  ; 8.436  ; 8.436  ;
+; valor2[2]  ; saida_seg14dezc[5] ; 8.436  ; 8.436  ; 8.436  ; 8.436  ;
+; valor2[2]  ; saida_seg14dezr[0] ; 8.643  ; 8.643  ; 8.643  ; 8.643  ;
+; valor2[2]  ; saida_seg14dezr[3] ; 8.613  ; 8.613  ; 8.613  ; 8.613  ;
+; valor2[2]  ; saida_seg14dezr[4] ; 8.613  ; 8.613  ; 8.613  ; 8.613  ;
+; valor2[2]  ; saida_seg14dezr[5] ; 8.661  ; 8.661  ; 8.661  ; 8.661  ;
+; valor2[2]  ; saida_seg14unic[0] ; 8.438  ; 8.438  ; 8.438  ; 8.438  ;
+; valor2[2]  ; saida_seg14unic[1] ; 8.440  ; 8.440  ; 8.440  ; 8.440  ;
+; valor2[2]  ; saida_seg14unic[2] ; 8.326  ; 8.326  ; 8.326  ; 8.326  ;
+; valor2[2]  ; saida_seg14unic[3] ; 8.145  ; 8.145  ; 8.145  ; 8.145  ;
+; valor2[2]  ; saida_seg14unic[4] ; 8.146  ; 8.146  ; 8.146  ; 8.146  ;
+; valor2[2]  ; saida_seg14unic[5] ; 8.154  ; 8.154  ; 8.154  ; 8.154  ;
+; valor2[2]  ; saida_seg14unic[6] ; 8.318  ; 8.318  ; 8.318  ; 8.318  ;
+; valor2[2]  ; saida_seg14unir[0] ; 8.113  ; 8.113  ; 8.113  ; 8.113  ;
+; valor2[2]  ; saida_seg14unir[1] ; 8.102  ; 8.102  ; 8.102  ; 8.102  ;
+; valor2[2]  ; saida_seg14unir[2] ; 8.109  ; 8.109  ; 8.109  ; 8.109  ;
+; valor2[2]  ; saida_seg14unir[3] ; 8.335  ; 8.335  ; 8.335  ; 8.335  ;
+; valor2[2]  ; saida_seg14unir[4] ; 8.323  ; 8.323  ; 8.323  ; 8.323  ;
+; valor2[2]  ; saida_seg14unir[5] ; 8.306  ; 8.306  ; 8.306  ; 8.306  ;
+; valor2[2]  ; saida_seg14unir[6] ; 8.301  ; 8.301  ; 8.301  ; 8.301  ;
+; valor2[3]  ; overflow           ; 8.842  ;        ;        ; 8.842  ;
+; valor2[3]  ; saida_seg14dezc[0] ; 8.632  ; 8.632  ; 8.632  ; 8.632  ;
+; valor2[3]  ; saida_seg14dezc[3] ; 8.647  ; 8.647  ; 8.647  ; 8.647  ;
+; valor2[3]  ; saida_seg14dezc[4] ; 8.627  ; 8.627  ; 8.627  ; 8.627  ;
+; valor2[3]  ; saida_seg14dezc[5] ; 8.627  ; 8.627  ; 8.627  ; 8.627  ;
+; valor2[3]  ; saida_seg14dezr[0] ; 8.834  ; 8.834  ; 8.834  ; 8.834  ;
+; valor2[3]  ; saida_seg14dezr[3] ; 8.804  ; 8.804  ; 8.804  ; 8.804  ;
+; valor2[3]  ; saida_seg14dezr[4] ; 8.804  ; 8.804  ; 8.804  ; 8.804  ;
+; valor2[3]  ; saida_seg14dezr[5] ; 8.852  ; 8.852  ; 8.852  ; 8.852  ;
+; valor2[3]  ; saida_seg14unic[0] ; 8.475  ; 8.475  ; 8.475  ; 8.475  ;
+; valor2[3]  ; saida_seg14unic[1] ; 8.476  ; 8.476  ; 8.476  ; 8.476  ;
+; valor2[3]  ; saida_seg14unic[2] ; 8.363  ; 8.363  ; 8.363  ; 8.363  ;
+; valor2[3]  ; saida_seg14unic[3] ; 8.183  ; 8.183  ; 8.183  ; 8.183  ;
+; valor2[3]  ; saida_seg14unic[4] ; 8.185  ; 8.185  ; 8.185  ; 8.185  ;
+; valor2[3]  ; saida_seg14unic[5] ; 8.187  ; 8.187  ; 8.187  ; 8.187  ;
+; valor2[3]  ; saida_seg14unic[6] ; 8.352  ; 8.352  ; 8.352  ; 8.352  ;
+; valor2[3]  ; saida_seg14unir[0] ; 8.304  ; 8.304  ; 8.304  ; 8.304  ;
+; valor2[3]  ; saida_seg14unir[1] ; 8.293  ; 8.293  ; 8.293  ; 8.293  ;
+; valor2[3]  ; saida_seg14unir[2] ; 8.300  ; 8.300  ; 8.300  ; 8.300  ;
+; valor2[3]  ; saida_seg14unir[3] ; 8.526  ; 8.526  ; 8.526  ; 8.526  ;
+; valor2[3]  ; saida_seg14unir[4] ; 8.514  ; 8.514  ; 8.514  ; 8.514  ;
+; valor2[3]  ; saida_seg14unir[5] ; 8.497  ; 8.497  ; 8.497  ; 8.497  ;
+; valor2[3]  ; saida_seg14unir[6] ; 8.492  ; 8.492  ; 8.492  ; 8.492  ;
++------------+--------------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------------+
+; Propagation Delay                                               ;
++------------+--------------------+-------+-------+-------+-------+
+; Input Port ; Output Port        ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------------+-------+-------+-------+-------+
+; posicao[0] ; saida_led          ; 4.572 ;       ;       ; 4.572 ;
+; posicao[0] ; saida_posicao_n[0] ; 3.963 ; 3.963 ; 3.963 ; 3.963 ;
+; posicao[0] ; saida_posicao_n[1] ; 4.026 ;       ;       ; 4.026 ;
+; posicao[0] ; saida_posicao_n[2] ;       ; 3.947 ; 3.947 ;       ;
+; posicao[0] ; saida_posicao_n[3] ; 4.078 ; 4.078 ; 4.078 ; 4.078 ;
+; posicao[0] ; saida_posicao_n[4] ; 4.082 ;       ;       ; 4.082 ;
+; posicao[0] ; saida_posicao_n[5] ;       ; 4.160 ; 4.160 ;       ;
+; posicao[0] ; saida_posicao_n[6] ; 4.069 ; 4.069 ; 4.069 ; 4.069 ;
+; posicao[0] ; saida_seg14dezc[0] ; 5.900 ; 5.900 ; 5.900 ; 5.900 ;
+; posicao[0] ; saida_seg14dezc[3] ; 5.912 ; 5.912 ; 5.912 ; 5.912 ;
+; posicao[0] ; saida_seg14dezc[4] ; 5.892 ; 5.892 ; 5.892 ; 5.892 ;
+; posicao[0] ; saida_seg14dezc[5] ; 5.892 ; 5.892 ; 5.892 ; 5.892 ;
+; posicao[0] ; saida_seg14dezr[0] ; 5.373 ; 5.373 ; 5.373 ; 5.373 ;
+; posicao[0] ; saida_seg14dezr[3] ; 5.343 ; 5.343 ; 5.343 ; 5.343 ;
+; posicao[0] ; saida_seg14dezr[4] ; 5.343 ; 5.343 ; 5.343 ; 5.343 ;
+; posicao[0] ; saida_seg14dezr[5] ; 5.387 ; 5.387 ; 5.387 ; 5.387 ;
+; posicao[0] ; saida_seg14unic[0] ; 5.883 ; 5.883 ; 5.883 ; 5.883 ;
+; posicao[0] ; saida_seg14unic[1] ; 5.889 ; 5.889 ; 5.889 ; 5.889 ;
+; posicao[0] ; saida_seg14unic[2] ; 5.844 ; 5.844 ; 5.844 ; 5.844 ;
+; posicao[0] ; saida_seg14unic[3] ; 5.752 ; 5.752 ; 5.752 ; 5.752 ;
+; posicao[0] ; saida_seg14unic[4] ; 5.770 ; 5.770 ; 5.770 ; 5.770 ;
+; posicao[0] ; saida_seg14unic[5] ; 5.773 ; 5.773 ; 5.773 ; 5.773 ;
+; posicao[0] ; saida_seg14unic[6] ; 5.846 ; 5.846 ; 5.846 ; 5.846 ;
+; posicao[0] ; saida_seg14unir[0] ; 5.213 ; 5.213 ; 5.213 ; 5.213 ;
+; posicao[0] ; saida_seg14unir[1] ; 5.206 ; 5.206 ; 5.206 ; 5.206 ;
+; posicao[0] ; saida_seg14unir[2] ; 5.207 ; 5.207 ; 5.207 ; 5.207 ;
+; posicao[0] ; saida_seg14unir[3] ; 5.369 ; 5.369 ; 5.369 ; 5.369 ;
+; posicao[0] ; saida_seg14unir[4] ; 5.359 ; 5.359 ; 5.359 ; 5.359 ;
+; posicao[0] ; saida_seg14unir[5] ; 5.342 ; 5.342 ; 5.342 ; 5.342 ;
+; posicao[0] ; saida_seg14unir[6] ; 5.341 ; 5.341 ; 5.341 ; 5.341 ;
+; posicao[1] ; saida_led          ; 4.403 ;       ;       ; 4.403 ;
+; posicao[1] ; saida_posicao_n[0] ;       ; 3.786 ; 3.786 ;       ;
+; posicao[1] ; saida_posicao_n[1] ; 3.845 ; 3.845 ; 3.845 ; 3.845 ;
+; posicao[1] ; saida_posicao_n[2] ; 3.787 ;       ;       ; 3.787 ;
+; posicao[1] ; saida_posicao_n[3] ; 3.906 ; 3.906 ; 3.906 ; 3.906 ;
+; posicao[1] ; saida_posicao_n[4] ;       ; 3.910 ; 3.910 ;       ;
+; posicao[1] ; saida_posicao_n[5] ; 3.987 ;       ;       ; 3.987 ;
+; posicao[1] ; saida_posicao_n[6] ; 3.898 ; 3.898 ; 3.898 ; 3.898 ;
+; posicao[1] ; saida_seg14dezc[0] ; 5.699 ; 5.699 ; 5.699 ; 5.699 ;
+; posicao[1] ; saida_seg14dezc[3] ; 5.711 ; 5.711 ; 5.711 ; 5.711 ;
+; posicao[1] ; saida_seg14dezc[4] ; 5.691 ; 5.691 ; 5.691 ; 5.691 ;
+; posicao[1] ; saida_seg14dezc[5] ; 5.691 ; 5.691 ; 5.691 ; 5.691 ;
+; posicao[1] ; saida_seg14dezr[0] ; 5.206 ; 5.206 ; 5.206 ; 5.206 ;
+; posicao[1] ; saida_seg14dezr[3] ; 5.176 ; 5.176 ; 5.176 ; 5.176 ;
+; posicao[1] ; saida_seg14dezr[4] ; 5.176 ; 5.176 ; 5.176 ; 5.176 ;
+; posicao[1] ; saida_seg14dezr[5] ; 5.220 ; 5.220 ; 5.220 ; 5.220 ;
+; posicao[1] ; saida_seg14unic[0] ; 5.682 ; 5.682 ; 5.682 ; 5.682 ;
+; posicao[1] ; saida_seg14unic[1] ; 5.688 ; 5.688 ; 5.688 ; 5.688 ;
+; posicao[1] ; saida_seg14unic[2] ; 5.643 ; 5.643 ; 5.643 ; 5.643 ;
+; posicao[1] ; saida_seg14unic[3] ; 5.551 ; 5.551 ; 5.551 ; 5.551 ;
+; posicao[1] ; saida_seg14unic[4] ; 5.569 ; 5.569 ; 5.569 ; 5.569 ;
+; posicao[1] ; saida_seg14unic[5] ; 5.572 ; 5.572 ; 5.572 ; 5.572 ;
+; posicao[1] ; saida_seg14unic[6] ; 5.645 ; 5.645 ; 5.645 ; 5.645 ;
+; posicao[1] ; saida_seg14unir[0] ; 5.218 ; 5.218 ; 5.218 ; 5.218 ;
+; posicao[1] ; saida_seg14unir[1] ; 5.211 ; 5.211 ; 5.211 ; 5.211 ;
+; posicao[1] ; saida_seg14unir[2] ; 5.212 ; 5.212 ; 5.212 ; 5.212 ;
+; posicao[1] ; saida_seg14unir[3] ; 5.374 ; 5.374 ; 5.374 ; 5.374 ;
+; posicao[1] ; saida_seg14unir[4] ; 5.364 ; 5.364 ; 5.364 ; 5.364 ;
+; posicao[1] ; saida_seg14unir[5] ; 5.347 ; 5.347 ; 5.347 ; 5.347 ;
+; posicao[1] ; saida_seg14unir[6] ; 5.346 ; 5.346 ; 5.346 ; 5.346 ;
+; posicao[2] ; saida_led          ; 4.645 ;       ;       ; 4.645 ;
+; posicao[2] ; saida_posicao_n[0] ; 4.035 ; 4.035 ; 4.035 ; 4.035 ;
+; posicao[2] ; saida_posicao_n[1] ; 4.102 ; 4.102 ; 4.102 ; 4.102 ;
+; posicao[2] ; saida_posicao_n[2] ;       ; 4.023 ; 4.023 ;       ;
+; posicao[2] ; saida_posicao_n[3] ; 4.150 ; 4.150 ; 4.150 ; 4.150 ;
+; posicao[2] ; saida_posicao_n[4] ; 4.154 ;       ;       ; 4.154 ;
+; posicao[2] ; saida_posicao_n[5] ; 4.234 ;       ;       ; 4.234 ;
+; posicao[2] ; saida_posicao_n[6] ; 4.144 ;       ;       ; 4.144 ;
+; posicao[2] ; saida_seg14dezc[0] ; 5.905 ; 5.905 ; 5.905 ; 5.905 ;
+; posicao[2] ; saida_seg14dezc[3] ; 5.917 ; 5.917 ; 5.917 ; 5.917 ;
+; posicao[2] ; saida_seg14dezc[4] ; 5.897 ; 5.897 ; 5.897 ; 5.897 ;
+; posicao[2] ; saida_seg14dezc[5] ; 5.897 ; 5.897 ; 5.897 ; 5.897 ;
+; posicao[2] ; saida_seg14dezr[0] ; 5.376 ; 5.376 ; 5.376 ; 5.376 ;
+; posicao[2] ; saida_seg14dezr[3] ; 5.346 ; 5.346 ; 5.346 ; 5.346 ;
+; posicao[2] ; saida_seg14dezr[4] ; 5.346 ; 5.346 ; 5.346 ; 5.346 ;
+; posicao[2] ; saida_seg14dezr[5] ; 5.390 ; 5.390 ; 5.390 ; 5.390 ;
+; posicao[2] ; saida_seg14unic[0] ; 5.888 ; 5.888 ; 5.888 ; 5.888 ;
+; posicao[2] ; saida_seg14unic[1] ; 5.894 ; 5.894 ; 5.894 ; 5.894 ;
+; posicao[2] ; saida_seg14unic[2] ; 5.849 ; 5.849 ; 5.849 ; 5.849 ;
+; posicao[2] ; saida_seg14unic[3] ; 5.757 ; 5.757 ; 5.757 ; 5.757 ;
+; posicao[2] ; saida_seg14unic[4] ; 5.775 ; 5.775 ; 5.775 ; 5.775 ;
+; posicao[2] ; saida_seg14unic[5] ; 5.778 ; 5.778 ; 5.778 ; 5.778 ;
+; posicao[2] ; saida_seg14unic[6] ; 5.851 ; 5.851 ; 5.851 ; 5.851 ;
+; posicao[2] ; saida_seg14unir[0] ; 5.326 ; 5.326 ; 5.326 ; 5.326 ;
+; posicao[2] ; saida_seg14unir[1] ; 5.319 ; 5.319 ; 5.319 ; 5.319 ;
+; posicao[2] ; saida_seg14unir[2] ; 5.320 ; 5.320 ; 5.320 ; 5.320 ;
+; posicao[2] ; saida_seg14unir[3] ; 5.482 ; 5.482 ; 5.482 ; 5.482 ;
+; posicao[2] ; saida_seg14unir[4] ; 5.472 ; 5.472 ; 5.472 ; 5.472 ;
+; posicao[2] ; saida_seg14unir[5] ; 5.455 ; 5.455 ; 5.455 ; 5.455 ;
+; posicao[2] ; saida_seg14unir[6] ; 5.454 ; 5.454 ; 5.454 ; 5.454 ;
+; valor1[0]  ; overflow           ; 6.437 ;       ;       ; 6.437 ;
+; valor1[0]  ; saida_seg14dezc[0] ; 7.410 ; 7.410 ; 7.410 ; 7.410 ;
+; valor1[0]  ; saida_seg14dezc[3] ; 7.422 ; 7.422 ; 7.422 ; 7.422 ;
+; valor1[0]  ; saida_seg14dezc[4] ; 7.402 ; 7.402 ; 7.402 ; 7.402 ;
+; valor1[0]  ; saida_seg14dezc[5] ; 7.402 ; 7.402 ; 7.402 ; 7.402 ;
+; valor1[0]  ; saida_seg14dezr[0] ; 7.296 ; 7.296 ; 7.296 ; 7.296 ;
+; valor1[0]  ; saida_seg14dezr[3] ; 7.266 ; 7.266 ; 7.266 ; 7.266 ;
+; valor1[0]  ; saida_seg14dezr[4] ; 7.266 ; 7.266 ; 7.266 ; 7.266 ;
+; valor1[0]  ; saida_seg14dezr[5] ; 7.310 ; 7.310 ; 7.310 ; 7.310 ;
+; valor1[0]  ; saida_seg14unic[0] ; 7.409 ; 7.409 ; 7.409 ; 7.409 ;
+; valor1[0]  ; saida_seg14unic[1] ; 7.416 ; 7.416 ; 7.416 ; 7.416 ;
+; valor1[0]  ; saida_seg14unic[2] ; 7.373 ; 7.373 ; 7.373 ; 7.373 ;
+; valor1[0]  ; saida_seg14unic[3] ; 7.271 ; 7.271 ; 7.271 ; 7.271 ;
+; valor1[0]  ; saida_seg14unic[4] ; 7.284 ; 7.284 ; 7.284 ; 7.284 ;
+; valor1[0]  ; saida_seg14unic[5] ; 7.279 ; 7.279 ; 7.279 ; 7.279 ;
+; valor1[0]  ; saida_seg14unic[6] ; 7.351 ; 7.351 ; 7.351 ; 7.351 ;
+; valor1[0]  ; saida_seg14unir[0] ; 7.308 ; 7.308 ; 7.308 ; 7.308 ;
+; valor1[0]  ; saida_seg14unir[1] ; 7.301 ; 7.301 ; 7.301 ; 7.301 ;
+; valor1[0]  ; saida_seg14unir[2] ; 7.302 ; 7.302 ; 7.302 ; 7.302 ;
+; valor1[0]  ; saida_seg14unir[3] ; 7.464 ; 7.464 ; 7.464 ; 7.464 ;
+; valor1[0]  ; saida_seg14unir[4] ; 7.454 ; 7.454 ; 7.454 ; 7.454 ;
+; valor1[0]  ; saida_seg14unir[5] ; 7.437 ; 7.437 ; 7.437 ; 7.437 ;
+; valor1[0]  ; saida_seg14unir[6] ; 7.436 ; 7.436 ; 7.436 ; 7.436 ;
+; valor1[1]  ; overflow           ; 6.677 ;       ;       ; 6.677 ;
+; valor1[1]  ; saida_seg14dezc[0] ; 6.937 ; 6.937 ; 6.937 ; 6.937 ;
+; valor1[1]  ; saida_seg14dezc[3] ; 6.949 ; 6.949 ; 6.949 ; 6.949 ;
+; valor1[1]  ; saida_seg14dezc[4] ; 6.929 ; 6.929 ; 6.929 ; 6.929 ;
+; valor1[1]  ; saida_seg14dezc[5] ; 6.929 ; 6.929 ; 6.929 ; 6.929 ;
+; valor1[1]  ; saida_seg14dezr[0] ; 7.061 ; 7.061 ; 7.061 ; 7.061 ;
+; valor1[1]  ; saida_seg14dezr[3] ; 7.031 ; 7.031 ; 7.031 ; 7.031 ;
+; valor1[1]  ; saida_seg14dezr[4] ; 7.031 ; 7.031 ; 7.031 ; 7.031 ;
+; valor1[1]  ; saida_seg14dezr[5] ; 7.075 ; 7.075 ; 7.075 ; 7.075 ;
+; valor1[1]  ; saida_seg14unic[0] ; 6.936 ; 6.936 ; 6.936 ; 6.936 ;
+; valor1[1]  ; saida_seg14unic[1] ; 6.943 ; 6.943 ; 6.943 ; 6.943 ;
+; valor1[1]  ; saida_seg14unic[2] ; 6.900 ; 6.900 ; 6.900 ; 6.900 ;
+; valor1[1]  ; saida_seg14unic[3] ; 6.798 ; 6.798 ; 6.798 ; 6.798 ;
+; valor1[1]  ; saida_seg14unic[4] ; 6.811 ; 6.811 ; 6.811 ; 6.811 ;
+; valor1[1]  ; saida_seg14unic[5] ; 6.806 ; 6.806 ; 6.806 ; 6.806 ;
+; valor1[1]  ; saida_seg14unic[6] ; 6.878 ; 6.878 ; 6.878 ; 6.878 ;
+; valor1[1]  ; saida_seg14unir[0] ; 6.842 ; 6.842 ; 6.842 ; 6.842 ;
+; valor1[1]  ; saida_seg14unir[1] ; 6.841 ; 6.841 ; 6.841 ; 6.841 ;
+; valor1[1]  ; saida_seg14unir[2] ; 6.841 ; 6.841 ; 6.841 ; 6.841 ;
+; valor1[1]  ; saida_seg14unir[3] ; 7.000 ; 7.000 ; 7.000 ; 7.000 ;
+; valor1[1]  ; saida_seg14unir[4] ; 6.991 ; 6.991 ; 6.991 ; 6.991 ;
+; valor1[1]  ; saida_seg14unir[5] ; 6.975 ; 6.975 ; 6.975 ; 6.975 ;
+; valor1[1]  ; saida_seg14unir[6] ; 6.971 ; 6.971 ; 6.971 ; 6.971 ;
+; valor1[2]  ; overflow           ; 6.933 ;       ;       ; 6.933 ;
+; valor1[2]  ; saida_seg14dezc[0] ; 7.758 ; 7.758 ; 7.758 ; 7.758 ;
+; valor1[2]  ; saida_seg14dezc[3] ; 7.770 ; 7.770 ; 7.770 ; 7.770 ;
+; valor1[2]  ; saida_seg14dezc[4] ; 7.750 ; 7.750 ; 7.750 ; 7.750 ;
+; valor1[2]  ; saida_seg14dezc[5] ; 7.750 ; 7.750 ; 7.750 ; 7.750 ;
+; valor1[2]  ; saida_seg14dezr[0] ; 7.338 ; 7.338 ; 7.338 ; 7.338 ;
+; valor1[2]  ; saida_seg14dezr[3] ; 7.308 ; 7.308 ; 7.308 ; 7.308 ;
+; valor1[2]  ; saida_seg14dezr[4] ; 7.308 ; 7.308 ; 7.308 ; 7.308 ;
+; valor1[2]  ; saida_seg14dezr[5] ; 7.352 ; 7.352 ; 7.352 ; 7.352 ;
+; valor1[2]  ; saida_seg14unic[0] ; 7.741 ; 7.741 ; 7.741 ; 7.741 ;
+; valor1[2]  ; saida_seg14unic[1] ; 7.747 ; 7.747 ; 7.747 ; 7.747 ;
+; valor1[2]  ; saida_seg14unic[2] ; 7.702 ; 7.702 ; 7.702 ; 7.702 ;
+; valor1[2]  ; saida_seg14unic[3] ; 7.610 ; 7.610 ; 7.610 ; 7.610 ;
+; valor1[2]  ; saida_seg14unic[4] ; 7.628 ; 7.628 ; 7.628 ; 7.628 ;
+; valor1[2]  ; saida_seg14unic[5] ; 7.631 ; 7.631 ; 7.631 ; 7.631 ;
+; valor1[2]  ; saida_seg14unic[6] ; 7.704 ; 7.704 ; 7.704 ; 7.704 ;
+; valor1[2]  ; saida_seg14unir[0] ; 7.227 ; 7.227 ; 7.227 ; 7.227 ;
+; valor1[2]  ; saida_seg14unir[1] ; 7.220 ; 7.220 ; 7.220 ; 7.220 ;
+; valor1[2]  ; saida_seg14unir[2] ; 7.221 ; 7.221 ; 7.221 ; 7.221 ;
+; valor1[2]  ; saida_seg14unir[3] ; 7.383 ; 7.383 ; 7.383 ; 7.383 ;
+; valor1[2]  ; saida_seg14unir[4] ; 7.373 ; 7.373 ; 7.373 ; 7.373 ;
+; valor1[2]  ; saida_seg14unir[5] ; 7.356 ; 7.356 ; 7.356 ; 7.356 ;
+; valor1[2]  ; saida_seg14unir[6] ; 7.355 ; 7.355 ; 7.355 ; 7.355 ;
+; valor1[3]  ; overflow           ; 6.904 ;       ;       ; 6.904 ;
+; valor1[3]  ; saida_seg14dezc[0] ; 7.458 ; 7.458 ; 7.458 ; 7.458 ;
+; valor1[3]  ; saida_seg14dezc[3] ; 7.470 ; 7.470 ; 7.470 ; 7.470 ;
+; valor1[3]  ; saida_seg14dezc[4] ; 7.450 ; 7.450 ; 7.450 ; 7.450 ;
+; valor1[3]  ; saida_seg14dezc[5] ; 7.450 ; 7.450 ; 7.450 ; 7.450 ;
+; valor1[3]  ; saida_seg14dezr[0] ; 7.309 ; 7.309 ; 7.309 ; 7.309 ;
+; valor1[3]  ; saida_seg14dezr[3] ; 7.279 ; 7.279 ; 7.279 ; 7.279 ;
+; valor1[3]  ; saida_seg14dezr[4] ; 7.279 ; 7.279 ; 7.279 ; 7.279 ;
+; valor1[3]  ; saida_seg14dezr[5] ; 7.323 ; 7.323 ; 7.323 ; 7.323 ;
+; valor1[3]  ; saida_seg14unic[0] ; 7.441 ; 7.441 ; 7.441 ; 7.441 ;
+; valor1[3]  ; saida_seg14unic[1] ; 7.447 ; 7.447 ; 7.447 ; 7.447 ;
+; valor1[3]  ; saida_seg14unic[2] ; 7.402 ; 7.402 ; 7.402 ; 7.402 ;
+; valor1[3]  ; saida_seg14unic[3] ; 7.310 ; 7.310 ; 7.310 ; 7.310 ;
+; valor1[3]  ; saida_seg14unic[4] ; 7.328 ; 7.328 ; 7.328 ; 7.328 ;
+; valor1[3]  ; saida_seg14unic[5] ; 7.331 ; 7.331 ; 7.331 ; 7.331 ;
+; valor1[3]  ; saida_seg14unic[6] ; 7.404 ; 7.404 ; 7.404 ; 7.404 ;
+; valor1[3]  ; saida_seg14unir[0] ; 7.198 ; 7.198 ; 7.198 ; 7.198 ;
+; valor1[3]  ; saida_seg14unir[1] ; 7.191 ; 7.191 ; 7.191 ; 7.191 ;
+; valor1[3]  ; saida_seg14unir[2] ; 7.192 ; 7.192 ; 7.192 ; 7.192 ;
+; valor1[3]  ; saida_seg14unir[3] ; 7.354 ; 7.354 ; 7.354 ; 7.354 ;
+; valor1[3]  ; saida_seg14unir[4] ; 7.344 ; 7.344 ; 7.344 ; 7.344 ;
+; valor1[3]  ; saida_seg14unir[5] ; 7.327 ; 7.327 ; 7.327 ; 7.327 ;
+; valor1[3]  ; saida_seg14unir[6] ; 7.326 ; 7.326 ; 7.326 ; 7.326 ;
+; valor2[0]  ; overflow           ; 3.933 ;       ;       ; 3.933 ;
+; valor2[0]  ; saida_seg14dezc[0] ; 4.489 ; 4.489 ; 4.489 ; 4.489 ;
+; valor2[0]  ; saida_seg14dezc[3] ; 4.501 ; 4.501 ; 4.501 ; 4.501 ;
+; valor2[0]  ; saida_seg14dezc[4] ; 4.481 ; 4.481 ; 4.481 ; 4.481 ;
+; valor2[0]  ; saida_seg14dezc[5] ; 4.481 ; 4.481 ; 4.481 ; 4.481 ;
+; valor2[0]  ; saida_seg14dezr[0] ; 4.505 ; 4.505 ; 4.505 ; 4.505 ;
+; valor2[0]  ; saida_seg14dezr[3] ; 4.475 ; 4.475 ; 4.475 ; 4.475 ;
+; valor2[0]  ; saida_seg14dezr[4] ; 4.475 ; 4.475 ; 4.475 ; 4.475 ;
+; valor2[0]  ; saida_seg14dezr[5] ; 4.519 ; 4.519 ; 4.519 ; 4.519 ;
+; valor2[0]  ; saida_seg14unic[0] ; 4.488 ; 4.488 ; 4.488 ; 4.488 ;
+; valor2[0]  ; saida_seg14unic[1] ; 4.495 ; 4.495 ; 4.495 ; 4.495 ;
+; valor2[0]  ; saida_seg14unic[2] ; 4.452 ; 4.452 ; 4.452 ; 4.452 ;
+; valor2[0]  ; saida_seg14unic[3] ; 4.350 ; 4.350 ; 4.350 ; 4.350 ;
+; valor2[0]  ; saida_seg14unic[4] ; 4.363 ; 4.363 ; 4.363 ; 4.363 ;
+; valor2[0]  ; saida_seg14unic[5] ; 4.358 ; 4.358 ; 4.358 ; 4.358 ;
+; valor2[0]  ; saida_seg14unic[6] ; 4.430 ; 4.430 ; 4.430 ; 4.430 ;
+; valor2[0]  ; saida_seg14unir[0] ; 4.394 ; 4.394 ; 4.394 ; 4.394 ;
+; valor2[0]  ; saida_seg14unir[1] ; 4.387 ; 4.387 ; 4.387 ; 4.387 ;
+; valor2[0]  ; saida_seg14unir[2] ; 4.388 ; 4.388 ; 4.388 ; 4.388 ;
+; valor2[0]  ; saida_seg14unir[3] ; 4.550 ; 4.550 ; 4.550 ; 4.550 ;
+; valor2[0]  ; saida_seg14unir[4] ; 4.540 ; 4.540 ; 4.540 ; 4.540 ;
+; valor2[0]  ; saida_seg14unir[5] ; 4.523 ; 4.523 ; 4.523 ; 4.523 ;
+; valor2[0]  ; saida_seg14unir[6] ; 4.522 ; 4.522 ; 4.522 ; 4.522 ;
+; valor2[1]  ; overflow           ; 4.307 ;       ;       ; 4.307 ;
+; valor2[1]  ; saida_seg14dezc[0] ; 4.578 ; 4.578 ; 4.578 ; 4.578 ;
+; valor2[1]  ; saida_seg14dezc[3] ; 4.590 ; 4.590 ; 4.590 ; 4.590 ;
+; valor2[1]  ; saida_seg14dezc[4] ; 4.570 ; 4.570 ; 4.570 ; 4.570 ;
+; valor2[1]  ; saida_seg14dezc[5] ; 4.570 ; 4.570 ; 4.570 ; 4.570 ;
+; valor2[1]  ; saida_seg14dezr[0] ; 4.594 ; 4.594 ; 4.594 ; 4.594 ;
+; valor2[1]  ; saida_seg14dezr[3] ; 4.564 ; 4.564 ; 4.564 ; 4.564 ;
+; valor2[1]  ; saida_seg14dezr[4] ; 4.564 ; 4.564 ; 4.564 ; 4.564 ;
+; valor2[1]  ; saida_seg14dezr[5] ; 4.608 ; 4.608 ; 4.608 ; 4.608 ;
+; valor2[1]  ; saida_seg14unic[0] ; 4.577 ; 4.577 ; 4.577 ; 4.577 ;
+; valor2[1]  ; saida_seg14unic[1] ; 4.584 ; 4.584 ; 4.584 ; 4.584 ;
+; valor2[1]  ; saida_seg14unic[2] ; 4.541 ; 4.541 ; 4.541 ; 4.541 ;
+; valor2[1]  ; saida_seg14unic[3] ; 4.439 ; 4.439 ; 4.439 ; 4.439 ;
+; valor2[1]  ; saida_seg14unic[4] ; 4.452 ; 4.452 ; 4.452 ; 4.452 ;
+; valor2[1]  ; saida_seg14unic[5] ; 4.447 ; 4.447 ; 4.447 ; 4.447 ;
+; valor2[1]  ; saida_seg14unic[6] ; 4.519 ; 4.519 ; 4.519 ; 4.519 ;
+; valor2[1]  ; saida_seg14unir[0] ; 4.483 ; 4.483 ; 4.483 ; 4.483 ;
+; valor2[1]  ; saida_seg14unir[1] ; 4.476 ; 4.476 ; 4.476 ; 4.476 ;
+; valor2[1]  ; saida_seg14unir[2] ; 4.477 ; 4.477 ; 4.477 ; 4.477 ;
+; valor2[1]  ; saida_seg14unir[3] ; 4.639 ; 4.639 ; 4.639 ; 4.639 ;
+; valor2[1]  ; saida_seg14unir[4] ; 4.629 ; 4.629 ; 4.629 ; 4.629 ;
+; valor2[1]  ; saida_seg14unir[5] ; 4.612 ; 4.612 ; 4.612 ; 4.612 ;
+; valor2[1]  ; saida_seg14unir[6] ; 4.611 ; 4.611 ; 4.611 ; 4.611 ;
+; valor2[2]  ; overflow           ; 4.399 ;       ;       ; 4.399 ;
+; valor2[2]  ; saida_seg14dezc[0] ; 4.955 ; 4.955 ; 4.955 ; 4.955 ;
+; valor2[2]  ; saida_seg14dezc[3] ; 4.967 ; 4.967 ; 4.967 ; 4.967 ;
+; valor2[2]  ; saida_seg14dezc[4] ; 4.947 ; 4.947 ; 4.947 ; 4.947 ;
+; valor2[2]  ; saida_seg14dezc[5] ; 4.947 ; 4.947 ; 4.947 ; 4.947 ;
+; valor2[2]  ; saida_seg14dezr[0] ; 4.804 ; 4.804 ; 4.804 ; 4.804 ;
+; valor2[2]  ; saida_seg14dezr[3] ; 4.774 ; 4.774 ; 4.774 ; 4.774 ;
+; valor2[2]  ; saida_seg14dezr[4] ; 4.774 ; 4.774 ; 4.774 ; 4.774 ;
+; valor2[2]  ; saida_seg14dezr[5] ; 4.818 ; 4.818 ; 4.818 ; 4.818 ;
+; valor2[2]  ; saida_seg14unic[0] ; 4.938 ; 4.938 ; 4.938 ; 4.938 ;
+; valor2[2]  ; saida_seg14unic[1] ; 4.944 ; 4.944 ; 4.944 ; 4.944 ;
+; valor2[2]  ; saida_seg14unic[2] ; 4.899 ; 4.899 ; 4.899 ; 4.899 ;
+; valor2[2]  ; saida_seg14unic[3] ; 4.807 ; 4.807 ; 4.807 ; 4.807 ;
+; valor2[2]  ; saida_seg14unic[4] ; 4.825 ; 4.825 ; 4.825 ; 4.825 ;
+; valor2[2]  ; saida_seg14unic[5] ; 4.828 ; 4.828 ; 4.828 ; 4.828 ;
+; valor2[2]  ; saida_seg14unic[6] ; 4.901 ; 4.901 ; 4.901 ; 4.901 ;
+; valor2[2]  ; saida_seg14unir[0] ; 4.693 ; 4.693 ; 4.693 ; 4.693 ;
+; valor2[2]  ; saida_seg14unir[1] ; 4.686 ; 4.686 ; 4.686 ; 4.686 ;
+; valor2[2]  ; saida_seg14unir[2] ; 4.687 ; 4.687 ; 4.687 ; 4.687 ;
+; valor2[2]  ; saida_seg14unir[3] ; 4.849 ; 4.849 ; 4.849 ; 4.849 ;
+; valor2[2]  ; saida_seg14unir[4] ; 4.839 ; 4.839 ; 4.839 ; 4.839 ;
+; valor2[2]  ; saida_seg14unir[5] ; 4.822 ; 4.822 ; 4.822 ; 4.822 ;
+; valor2[2]  ; saida_seg14unir[6] ; 4.821 ; 4.821 ; 4.821 ; 4.821 ;
+; valor2[3]  ; overflow           ; 4.494 ;       ;       ; 4.494 ;
+; valor2[3]  ; saida_seg14dezc[0] ; 5.049 ; 5.049 ; 5.049 ; 5.049 ;
+; valor2[3]  ; saida_seg14dezc[3] ; 5.061 ; 5.061 ; 5.061 ; 5.061 ;
+; valor2[3]  ; saida_seg14dezc[4] ; 5.041 ; 5.041 ; 5.041 ; 5.041 ;
+; valor2[3]  ; saida_seg14dezc[5] ; 5.041 ; 5.041 ; 5.041 ; 5.041 ;
+; valor2[3]  ; saida_seg14dezr[0] ; 4.899 ; 4.899 ; 4.899 ; 4.899 ;
+; valor2[3]  ; saida_seg14dezr[3] ; 4.869 ; 4.869 ; 4.869 ; 4.869 ;
+; valor2[3]  ; saida_seg14dezr[4] ; 4.869 ; 4.869 ; 4.869 ; 4.869 ;
+; valor2[3]  ; saida_seg14dezr[5] ; 4.913 ; 4.913 ; 4.913 ; 4.913 ;
+; valor2[3]  ; saida_seg14unic[0] ; 5.032 ; 5.032 ; 5.032 ; 5.032 ;
+; valor2[3]  ; saida_seg14unic[1] ; 5.038 ; 5.038 ; 5.038 ; 5.038 ;
+; valor2[3]  ; saida_seg14unic[2] ; 4.993 ; 4.993 ; 4.993 ; 4.993 ;
+; valor2[3]  ; saida_seg14unic[3] ; 4.901 ; 4.901 ; 4.901 ; 4.901 ;
+; valor2[3]  ; saida_seg14unic[4] ; 4.919 ; 4.919 ; 4.919 ; 4.919 ;
+; valor2[3]  ; saida_seg14unic[5] ; 4.922 ; 4.922 ; 4.922 ; 4.922 ;
+; valor2[3]  ; saida_seg14unic[6] ; 4.995 ; 4.995 ; 4.995 ; 4.995 ;
+; valor2[3]  ; saida_seg14unir[0] ; 4.788 ; 4.788 ; 4.788 ; 4.788 ;
+; valor2[3]  ; saida_seg14unir[1] ; 4.781 ; 4.781 ; 4.781 ; 4.781 ;
+; valor2[3]  ; saida_seg14unir[2] ; 4.782 ; 4.782 ; 4.782 ; 4.782 ;
+; valor2[3]  ; saida_seg14unir[3] ; 4.944 ; 4.944 ; 4.944 ; 4.944 ;
+; valor2[3]  ; saida_seg14unir[4] ; 4.934 ; 4.934 ; 4.934 ; 4.934 ;
+; valor2[3]  ; saida_seg14unir[5] ; 4.917 ; 4.917 ; 4.917 ; 4.917 ;
+; valor2[3]  ; saida_seg14unir[6] ; 4.916 ; 4.916 ; 4.916 ; 4.916 ;
++------------+--------------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------------+
+; Minimum Propagation Delay                                       ;
++------------+--------------------+-------+-------+-------+-------+
+; Input Port ; Output Port        ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------------+-------+-------+-------+-------+
+; posicao[0] ; saida_led          ; 4.572 ;       ;       ; 4.572 ;
+; posicao[0] ; saida_posicao_n[0] ; 3.963 ; 3.963 ; 3.963 ; 3.963 ;
+; posicao[0] ; saida_posicao_n[1] ; 4.026 ;       ;       ; 4.026 ;
+; posicao[0] ; saida_posicao_n[2] ;       ; 3.947 ; 3.947 ;       ;
+; posicao[0] ; saida_posicao_n[3] ; 4.078 ; 4.078 ; 4.078 ; 4.078 ;
+; posicao[0] ; saida_posicao_n[4] ; 4.082 ;       ;       ; 4.082 ;
+; posicao[0] ; saida_posicao_n[5] ;       ; 4.160 ; 4.160 ;       ;
+; posicao[0] ; saida_posicao_n[6] ; 4.069 ; 4.069 ; 4.069 ; 4.069 ;
+; posicao[0] ; saida_seg14dezc[0] ; 4.732 ; 4.732 ; 4.732 ; 4.732 ;
+; posicao[0] ; saida_seg14dezc[3] ; 4.744 ; 4.744 ; 4.744 ; 4.744 ;
+; posicao[0] ; saida_seg14dezc[4] ; 4.724 ; 4.724 ; 4.724 ; 4.724 ;
+; posicao[0] ; saida_seg14dezc[5] ; 4.724 ; 4.724 ; 4.724 ; 4.724 ;
+; posicao[0] ; saida_seg14dezr[0] ; 5.201 ; 5.201 ; 5.201 ; 5.201 ;
+; posicao[0] ; saida_seg14dezr[3] ; 5.171 ; 5.171 ; 5.171 ; 5.171 ;
+; posicao[0] ; saida_seg14dezr[4] ; 5.171 ; 5.171 ; 5.171 ; 5.171 ;
+; posicao[0] ; saida_seg14dezr[5] ; 5.215 ; 5.215 ; 5.215 ; 5.215 ;
+; posicao[0] ; saida_seg14unic[0] ; 4.715 ; 4.715 ; 4.715 ; 4.715 ;
+; posicao[0] ; saida_seg14unic[1] ; 4.721 ; 4.721 ; 4.721 ; 4.721 ;
+; posicao[0] ; saida_seg14unic[2] ; 4.676 ; 4.676 ; 4.676 ; 4.676 ;
+; posicao[0] ; saida_seg14unic[3] ; 4.584 ; 4.584 ; 4.584 ; 4.584 ;
+; posicao[0] ; saida_seg14unic[4] ; 4.602 ; 4.602 ; 4.602 ; 4.602 ;
+; posicao[0] ; saida_seg14unic[5] ; 4.605 ; 4.605 ; 4.605 ; 4.605 ;
+; posicao[0] ; saida_seg14unic[6] ; 4.678 ; 4.678 ; 4.678 ; 4.678 ;
+; posicao[0] ; saida_seg14unir[0] ; 5.048 ; 5.048 ; 5.048 ; 5.048 ;
+; posicao[0] ; saida_seg14unir[1] ; 5.039 ; 5.039 ; 5.039 ; 5.039 ;
+; posicao[0] ; saida_seg14unir[2] ; 5.046 ; 5.046 ; 5.046 ; 5.046 ;
+; posicao[0] ; saida_seg14unir[3] ; 5.205 ; 5.205 ; 5.205 ; 5.205 ;
+; posicao[0] ; saida_seg14unir[4] ; 5.196 ; 5.196 ; 5.196 ; 5.196 ;
+; posicao[0] ; saida_seg14unir[5] ; 5.181 ; 5.181 ; 5.181 ; 5.181 ;
+; posicao[0] ; saida_seg14unir[6] ; 5.174 ; 5.174 ; 5.174 ; 5.174 ;
+; posicao[1] ; saida_led          ; 4.403 ;       ;       ; 4.403 ;
+; posicao[1] ; saida_posicao_n[0] ;       ; 3.786 ; 3.786 ;       ;
+; posicao[1] ; saida_posicao_n[1] ; 3.845 ; 3.845 ; 3.845 ; 3.845 ;
+; posicao[1] ; saida_posicao_n[2] ; 3.787 ;       ;       ; 3.787 ;
+; posicao[1] ; saida_posicao_n[3] ; 3.906 ; 3.906 ; 3.906 ; 3.906 ;
+; posicao[1] ; saida_posicao_n[4] ;       ; 3.910 ; 3.910 ;       ;
+; posicao[1] ; saida_posicao_n[5] ; 3.987 ;       ;       ; 3.987 ;
+; posicao[1] ; saida_posicao_n[6] ; 3.898 ; 3.898 ; 3.898 ; 3.898 ;
+; posicao[1] ; saida_seg14dezc[0] ; 4.725 ; 4.725 ; 4.725 ; 4.725 ;
+; posicao[1] ; saida_seg14dezc[3] ; 4.737 ; 4.737 ; 4.737 ; 4.737 ;
+; posicao[1] ; saida_seg14dezc[4] ; 4.717 ; 4.717 ; 4.717 ; 4.717 ;
+; posicao[1] ; saida_seg14dezc[5] ; 4.717 ; 4.717 ; 4.717 ; 4.717 ;
+; posicao[1] ; saida_seg14dezr[0] ; 5.147 ; 5.147 ; 5.147 ; 5.147 ;
+; posicao[1] ; saida_seg14dezr[3] ; 5.117 ; 5.117 ; 5.117 ; 5.117 ;
+; posicao[1] ; saida_seg14dezr[4] ; 5.117 ; 5.117 ; 5.117 ; 5.117 ;
+; posicao[1] ; saida_seg14dezr[5] ; 5.161 ; 5.161 ; 5.161 ; 5.161 ;
+; posicao[1] ; saida_seg14unic[0] ; 4.719 ; 4.719 ; 4.719 ; 4.719 ;
+; posicao[1] ; saida_seg14unic[1] ; 4.725 ; 4.725 ; 4.725 ; 4.725 ;
+; posicao[1] ; saida_seg14unic[2] ; 4.680 ; 4.680 ; 4.680 ; 4.680 ;
+; posicao[1] ; saida_seg14unic[3] ; 4.582 ; 4.582 ; 4.582 ; 4.582 ;
+; posicao[1] ; saida_seg14unic[4] ; 4.598 ; 4.598 ; 4.598 ; 4.598 ;
+; posicao[1] ; saida_seg14unic[5] ; 4.597 ; 4.597 ; 4.597 ; 4.597 ;
+; posicao[1] ; saida_seg14unic[6] ; 4.671 ; 4.671 ; 4.671 ; 4.671 ;
+; posicao[1] ; saida_seg14unir[0] ; 4.847 ; 4.847 ; 4.847 ; 4.847 ;
+; posicao[1] ; saida_seg14unir[1] ; 4.838 ; 4.838 ; 4.838 ; 4.838 ;
+; posicao[1] ; saida_seg14unir[2] ; 4.845 ; 4.845 ; 4.845 ; 4.845 ;
+; posicao[1] ; saida_seg14unir[3] ; 5.004 ; 5.004 ; 5.004 ; 5.004 ;
+; posicao[1] ; saida_seg14unir[4] ; 4.995 ; 4.995 ; 4.995 ; 4.995 ;
+; posicao[1] ; saida_seg14unir[5] ; 4.980 ; 4.980 ; 4.980 ; 4.980 ;
+; posicao[1] ; saida_seg14unir[6] ; 4.973 ; 4.973 ; 4.973 ; 4.973 ;
+; posicao[2] ; saida_led          ; 4.645 ;       ;       ; 4.645 ;
+; posicao[2] ; saida_posicao_n[0] ; 4.035 ; 4.035 ; 4.035 ; 4.035 ;
+; posicao[2] ; saida_posicao_n[1] ; 4.102 ; 4.102 ; 4.102 ; 4.102 ;
+; posicao[2] ; saida_posicao_n[2] ;       ; 4.023 ; 4.023 ;       ;
+; posicao[2] ; saida_posicao_n[3] ; 4.150 ; 4.150 ; 4.150 ; 4.150 ;
+; posicao[2] ; saida_posicao_n[4] ; 4.154 ;       ;       ; 4.154 ;
+; posicao[2] ; saida_posicao_n[5] ; 4.234 ;       ;       ; 4.234 ;
+; posicao[2] ; saida_posicao_n[6] ; 4.144 ;       ;       ; 4.144 ;
+; posicao[2] ; saida_seg14dezc[0] ; 4.845 ; 4.845 ; 4.845 ; 4.845 ;
+; posicao[2] ; saida_seg14dezc[3] ; 4.857 ; 4.857 ; 4.857 ; 4.857 ;
+; posicao[2] ; saida_seg14dezc[4] ; 4.837 ; 4.837 ; 4.837 ; 4.837 ;
+; posicao[2] ; saida_seg14dezc[5] ; 4.837 ; 4.837 ; 4.837 ; 4.837 ;
+; posicao[2] ; saida_seg14dezr[0] ; 5.314 ; 5.314 ; 5.314 ; 5.314 ;
+; posicao[2] ; saida_seg14dezr[3] ; 5.284 ; 5.284 ; 5.284 ; 5.284 ;
+; posicao[2] ; saida_seg14dezr[4] ; 5.284 ; 5.284 ; 5.284 ; 5.284 ;
+; posicao[2] ; saida_seg14dezr[5] ; 5.328 ; 5.328 ; 5.328 ; 5.328 ;
+; posicao[2] ; saida_seg14unic[0] ; 4.750 ; 4.750 ; 4.750 ; 4.750 ;
+; posicao[2] ; saida_seg14unic[1] ; 4.756 ; 4.756 ; 4.756 ; 4.756 ;
+; posicao[2] ; saida_seg14unic[2] ; 4.707 ; 4.707 ; 4.707 ; 4.707 ;
+; posicao[2] ; saida_seg14unic[3] ; 4.612 ; 4.612 ; 4.612 ; 4.612 ;
+; posicao[2] ; saida_seg14unic[4] ; 4.627 ; 4.627 ; 4.627 ; 4.627 ;
+; posicao[2] ; saida_seg14unic[5] ; 4.623 ; 4.623 ; 4.623 ; 4.623 ;
+; posicao[2] ; saida_seg14unic[6] ; 4.697 ; 4.697 ; 4.697 ; 4.697 ;
+; posicao[2] ; saida_seg14unir[0] ; 5.053 ; 5.053 ; 5.053 ; 5.053 ;
+; posicao[2] ; saida_seg14unir[1] ; 5.044 ; 5.044 ; 5.044 ; 5.044 ;
+; posicao[2] ; saida_seg14unir[2] ; 5.051 ; 5.051 ; 5.051 ; 5.051 ;
+; posicao[2] ; saida_seg14unir[3] ; 5.210 ; 5.210 ; 5.210 ; 5.210 ;
+; posicao[2] ; saida_seg14unir[4] ; 5.201 ; 5.201 ; 5.201 ; 5.201 ;
+; posicao[2] ; saida_seg14unir[5] ; 5.186 ; 5.186 ; 5.186 ; 5.186 ;
+; posicao[2] ; saida_seg14unir[6] ; 5.179 ; 5.179 ; 5.179 ; 5.179 ;
+; valor1[0]  ; overflow           ; 6.437 ;       ;       ; 6.437 ;
+; valor1[0]  ; saida_seg14dezc[0] ; 7.410 ; 7.410 ; 7.410 ; 7.410 ;
+; valor1[0]  ; saida_seg14dezc[3] ; 7.422 ; 7.422 ; 7.422 ; 7.422 ;
+; valor1[0]  ; saida_seg14dezc[4] ; 7.402 ; 7.402 ; 7.402 ; 7.402 ;
+; valor1[0]  ; saida_seg14dezc[5] ; 7.402 ; 7.402 ; 7.402 ; 7.402 ;
+; valor1[0]  ; saida_seg14dezr[0] ; 7.296 ; 7.296 ; 7.296 ; 7.296 ;
+; valor1[0]  ; saida_seg14dezr[3] ; 7.266 ; 7.266 ; 7.266 ; 7.266 ;
+; valor1[0]  ; saida_seg14dezr[4] ; 7.266 ; 7.266 ; 7.266 ; 7.266 ;
+; valor1[0]  ; saida_seg14dezr[5] ; 7.310 ; 7.310 ; 7.310 ; 7.310 ;
+; valor1[0]  ; saida_seg14unic[0] ; 7.409 ; 7.409 ; 7.409 ; 7.409 ;
+; valor1[0]  ; saida_seg14unic[1] ; 7.416 ; 7.416 ; 7.416 ; 7.416 ;
+; valor1[0]  ; saida_seg14unic[2] ; 7.373 ; 7.373 ; 7.373 ; 7.373 ;
+; valor1[0]  ; saida_seg14unic[3] ; 7.271 ; 7.271 ; 7.271 ; 7.271 ;
+; valor1[0]  ; saida_seg14unic[4] ; 7.284 ; 7.284 ; 7.284 ; 7.284 ;
+; valor1[0]  ; saida_seg14unic[5] ; 7.279 ; 7.279 ; 7.279 ; 7.279 ;
+; valor1[0]  ; saida_seg14unic[6] ; 7.351 ; 7.351 ; 7.351 ; 7.351 ;
+; valor1[0]  ; saida_seg14unir[0] ; 7.308 ; 7.308 ; 7.308 ; 7.308 ;
+; valor1[0]  ; saida_seg14unir[1] ; 7.301 ; 7.301 ; 7.301 ; 7.301 ;
+; valor1[0]  ; saida_seg14unir[2] ; 7.302 ; 7.302 ; 7.302 ; 7.302 ;
+; valor1[0]  ; saida_seg14unir[3] ; 7.464 ; 7.464 ; 7.464 ; 7.464 ;
+; valor1[0]  ; saida_seg14unir[4] ; 7.454 ; 7.454 ; 7.454 ; 7.454 ;
+; valor1[0]  ; saida_seg14unir[5] ; 7.437 ; 7.437 ; 7.437 ; 7.437 ;
+; valor1[0]  ; saida_seg14unir[6] ; 7.436 ; 7.436 ; 7.436 ; 7.436 ;
+; valor1[1]  ; overflow           ; 6.677 ;       ;       ; 6.677 ;
+; valor1[1]  ; saida_seg14dezc[0] ; 6.618 ; 6.618 ; 6.618 ; 6.618 ;
+; valor1[1]  ; saida_seg14dezc[3] ; 6.630 ; 6.630 ; 6.630 ; 6.630 ;
+; valor1[1]  ; saida_seg14dezc[4] ; 6.610 ; 6.610 ; 6.610 ; 6.610 ;
+; valor1[1]  ; saida_seg14dezc[5] ; 6.610 ; 6.610 ; 6.610 ; 6.610 ;
+; valor1[1]  ; saida_seg14dezr[0] ; 6.953 ; 6.953 ; 6.953 ; 6.953 ;
+; valor1[1]  ; saida_seg14dezr[3] ; 6.923 ; 6.923 ; 6.923 ; 6.923 ;
+; valor1[1]  ; saida_seg14dezr[4] ; 6.923 ; 6.923 ; 6.923 ; 6.923 ;
+; valor1[1]  ; saida_seg14dezr[5] ; 6.967 ; 6.967 ; 6.967 ; 6.967 ;
+; valor1[1]  ; saida_seg14unic[0] ; 6.614 ; 6.614 ; 6.614 ; 6.614 ;
+; valor1[1]  ; saida_seg14unic[1] ; 6.646 ; 6.646 ; 6.646 ; 6.646 ;
+; valor1[1]  ; saida_seg14unic[2] ; 6.574 ; 6.574 ; 6.574 ; 6.574 ;
+; valor1[1]  ; saida_seg14unic[3] ; 6.475 ; 6.475 ; 6.475 ; 6.475 ;
+; valor1[1]  ; saida_seg14unic[4] ; 6.491 ; 6.491 ; 6.491 ; 6.491 ;
+; valor1[1]  ; saida_seg14unic[5] ; 6.490 ; 6.490 ; 6.490 ; 6.490 ;
+; valor1[1]  ; saida_seg14unic[6] ; 6.564 ; 6.564 ; 6.564 ; 6.564 ;
+; valor1[1]  ; saida_seg14unir[0] ; 6.841 ; 6.841 ; 6.841 ; 6.841 ;
+; valor1[1]  ; saida_seg14unir[1] ; 6.835 ; 6.835 ; 6.835 ; 6.835 ;
+; valor1[1]  ; saida_seg14unir[2] ; 6.836 ; 6.836 ; 6.836 ; 6.836 ;
+; valor1[1]  ; saida_seg14unir[3] ; 6.998 ; 6.998 ; 6.998 ; 6.998 ;
+; valor1[1]  ; saida_seg14unir[4] ; 6.988 ; 6.988 ; 6.988 ; 6.988 ;
+; valor1[1]  ; saida_seg14unir[5] ; 6.971 ; 6.971 ; 6.971 ; 6.971 ;
+; valor1[1]  ; saida_seg14unir[6] ; 6.970 ; 6.970 ; 6.970 ; 6.970 ;
+; valor1[2]  ; overflow           ; 6.933 ;       ;       ; 6.933 ;
+; valor1[2]  ; saida_seg14dezc[0] ; 6.777 ; 6.777 ; 6.777 ; 6.777 ;
+; valor1[2]  ; saida_seg14dezc[3] ; 6.789 ; 6.789 ; 6.789 ; 6.789 ;
+; valor1[2]  ; saida_seg14dezc[4] ; 6.769 ; 6.769 ; 6.769 ; 6.769 ;
+; valor1[2]  ; saida_seg14dezc[5] ; 6.769 ; 6.769 ; 6.769 ; 6.769 ;
+; valor1[2]  ; saida_seg14dezr[0] ; 7.151 ; 7.151 ; 7.151 ; 7.151 ;
+; valor1[2]  ; saida_seg14dezr[3] ; 7.121 ; 7.121 ; 7.121 ; 7.121 ;
+; valor1[2]  ; saida_seg14dezr[4] ; 7.121 ; 7.121 ; 7.121 ; 7.121 ;
+; valor1[2]  ; saida_seg14dezr[5] ; 7.165 ; 7.165 ; 7.165 ; 7.165 ;
+; valor1[2]  ; saida_seg14unic[0] ; 6.773 ; 6.773 ; 6.773 ; 6.773 ;
+; valor1[2]  ; saida_seg14unic[1] ; 6.805 ; 6.805 ; 6.805 ; 6.805 ;
+; valor1[2]  ; saida_seg14unic[2] ; 6.733 ; 6.733 ; 6.733 ; 6.733 ;
+; valor1[2]  ; saida_seg14unic[3] ; 6.634 ; 6.634 ; 6.634 ; 6.634 ;
+; valor1[2]  ; saida_seg14unic[4] ; 6.650 ; 6.650 ; 6.650 ; 6.650 ;
+; valor1[2]  ; saida_seg14unic[5] ; 6.649 ; 6.649 ; 6.649 ; 6.649 ;
+; valor1[2]  ; saida_seg14unic[6] ; 6.723 ; 6.723 ; 6.723 ; 6.723 ;
+; valor1[2]  ; saida_seg14unir[0] ; 6.906 ; 6.906 ; 6.906 ; 6.906 ;
+; valor1[2]  ; saida_seg14unir[1] ; 6.897 ; 6.897 ; 6.897 ; 6.897 ;
+; valor1[2]  ; saida_seg14unir[2] ; 6.904 ; 6.904 ; 6.904 ; 6.904 ;
+; valor1[2]  ; saida_seg14unir[3] ; 7.063 ; 7.063 ; 7.063 ; 7.063 ;
+; valor1[2]  ; saida_seg14unir[4] ; 7.054 ; 7.054 ; 7.054 ; 7.054 ;
+; valor1[2]  ; saida_seg14unir[5] ; 7.039 ; 7.039 ; 7.039 ; 7.039 ;
+; valor1[2]  ; saida_seg14unir[6] ; 7.032 ; 7.032 ; 7.032 ; 7.032 ;
+; valor1[3]  ; overflow           ; 6.904 ;       ;       ; 6.904 ;
+; valor1[3]  ; saida_seg14dezc[0] ; 6.748 ; 6.748 ; 6.748 ; 6.748 ;
+; valor1[3]  ; saida_seg14dezc[3] ; 6.760 ; 6.760 ; 6.760 ; 6.760 ;
+; valor1[3]  ; saida_seg14dezc[4] ; 6.740 ; 6.740 ; 6.740 ; 6.740 ;
+; valor1[3]  ; saida_seg14dezc[5] ; 6.740 ; 6.740 ; 6.740 ; 6.740 ;
+; valor1[3]  ; saida_seg14dezr[0] ; 6.906 ; 6.906 ; 6.906 ; 6.906 ;
+; valor1[3]  ; saida_seg14dezr[3] ; 6.876 ; 6.876 ; 6.876 ; 6.876 ;
+; valor1[3]  ; saida_seg14dezr[4] ; 6.876 ; 6.876 ; 6.876 ; 6.876 ;
+; valor1[3]  ; saida_seg14dezr[5] ; 6.920 ; 6.920 ; 6.920 ; 6.920 ;
+; valor1[3]  ; saida_seg14unic[0] ; 6.744 ; 6.744 ; 6.744 ; 6.744 ;
+; valor1[3]  ; saida_seg14unic[1] ; 6.776 ; 6.776 ; 6.776 ; 6.776 ;
+; valor1[3]  ; saida_seg14unic[2] ; 6.704 ; 6.704 ; 6.704 ; 6.704 ;
+; valor1[3]  ; saida_seg14unic[3] ; 6.605 ; 6.605 ; 6.605 ; 6.605 ;
+; valor1[3]  ; saida_seg14unic[4] ; 6.621 ; 6.621 ; 6.621 ; 6.621 ;
+; valor1[3]  ; saida_seg14unic[5] ; 6.620 ; 6.620 ; 6.620 ; 6.620 ;
+; valor1[3]  ; saida_seg14unic[6] ; 6.694 ; 6.694 ; 6.694 ; 6.694 ;
+; valor1[3]  ; saida_seg14unir[0] ; 6.606 ; 6.606 ; 6.606 ; 6.606 ;
+; valor1[3]  ; saida_seg14unir[1] ; 6.597 ; 6.597 ; 6.597 ; 6.597 ;
+; valor1[3]  ; saida_seg14unir[2] ; 6.604 ; 6.604 ; 6.604 ; 6.604 ;
+; valor1[3]  ; saida_seg14unir[3] ; 6.763 ; 6.763 ; 6.763 ; 6.763 ;
+; valor1[3]  ; saida_seg14unir[4] ; 6.754 ; 6.754 ; 6.754 ; 6.754 ;
+; valor1[3]  ; saida_seg14unir[5] ; 6.739 ; 6.739 ; 6.739 ; 6.739 ;
+; valor1[3]  ; saida_seg14unir[6] ; 6.732 ; 6.732 ; 6.732 ; 6.732 ;
+; valor2[0]  ; overflow           ; 3.933 ;       ;       ; 3.933 ;
+; valor2[0]  ; saida_seg14dezc[0] ; 4.489 ; 4.489 ; 4.489 ; 4.489 ;
+; valor2[0]  ; saida_seg14dezc[3] ; 4.501 ; 4.501 ; 4.501 ; 4.501 ;
+; valor2[0]  ; saida_seg14dezc[4] ; 4.481 ; 4.481 ; 4.481 ; 4.481 ;
+; valor2[0]  ; saida_seg14dezc[5] ; 4.481 ; 4.481 ; 4.481 ; 4.481 ;
+; valor2[0]  ; saida_seg14dezr[0] ; 4.505 ; 4.505 ; 4.505 ; 4.505 ;
+; valor2[0]  ; saida_seg14dezr[3] ; 4.475 ; 4.475 ; 4.475 ; 4.475 ;
+; valor2[0]  ; saida_seg14dezr[4] ; 4.475 ; 4.475 ; 4.475 ; 4.475 ;
+; valor2[0]  ; saida_seg14dezr[5] ; 4.519 ; 4.519 ; 4.519 ; 4.519 ;
+; valor2[0]  ; saida_seg14unic[0] ; 4.488 ; 4.488 ; 4.488 ; 4.488 ;
+; valor2[0]  ; saida_seg14unic[1] ; 4.495 ; 4.495 ; 4.495 ; 4.495 ;
+; valor2[0]  ; saida_seg14unic[2] ; 4.452 ; 4.452 ; 4.452 ; 4.452 ;
+; valor2[0]  ; saida_seg14unic[3] ; 4.350 ; 4.350 ; 4.350 ; 4.350 ;
+; valor2[0]  ; saida_seg14unic[4] ; 4.363 ; 4.363 ; 4.363 ; 4.363 ;
+; valor2[0]  ; saida_seg14unic[5] ; 4.358 ; 4.358 ; 4.358 ; 4.358 ;
+; valor2[0]  ; saida_seg14unic[6] ; 4.430 ; 4.430 ; 4.430 ; 4.430 ;
+; valor2[0]  ; saida_seg14unir[0] ; 4.394 ; 4.394 ; 4.394 ; 4.394 ;
+; valor2[0]  ; saida_seg14unir[1] ; 4.387 ; 4.387 ; 4.387 ; 4.387 ;
+; valor2[0]  ; saida_seg14unir[2] ; 4.388 ; 4.388 ; 4.388 ; 4.388 ;
+; valor2[0]  ; saida_seg14unir[3] ; 4.550 ; 4.550 ; 4.550 ; 4.550 ;
+; valor2[0]  ; saida_seg14unir[4] ; 4.540 ; 4.540 ; 4.540 ; 4.540 ;
+; valor2[0]  ; saida_seg14unir[5] ; 4.523 ; 4.523 ; 4.523 ; 4.523 ;
+; valor2[0]  ; saida_seg14unir[6] ; 4.522 ; 4.522 ; 4.522 ; 4.522 ;
+; valor2[1]  ; overflow           ; 4.307 ;       ;       ; 4.307 ;
+; valor2[1]  ; saida_seg14dezc[0] ; 4.219 ; 4.219 ; 4.219 ; 4.219 ;
+; valor2[1]  ; saida_seg14dezc[3] ; 4.231 ; 4.231 ; 4.231 ; 4.231 ;
+; valor2[1]  ; saida_seg14dezc[4] ; 4.211 ; 4.211 ; 4.211 ; 4.211 ;
+; valor2[1]  ; saida_seg14dezc[5] ; 4.211 ; 4.211 ; 4.211 ; 4.211 ;
+; valor2[1]  ; saida_seg14dezr[0] ; 4.524 ; 4.524 ; 4.524 ; 4.524 ;
+; valor2[1]  ; saida_seg14dezr[3] ; 4.494 ; 4.494 ; 4.494 ; 4.494 ;
+; valor2[1]  ; saida_seg14dezr[4] ; 4.494 ; 4.494 ; 4.494 ; 4.494 ;
+; valor2[1]  ; saida_seg14dezr[5] ; 4.538 ; 4.538 ; 4.538 ; 4.538 ;
+; valor2[1]  ; saida_seg14unic[0] ; 4.215 ; 4.215 ; 4.215 ; 4.215 ;
+; valor2[1]  ; saida_seg14unic[1] ; 4.247 ; 4.247 ; 4.247 ; 4.247 ;
+; valor2[1]  ; saida_seg14unic[2] ; 4.175 ; 4.175 ; 4.175 ; 4.175 ;
+; valor2[1]  ; saida_seg14unic[3] ; 4.076 ; 4.076 ; 4.076 ; 4.076 ;
+; valor2[1]  ; saida_seg14unic[4] ; 4.092 ; 4.092 ; 4.092 ; 4.092 ;
+; valor2[1]  ; saida_seg14unic[5] ; 4.091 ; 4.091 ; 4.091 ; 4.091 ;
+; valor2[1]  ; saida_seg14unic[6] ; 4.165 ; 4.165 ; 4.165 ; 4.165 ;
+; valor2[1]  ; saida_seg14unir[0] ; 4.304 ; 4.304 ; 4.304 ; 4.304 ;
+; valor2[1]  ; saida_seg14unir[1] ; 4.304 ; 4.304 ; 4.304 ; 4.304 ;
+; valor2[1]  ; saida_seg14unir[2] ; 4.304 ; 4.304 ; 4.304 ; 4.304 ;
+; valor2[1]  ; saida_seg14unir[3] ; 4.463 ; 4.463 ; 4.463 ; 4.463 ;
+; valor2[1]  ; saida_seg14unir[4] ; 4.454 ; 4.454 ; 4.454 ; 4.454 ;
+; valor2[1]  ; saida_seg14unir[5] ; 4.438 ; 4.438 ; 4.438 ; 4.438 ;
+; valor2[1]  ; saida_seg14unir[6] ; 4.434 ; 4.434 ; 4.434 ; 4.434 ;
+; valor2[2]  ; overflow           ; 4.399 ;       ;       ; 4.399 ;
+; valor2[2]  ; saida_seg14dezc[0] ; 4.243 ; 4.243 ; 4.243 ; 4.243 ;
+; valor2[2]  ; saida_seg14dezc[3] ; 4.255 ; 4.255 ; 4.255 ; 4.255 ;
+; valor2[2]  ; saida_seg14dezc[4] ; 4.235 ; 4.235 ; 4.235 ; 4.235 ;
+; valor2[2]  ; saida_seg14dezc[5] ; 4.235 ; 4.235 ; 4.235 ; 4.235 ;
+; valor2[2]  ; saida_seg14dezr[0] ; 4.403 ; 4.403 ; 4.403 ; 4.403 ;
+; valor2[2]  ; saida_seg14dezr[3] ; 4.373 ; 4.373 ; 4.373 ; 4.373 ;
+; valor2[2]  ; saida_seg14dezr[4] ; 4.373 ; 4.373 ; 4.373 ; 4.373 ;
+; valor2[2]  ; saida_seg14dezr[5] ; 4.417 ; 4.417 ; 4.417 ; 4.417 ;
+; valor2[2]  ; saida_seg14unic[0] ; 4.239 ; 4.239 ; 4.239 ; 4.239 ;
+; valor2[2]  ; saida_seg14unic[1] ; 4.271 ; 4.271 ; 4.271 ; 4.271 ;
+; valor2[2]  ; saida_seg14unic[2] ; 4.199 ; 4.199 ; 4.199 ; 4.199 ;
+; valor2[2]  ; saida_seg14unic[3] ; 4.100 ; 4.100 ; 4.100 ; 4.100 ;
+; valor2[2]  ; saida_seg14unic[4] ; 4.116 ; 4.116 ; 4.116 ; 4.116 ;
+; valor2[2]  ; saida_seg14unic[5] ; 4.115 ; 4.115 ; 4.115 ; 4.115 ;
+; valor2[2]  ; saida_seg14unic[6] ; 4.189 ; 4.189 ; 4.189 ; 4.189 ;
+; valor2[2]  ; saida_seg14unir[0] ; 4.103 ; 4.103 ; 4.103 ; 4.103 ;
+; valor2[2]  ; saida_seg14unir[1] ; 4.094 ; 4.094 ; 4.094 ; 4.094 ;
+; valor2[2]  ; saida_seg14unir[2] ; 4.101 ; 4.101 ; 4.101 ; 4.101 ;
+; valor2[2]  ; saida_seg14unir[3] ; 4.260 ; 4.260 ; 4.260 ; 4.260 ;
+; valor2[2]  ; saida_seg14unir[4] ; 4.251 ; 4.251 ; 4.251 ; 4.251 ;
+; valor2[2]  ; saida_seg14unir[5] ; 4.236 ; 4.236 ; 4.236 ; 4.236 ;
+; valor2[2]  ; saida_seg14unir[6] ; 4.229 ; 4.229 ; 4.229 ; 4.229 ;
+; valor2[3]  ; overflow           ; 4.494 ;       ;       ; 4.494 ;
+; valor2[3]  ; saida_seg14dezc[0] ; 4.338 ; 4.338 ; 4.338 ; 4.338 ;
+; valor2[3]  ; saida_seg14dezc[3] ; 4.350 ; 4.350 ; 4.350 ; 4.350 ;
+; valor2[3]  ; saida_seg14dezc[4] ; 4.330 ; 4.330 ; 4.330 ; 4.330 ;
+; valor2[3]  ; saida_seg14dezc[5] ; 4.330 ; 4.330 ; 4.330 ; 4.330 ;
+; valor2[3]  ; saida_seg14dezr[0] ; 4.497 ; 4.497 ; 4.497 ; 4.497 ;
+; valor2[3]  ; saida_seg14dezr[3] ; 4.467 ; 4.467 ; 4.467 ; 4.467 ;
+; valor2[3]  ; saida_seg14dezr[4] ; 4.467 ; 4.467 ; 4.467 ; 4.467 ;
+; valor2[3]  ; saida_seg14dezr[5] ; 4.511 ; 4.511 ; 4.511 ; 4.511 ;
+; valor2[3]  ; saida_seg14unic[0] ; 4.271 ; 4.271 ; 4.271 ; 4.271 ;
+; valor2[3]  ; saida_seg14unic[1] ; 4.277 ; 4.277 ; 4.277 ; 4.277 ;
+; valor2[3]  ; saida_seg14unic[2] ; 4.228 ; 4.228 ; 4.228 ; 4.228 ;
+; valor2[3]  ; saida_seg14unic[3] ; 4.133 ; 4.133 ; 4.133 ; 4.133 ;
+; valor2[3]  ; saida_seg14unic[4] ; 4.148 ; 4.148 ; 4.148 ; 4.148 ;
+; valor2[3]  ; saida_seg14unic[5] ; 4.144 ; 4.144 ; 4.144 ; 4.144 ;
+; valor2[3]  ; saida_seg14unic[6] ; 4.218 ; 4.218 ; 4.218 ; 4.218 ;
+; valor2[3]  ; saida_seg14unir[0] ; 4.197 ; 4.197 ; 4.197 ; 4.197 ;
+; valor2[3]  ; saida_seg14unir[1] ; 4.188 ; 4.188 ; 4.188 ; 4.188 ;
+; valor2[3]  ; saida_seg14unir[2] ; 4.195 ; 4.195 ; 4.195 ; 4.195 ;
+; valor2[3]  ; saida_seg14unir[3] ; 4.354 ; 4.354 ; 4.354 ; 4.354 ;
+; valor2[3]  ; saida_seg14unir[4] ; 4.345 ; 4.345 ; 4.345 ; 4.345 ;
+; valor2[3]  ; saida_seg14unir[5] ; 4.330 ; 4.330 ; 4.330 ; 4.330 ;
+; valor2[3]  ; saida_seg14unir[6] ; 4.323 ; 4.323 ; 4.323 ; 4.323 ;
++------------+--------------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++---------------------------------------------------------------------+
+; Progagation Delay                                                   ;
++------------+--------------------+--------+--------+--------+--------+
+; Input Port ; Output Port        ; RR     ; RF     ; FR     ; FF     ;
++------------+--------------------+--------+--------+--------+--------+
+; posicao[0] ; saida_led          ; 8.602  ;        ;        ; 8.602  ;
+; posicao[0] ; saida_posicao_n[0] ; 7.429  ; 7.429  ; 7.429  ; 7.429  ;
+; posicao[0] ; saida_posicao_n[1] ; 7.622  ;        ;        ; 7.622  ;
+; posicao[0] ; saida_posicao_n[2] ;        ; 7.372  ; 7.372  ;        ;
+; posicao[0] ; saida_posicao_n[3] ; 7.675  ; 7.675  ; 7.675  ; 7.675  ;
+; posicao[0] ; saida_posicao_n[4] ; 7.684  ;        ;        ; 7.684  ;
+; posicao[0] ; saida_posicao_n[5] ;        ; 7.879  ; 7.879  ;        ;
+; posicao[0] ; saida_posicao_n[6] ; 7.668  ; 7.668  ; 7.668  ; 7.668  ;
+; posicao[0] ; saida_seg14dezc[0] ; 11.916 ; 11.916 ; 11.916 ; 11.916 ;
+; posicao[0] ; saida_seg14dezc[3] ; 11.931 ; 11.931 ; 11.931 ; 11.931 ;
+; posicao[0] ; saida_seg14dezc[4] ; 11.911 ; 11.911 ; 11.911 ; 11.911 ;
+; posicao[0] ; saida_seg14dezc[5] ; 11.911 ; 11.911 ; 11.911 ; 11.911 ;
+; posicao[0] ; saida_seg14dezr[0] ; 10.686 ; 10.686 ; 10.686 ; 10.686 ;
+; posicao[0] ; saida_seg14dezr[3] ; 10.656 ; 10.656 ; 10.656 ; 10.656 ;
+; posicao[0] ; saida_seg14dezr[4] ; 10.656 ; 10.656 ; 10.656 ; 10.656 ;
+; posicao[0] ; saida_seg14dezr[5] ; 10.704 ; 10.704 ; 10.704 ; 10.704 ;
+; posicao[0] ; saida_seg14unic[0] ; 11.901 ; 11.901 ; 11.901 ; 11.901 ;
+; posicao[0] ; saida_seg14unic[1] ; 11.898 ; 11.898 ; 11.898 ; 11.898 ;
+; posicao[0] ; saida_seg14unic[2] ; 11.786 ; 11.786 ; 11.786 ; 11.786 ;
+; posicao[0] ; saida_seg14unic[3] ; 11.615 ; 11.615 ; 11.615 ; 11.615 ;
+; posicao[0] ; saida_seg14unic[4] ; 11.625 ; 11.625 ; 11.625 ; 11.625 ;
+; posicao[0] ; saida_seg14unic[5] ; 11.628 ; 11.628 ; 11.628 ; 11.628 ;
+; posicao[0] ; saida_seg14unic[6] ; 11.796 ; 11.796 ; 11.796 ; 11.796 ;
+; posicao[0] ; saida_seg14unir[0] ; 10.376 ; 10.376 ; 10.376 ; 10.376 ;
+; posicao[0] ; saida_seg14unir[1] ; 10.373 ; 10.373 ; 10.373 ; 10.373 ;
+; posicao[0] ; saida_seg14unir[2] ; 10.403 ; 10.403 ; 10.403 ; 10.403 ;
+; posicao[0] ; saida_seg14unir[3] ; 10.598 ; 10.598 ; 10.598 ; 10.598 ;
+; posicao[0] ; saida_seg14unir[4] ; 10.619 ; 10.619 ; 10.619 ; 10.619 ;
+; posicao[0] ; saida_seg14unir[5] ; 10.601 ; 10.601 ; 10.601 ; 10.601 ;
+; posicao[0] ; saida_seg14unir[6] ; 10.601 ; 10.601 ; 10.601 ; 10.601 ;
+; posicao[1] ; saida_led          ; 8.365  ;        ;        ; 8.365  ;
+; posicao[1] ; saida_posicao_n[0] ;        ; 7.144  ; 7.144  ;        ;
+; posicao[1] ; saida_posicao_n[1] ; 7.319  ; 7.319  ; 7.319  ; 7.319  ;
+; posicao[1] ; saida_posicao_n[2] ; 7.116  ;        ;        ; 7.116  ;
+; posicao[1] ; saida_posicao_n[3] ; 7.389  ; 7.389  ; 7.389  ; 7.389  ;
+; posicao[1] ; saida_posicao_n[4] ;        ; 7.397  ; 7.397  ;        ;
+; posicao[1] ; saida_posicao_n[5] ; 7.593  ;        ;        ; 7.593  ;
+; posicao[1] ; saida_posicao_n[6] ; 7.383  ; 7.383  ; 7.383  ; 7.383  ;
+; posicao[1] ; saida_seg14dezc[0] ; 11.548 ; 11.548 ; 11.548 ; 11.548 ;
+; posicao[1] ; saida_seg14dezc[3] ; 11.563 ; 11.563 ; 11.563 ; 11.563 ;
+; posicao[1] ; saida_seg14dezc[4] ; 11.543 ; 11.543 ; 11.543 ; 11.543 ;
+; posicao[1] ; saida_seg14dezc[5] ; 11.543 ; 11.543 ; 11.543 ; 11.543 ;
+; posicao[1] ; saida_seg14dezr[0] ; 10.332 ; 10.332 ; 10.332 ; 10.332 ;
+; posicao[1] ; saida_seg14dezr[3] ; 10.302 ; 10.302 ; 10.302 ; 10.302 ;
+; posicao[1] ; saida_seg14dezr[4] ; 10.302 ; 10.302 ; 10.302 ; 10.302 ;
+; posicao[1] ; saida_seg14dezr[5] ; 10.350 ; 10.350 ; 10.350 ; 10.350 ;
+; posicao[1] ; saida_seg14unic[0] ; 11.533 ; 11.533 ; 11.533 ; 11.533 ;
+; posicao[1] ; saida_seg14unic[1] ; 11.530 ; 11.530 ; 11.530 ; 11.530 ;
+; posicao[1] ; saida_seg14unic[2] ; 11.418 ; 11.418 ; 11.418 ; 11.418 ;
+; posicao[1] ; saida_seg14unic[3] ; 11.247 ; 11.247 ; 11.247 ; 11.247 ;
+; posicao[1] ; saida_seg14unic[4] ; 11.257 ; 11.257 ; 11.257 ; 11.257 ;
+; posicao[1] ; saida_seg14unic[5] ; 11.260 ; 11.260 ; 11.260 ; 11.260 ;
+; posicao[1] ; saida_seg14unic[6] ; 11.428 ; 11.428 ; 11.428 ; 11.428 ;
+; posicao[1] ; saida_seg14unir[0] ; 10.485 ; 10.485 ; 10.485 ; 10.485 ;
+; posicao[1] ; saida_seg14unir[1] ; 10.482 ; 10.482 ; 10.482 ; 10.482 ;
+; posicao[1] ; saida_seg14unir[2] ; 10.512 ; 10.512 ; 10.512 ; 10.512 ;
+; posicao[1] ; saida_seg14unir[3] ; 10.707 ; 10.707 ; 10.707 ; 10.707 ;
+; posicao[1] ; saida_seg14unir[4] ; 10.728 ; 10.728 ; 10.728 ; 10.728 ;
+; posicao[1] ; saida_seg14unir[5] ; 10.710 ; 10.710 ; 10.710 ; 10.710 ;
+; posicao[1] ; saida_seg14unir[6] ; 10.710 ; 10.710 ; 10.710 ; 10.710 ;
+; posicao[2] ; saida_led          ; 8.771  ;        ;        ; 8.771  ;
+; posicao[2] ; saida_posicao_n[0] ; 7.596  ; 7.596  ; 7.596  ; 7.596  ;
+; posicao[2] ; saida_posicao_n[1] ; 7.783  ; 7.783  ; 7.783  ; 7.783  ;
+; posicao[2] ; saida_posicao_n[2] ;        ; 7.542  ; 7.542  ;        ;
+; posicao[2] ; saida_posicao_n[3] ; 7.838  ; 7.838  ; 7.838  ; 7.838  ;
+; posicao[2] ; saida_posicao_n[4] ; 7.844  ;        ;        ; 7.844  ;
+; posicao[2] ; saida_posicao_n[5] ; 8.043  ;        ;        ; 8.043  ;
+; posicao[2] ; saida_posicao_n[6] ; 7.833  ;        ;        ; 7.833  ;
+; posicao[2] ; saida_seg14dezc[0] ; 11.902 ; 11.902 ; 11.902 ; 11.902 ;
+; posicao[2] ; saida_seg14dezc[3] ; 11.917 ; 11.917 ; 11.917 ; 11.917 ;
+; posicao[2] ; saida_seg14dezc[4] ; 11.897 ; 11.897 ; 11.897 ; 11.897 ;
+; posicao[2] ; saida_seg14dezc[5] ; 11.897 ; 11.897 ; 11.897 ; 11.897 ;
+; posicao[2] ; saida_seg14dezr[0] ; 10.673 ; 10.673 ; 10.673 ; 10.673 ;
+; posicao[2] ; saida_seg14dezr[3] ; 10.643 ; 10.643 ; 10.643 ; 10.643 ;
+; posicao[2] ; saida_seg14dezr[4] ; 10.643 ; 10.643 ; 10.643 ; 10.643 ;
+; posicao[2] ; saida_seg14dezr[5] ; 10.691 ; 10.691 ; 10.691 ; 10.691 ;
+; posicao[2] ; saida_seg14unic[0] ; 11.887 ; 11.887 ; 11.887 ; 11.887 ;
+; posicao[2] ; saida_seg14unic[1] ; 11.884 ; 11.884 ; 11.884 ; 11.884 ;
+; posicao[2] ; saida_seg14unic[2] ; 11.772 ; 11.772 ; 11.772 ; 11.772 ;
+; posicao[2] ; saida_seg14unic[3] ; 11.601 ; 11.601 ; 11.601 ; 11.601 ;
+; posicao[2] ; saida_seg14unic[4] ; 11.611 ; 11.611 ; 11.611 ; 11.611 ;
+; posicao[2] ; saida_seg14unic[5] ; 11.614 ; 11.614 ; 11.614 ; 11.614 ;
+; posicao[2] ; saida_seg14unic[6] ; 11.782 ; 11.782 ; 11.782 ; 11.782 ;
+; posicao[2] ; saida_seg14unir[0] ; 10.639 ; 10.639 ; 10.639 ; 10.639 ;
+; posicao[2] ; saida_seg14unir[1] ; 10.636 ; 10.636 ; 10.636 ; 10.636 ;
+; posicao[2] ; saida_seg14unir[2] ; 10.666 ; 10.666 ; 10.666 ; 10.666 ;
+; posicao[2] ; saida_seg14unir[3] ; 10.861 ; 10.861 ; 10.861 ; 10.861 ;
+; posicao[2] ; saida_seg14unir[4] ; 10.882 ; 10.882 ; 10.882 ; 10.882 ;
+; posicao[2] ; saida_seg14unir[5] ; 10.864 ; 10.864 ; 10.864 ; 10.864 ;
+; posicao[2] ; saida_seg14unir[6] ; 10.864 ; 10.864 ; 10.864 ; 10.864 ;
+; valor1[0]  ; overflow           ; 11.710 ;        ;        ; 11.710 ;
+; valor1[0]  ; saida_seg14dezc[0] ; 14.137 ; 14.137 ; 14.137 ; 14.137 ;
+; valor1[0]  ; saida_seg14dezc[3] ; 14.152 ; 14.152 ; 14.152 ; 14.152 ;
+; valor1[0]  ; saida_seg14dezc[4] ; 14.132 ; 14.132 ; 14.132 ; 14.132 ;
+; valor1[0]  ; saida_seg14dezc[5] ; 14.132 ; 14.132 ; 14.132 ; 14.132 ;
+; valor1[0]  ; saida_seg14dezr[0] ; 13.717 ; 13.717 ; 13.717 ; 13.717 ;
+; valor1[0]  ; saida_seg14dezr[3] ; 13.687 ; 13.687 ; 13.687 ; 13.687 ;
+; valor1[0]  ; saida_seg14dezr[4] ; 13.687 ; 13.687 ; 13.687 ; 13.687 ;
+; valor1[0]  ; saida_seg14dezr[5] ; 13.735 ; 13.735 ; 13.735 ; 13.735 ;
+; valor1[0]  ; saida_seg14unic[0] ; 14.135 ; 14.135 ; 14.135 ; 14.135 ;
+; valor1[0]  ; saida_seg14unic[1] ; 14.110 ; 14.110 ; 14.110 ; 14.110 ;
+; valor1[0]  ; saida_seg14unic[2] ; 14.024 ; 14.024 ; 14.024 ; 14.024 ;
+; valor1[0]  ; saida_seg14unic[3] ; 13.842 ; 13.842 ; 13.842 ; 13.842 ;
+; valor1[0]  ; saida_seg14unic[4] ; 13.847 ; 13.847 ; 13.847 ; 13.847 ;
+; valor1[0]  ; saida_seg14unic[5] ; 13.846 ; 13.846 ; 13.846 ; 13.846 ;
+; valor1[0]  ; saida_seg14unic[6] ; 14.009 ; 14.009 ; 14.009 ; 14.009 ;
+; valor1[0]  ; saida_seg14unir[0] ; 13.870 ; 13.870 ; 13.870 ; 13.870 ;
+; valor1[0]  ; saida_seg14unir[1] ; 13.867 ; 13.867 ; 13.867 ; 13.867 ;
+; valor1[0]  ; saida_seg14unir[2] ; 13.897 ; 13.897 ; 13.897 ; 13.897 ;
+; valor1[0]  ; saida_seg14unir[3] ; 14.092 ; 14.092 ; 14.092 ; 14.092 ;
+; valor1[0]  ; saida_seg14unir[4] ; 14.113 ; 14.113 ; 14.113 ; 14.113 ;
+; valor1[0]  ; saida_seg14unir[5] ; 14.095 ; 14.095 ; 14.095 ; 14.095 ;
+; valor1[0]  ; saida_seg14unir[6] ; 14.095 ; 14.095 ; 14.095 ; 14.095 ;
+; valor1[1]  ; overflow           ; 12.300 ;        ;        ; 12.300 ;
+; valor1[1]  ; saida_seg14dezc[0] ; 13.141 ; 13.141 ; 13.141 ; 13.141 ;
+; valor1[1]  ; saida_seg14dezc[3] ; 13.156 ; 13.156 ; 13.156 ; 13.156 ;
+; valor1[1]  ; saida_seg14dezc[4] ; 13.136 ; 13.136 ; 13.136 ; 13.136 ;
+; valor1[1]  ; saida_seg14dezc[5] ; 13.136 ; 13.136 ; 13.136 ; 13.136 ;
+; valor1[1]  ; saida_seg14dezr[0] ; 13.264 ; 13.264 ; 13.264 ; 13.264 ;
+; valor1[1]  ; saida_seg14dezr[3] ; 13.234 ; 13.234 ; 13.234 ; 13.234 ;
+; valor1[1]  ; saida_seg14dezr[4] ; 13.234 ; 13.234 ; 13.234 ; 13.234 ;
+; valor1[1]  ; saida_seg14dezr[5] ; 13.282 ; 13.282 ; 13.282 ; 13.282 ;
+; valor1[1]  ; saida_seg14unic[0] ; 13.139 ; 13.139 ; 13.139 ; 13.139 ;
+; valor1[1]  ; saida_seg14unic[1] ; 13.114 ; 13.114 ; 13.114 ; 13.114 ;
+; valor1[1]  ; saida_seg14unic[2] ; 13.028 ; 13.028 ; 13.028 ; 13.028 ;
+; valor1[1]  ; saida_seg14unic[3] ; 12.846 ; 12.846 ; 12.846 ; 12.846 ;
+; valor1[1]  ; saida_seg14unic[4] ; 12.851 ; 12.851 ; 12.851 ; 12.851 ;
+; valor1[1]  ; saida_seg14unic[5] ; 12.850 ; 12.850 ; 12.850 ; 12.850 ;
+; valor1[1]  ; saida_seg14unic[6] ; 13.013 ; 13.013 ; 13.013 ; 13.013 ;
+; valor1[1]  ; saida_seg14unir[0] ; 12.909 ; 12.909 ; 12.909 ; 12.909 ;
+; valor1[1]  ; saida_seg14unir[1] ; 12.899 ; 12.899 ; 12.899 ; 12.899 ;
+; valor1[1]  ; saida_seg14unir[2] ; 12.903 ; 12.903 ; 12.903 ; 12.903 ;
+; valor1[1]  ; saida_seg14unir[3] ; 13.131 ; 13.131 ; 13.131 ; 13.131 ;
+; valor1[1]  ; saida_seg14unir[4] ; 13.120 ; 13.120 ; 13.120 ; 13.120 ;
+; valor1[1]  ; saida_seg14unir[5] ; 13.101 ; 13.101 ; 13.101 ; 13.101 ;
+; valor1[1]  ; saida_seg14unir[6] ; 13.100 ; 13.100 ; 13.100 ; 13.100 ;
+; valor1[2]  ; overflow           ; 12.850 ;        ;        ; 12.850 ;
+; valor1[2]  ; saida_seg14dezc[0] ; 14.850 ; 14.850 ; 14.850 ; 14.850 ;
+; valor1[2]  ; saida_seg14dezc[3] ; 14.865 ; 14.865 ; 14.865 ; 14.865 ;
+; valor1[2]  ; saida_seg14dezc[4] ; 14.845 ; 14.845 ; 14.845 ; 14.845 ;
+; valor1[2]  ; saida_seg14dezc[5] ; 14.845 ; 14.845 ; 14.845 ; 14.845 ;
+; valor1[2]  ; saida_seg14dezr[0] ; 13.830 ; 13.830 ; 13.830 ; 13.830 ;
+; valor1[2]  ; saida_seg14dezr[3] ; 13.800 ; 13.800 ; 13.800 ; 13.800 ;
+; valor1[2]  ; saida_seg14dezr[4] ; 13.800 ; 13.800 ; 13.800 ; 13.800 ;
+; valor1[2]  ; saida_seg14dezr[5] ; 13.848 ; 13.848 ; 13.848 ; 13.848 ;
+; valor1[2]  ; saida_seg14unic[0] ; 14.835 ; 14.835 ; 14.835 ; 14.835 ;
+; valor1[2]  ; saida_seg14unic[1] ; 14.832 ; 14.832 ; 14.832 ; 14.832 ;
+; valor1[2]  ; saida_seg14unic[2] ; 14.720 ; 14.720 ; 14.720 ; 14.720 ;
+; valor1[2]  ; saida_seg14unic[3] ; 14.549 ; 14.549 ; 14.549 ; 14.549 ;
+; valor1[2]  ; saida_seg14unic[4] ; 14.559 ; 14.559 ; 14.559 ; 14.559 ;
+; valor1[2]  ; saida_seg14unic[5] ; 14.562 ; 14.562 ; 14.562 ; 14.562 ;
+; valor1[2]  ; saida_seg14unic[6] ; 14.730 ; 14.730 ; 14.730 ; 14.730 ;
+; valor1[2]  ; saida_seg14unir[0] ; 13.703 ; 13.703 ; 13.703 ; 13.703 ;
+; valor1[2]  ; saida_seg14unir[1] ; 13.700 ; 13.700 ; 13.700 ; 13.700 ;
+; valor1[2]  ; saida_seg14unir[2] ; 13.730 ; 13.730 ; 13.730 ; 13.730 ;
+; valor1[2]  ; saida_seg14unir[3] ; 13.925 ; 13.925 ; 13.925 ; 13.925 ;
+; valor1[2]  ; saida_seg14unir[4] ; 13.946 ; 13.946 ; 13.946 ; 13.946 ;
+; valor1[2]  ; saida_seg14unir[5] ; 13.928 ; 13.928 ; 13.928 ; 13.928 ;
+; valor1[2]  ; saida_seg14unir[6] ; 13.928 ; 13.928 ; 13.928 ; 13.928 ;
+; valor1[3]  ; overflow           ; 12.822 ;        ;        ; 12.822 ;
+; valor1[3]  ; saida_seg14dezc[0] ; 14.170 ; 14.170 ; 14.170 ; 14.170 ;
+; valor1[3]  ; saida_seg14dezc[3] ; 14.185 ; 14.185 ; 14.185 ; 14.185 ;
+; valor1[3]  ; saida_seg14dezc[4] ; 14.165 ; 14.165 ; 14.165 ; 14.165 ;
+; valor1[3]  ; saida_seg14dezc[5] ; 14.165 ; 14.165 ; 14.165 ; 14.165 ;
+; valor1[3]  ; saida_seg14dezr[0] ; 13.802 ; 13.802 ; 13.802 ; 13.802 ;
+; valor1[3]  ; saida_seg14dezr[3] ; 13.772 ; 13.772 ; 13.772 ; 13.772 ;
+; valor1[3]  ; saida_seg14dezr[4] ; 13.772 ; 13.772 ; 13.772 ; 13.772 ;
+; valor1[3]  ; saida_seg14dezr[5] ; 13.820 ; 13.820 ; 13.820 ; 13.820 ;
+; valor1[3]  ; saida_seg14unic[0] ; 14.155 ; 14.155 ; 14.155 ; 14.155 ;
+; valor1[3]  ; saida_seg14unic[1] ; 14.152 ; 14.152 ; 14.152 ; 14.152 ;
+; valor1[3]  ; saida_seg14unic[2] ; 14.040 ; 14.040 ; 14.040 ; 14.040 ;
+; valor1[3]  ; saida_seg14unic[3] ; 13.869 ; 13.869 ; 13.869 ; 13.869 ;
+; valor1[3]  ; saida_seg14unic[4] ; 13.879 ; 13.879 ; 13.879 ; 13.879 ;
+; valor1[3]  ; saida_seg14unic[5] ; 13.882 ; 13.882 ; 13.882 ; 13.882 ;
+; valor1[3]  ; saida_seg14unic[6] ; 14.050 ; 14.050 ; 14.050 ; 14.050 ;
+; valor1[3]  ; saida_seg14unir[0] ; 13.675 ; 13.675 ; 13.675 ; 13.675 ;
+; valor1[3]  ; saida_seg14unir[1] ; 13.672 ; 13.672 ; 13.672 ; 13.672 ;
+; valor1[3]  ; saida_seg14unir[2] ; 13.702 ; 13.702 ; 13.702 ; 13.702 ;
+; valor1[3]  ; saida_seg14unir[3] ; 13.897 ; 13.897 ; 13.897 ; 13.897 ;
+; valor1[3]  ; saida_seg14unir[4] ; 13.918 ; 13.918 ; 13.918 ; 13.918 ;
+; valor1[3]  ; saida_seg14unir[5] ; 13.900 ; 13.900 ; 13.900 ; 13.900 ;
+; valor1[3]  ; saida_seg14unir[6] ; 13.900 ; 13.900 ; 13.900 ; 13.900 ;
+; valor2[0]  ; overflow           ; 7.560  ;        ;        ; 7.560  ;
+; valor2[0]  ; saida_seg14dezc[0] ; 9.075  ; 9.075  ; 9.075  ; 9.075  ;
+; valor2[0]  ; saida_seg14dezc[3] ; 9.090  ; 9.090  ; 9.090  ; 9.090  ;
+; valor2[0]  ; saida_seg14dezc[4] ; 9.070  ; 9.070  ; 9.070  ; 9.070  ;
+; valor2[0]  ; saida_seg14dezc[5] ; 9.070  ; 9.070  ; 9.070  ; 9.070  ;
+; valor2[0]  ; saida_seg14dezr[0] ; 8.936  ; 8.936  ; 8.936  ; 8.936  ;
+; valor2[0]  ; saida_seg14dezr[3] ; 8.906  ; 8.906  ; 8.906  ; 8.906  ;
+; valor2[0]  ; saida_seg14dezr[4] ; 8.906  ; 8.906  ; 8.906  ; 8.906  ;
+; valor2[0]  ; saida_seg14dezr[5] ; 8.954  ; 8.954  ; 8.954  ; 8.954  ;
+; valor2[0]  ; saida_seg14unic[0] ; 9.073  ; 9.073  ; 9.073  ; 9.073  ;
+; valor2[0]  ; saida_seg14unic[1] ; 9.048  ; 9.048  ; 9.048  ; 9.048  ;
+; valor2[0]  ; saida_seg14unic[2] ; 8.962  ; 8.962  ; 8.962  ; 8.962  ;
+; valor2[0]  ; saida_seg14unic[3] ; 8.780  ; 8.780  ; 8.780  ; 8.780  ;
+; valor2[0]  ; saida_seg14unic[4] ; 8.785  ; 8.785  ; 8.785  ; 8.785  ;
+; valor2[0]  ; saida_seg14unic[5] ; 8.784  ; 8.784  ; 8.784  ; 8.784  ;
+; valor2[0]  ; saida_seg14unic[6] ; 8.947  ; 8.947  ; 8.947  ; 8.947  ;
+; valor2[0]  ; saida_seg14unir[0] ; 8.809  ; 8.809  ; 8.809  ; 8.809  ;
+; valor2[0]  ; saida_seg14unir[1] ; 8.806  ; 8.806  ; 8.806  ; 8.806  ;
+; valor2[0]  ; saida_seg14unir[2] ; 8.836  ; 8.836  ; 8.836  ; 8.836  ;
+; valor2[0]  ; saida_seg14unir[3] ; 9.031  ; 9.031  ; 9.031  ; 9.031  ;
+; valor2[0]  ; saida_seg14unir[4] ; 9.052  ; 9.052  ; 9.052  ; 9.052  ;
+; valor2[0]  ; saida_seg14unir[5] ; 9.034  ; 9.034  ; 9.034  ; 9.034  ;
+; valor2[0]  ; saida_seg14unir[6] ; 9.034  ; 9.034  ; 9.034  ; 9.034  ;
+; valor2[1]  ; overflow           ; 8.419  ;        ;        ; 8.419  ;
+; valor2[1]  ; saida_seg14dezc[0] ; 9.264  ; 9.264  ; 9.264  ; 9.264  ;
+; valor2[1]  ; saida_seg14dezc[3] ; 9.279  ; 9.279  ; 9.279  ; 9.279  ;
+; valor2[1]  ; saida_seg14dezc[4] ; 9.259  ; 9.259  ; 9.259  ; 9.259  ;
+; valor2[1]  ; saida_seg14dezc[5] ; 9.259  ; 9.259  ; 9.259  ; 9.259  ;
+; valor2[1]  ; saida_seg14dezr[0] ; 9.125  ; 9.125  ; 9.125  ; 9.125  ;
+; valor2[1]  ; saida_seg14dezr[3] ; 9.095  ; 9.095  ; 9.095  ; 9.095  ;
+; valor2[1]  ; saida_seg14dezr[4] ; 9.095  ; 9.095  ; 9.095  ; 9.095  ;
+; valor2[1]  ; saida_seg14dezr[5] ; 9.143  ; 9.143  ; 9.143  ; 9.143  ;
+; valor2[1]  ; saida_seg14unic[0] ; 9.262  ; 9.262  ; 9.262  ; 9.262  ;
+; valor2[1]  ; saida_seg14unic[1] ; 9.237  ; 9.237  ; 9.237  ; 9.237  ;
+; valor2[1]  ; saida_seg14unic[2] ; 9.151  ; 9.151  ; 9.151  ; 9.151  ;
+; valor2[1]  ; saida_seg14unic[3] ; 8.969  ; 8.969  ; 8.969  ; 8.969  ;
+; valor2[1]  ; saida_seg14unic[4] ; 8.974  ; 8.974  ; 8.974  ; 8.974  ;
+; valor2[1]  ; saida_seg14unic[5] ; 8.973  ; 8.973  ; 8.973  ; 8.973  ;
+; valor2[1]  ; saida_seg14unic[6] ; 9.136  ; 9.136  ; 9.136  ; 9.136  ;
+; valor2[1]  ; saida_seg14unir[0] ; 8.998  ; 8.998  ; 8.998  ; 8.998  ;
+; valor2[1]  ; saida_seg14unir[1] ; 8.995  ; 8.995  ; 8.995  ; 8.995  ;
+; valor2[1]  ; saida_seg14unir[2] ; 9.025  ; 9.025  ; 9.025  ; 9.025  ;
+; valor2[1]  ; saida_seg14unir[3] ; 9.220  ; 9.220  ; 9.220  ; 9.220  ;
+; valor2[1]  ; saida_seg14unir[4] ; 9.241  ; 9.241  ; 9.241  ; 9.241  ;
+; valor2[1]  ; saida_seg14unir[5] ; 9.223  ; 9.223  ; 9.223  ; 9.223  ;
+; valor2[1]  ; saida_seg14unir[6] ; 9.223  ; 9.223  ; 9.223  ; 9.223  ;
+; valor2[2]  ; overflow           ; 8.651  ;        ;        ; 8.651  ;
+; valor2[2]  ; saida_seg14dezc[0] ; 9.997  ; 9.997  ; 9.997  ; 9.997  ;
+; valor2[2]  ; saida_seg14dezc[3] ; 10.012 ; 10.012 ; 10.012 ; 10.012 ;
+; valor2[2]  ; saida_seg14dezc[4] ; 9.992  ; 9.992  ; 9.992  ; 9.992  ;
+; valor2[2]  ; saida_seg14dezc[5] ; 9.992  ; 9.992  ; 9.992  ; 9.992  ;
+; valor2[2]  ; saida_seg14dezr[0] ; 9.631  ; 9.631  ; 9.631  ; 9.631  ;
+; valor2[2]  ; saida_seg14dezr[3] ; 9.601  ; 9.601  ; 9.601  ; 9.601  ;
+; valor2[2]  ; saida_seg14dezr[4] ; 9.601  ; 9.601  ; 9.601  ; 9.601  ;
+; valor2[2]  ; saida_seg14dezr[5] ; 9.649  ; 9.649  ; 9.649  ; 9.649  ;
+; valor2[2]  ; saida_seg14unic[0] ; 9.982  ; 9.982  ; 9.982  ; 9.982  ;
+; valor2[2]  ; saida_seg14unic[1] ; 9.979  ; 9.979  ; 9.979  ; 9.979  ;
+; valor2[2]  ; saida_seg14unic[2] ; 9.867  ; 9.867  ; 9.867  ; 9.867  ;
+; valor2[2]  ; saida_seg14unic[3] ; 9.696  ; 9.696  ; 9.696  ; 9.696  ;
+; valor2[2]  ; saida_seg14unic[4] ; 9.706  ; 9.706  ; 9.706  ; 9.706  ;
+; valor2[2]  ; saida_seg14unic[5] ; 9.709  ; 9.709  ; 9.709  ; 9.709  ;
+; valor2[2]  ; saida_seg14unic[6] ; 9.877  ; 9.877  ; 9.877  ; 9.877  ;
+; valor2[2]  ; saida_seg14unir[0] ; 9.504  ; 9.504  ; 9.504  ; 9.504  ;
+; valor2[2]  ; saida_seg14unir[1] ; 9.501  ; 9.501  ; 9.501  ; 9.501  ;
+; valor2[2]  ; saida_seg14unir[2] ; 9.531  ; 9.531  ; 9.531  ; 9.531  ;
+; valor2[2]  ; saida_seg14unir[3] ; 9.726  ; 9.726  ; 9.726  ; 9.726  ;
+; valor2[2]  ; saida_seg14unir[4] ; 9.747  ; 9.747  ; 9.747  ; 9.747  ;
+; valor2[2]  ; saida_seg14unir[5] ; 9.729  ; 9.729  ; 9.729  ; 9.729  ;
+; valor2[2]  ; saida_seg14unir[6] ; 9.729  ; 9.729  ; 9.729  ; 9.729  ;
+; valor2[3]  ; overflow           ; 8.842  ;        ;        ; 8.842  ;
+; valor2[3]  ; saida_seg14dezc[0] ; 10.188 ; 10.188 ; 10.188 ; 10.188 ;
+; valor2[3]  ; saida_seg14dezc[3] ; 10.203 ; 10.203 ; 10.203 ; 10.203 ;
+; valor2[3]  ; saida_seg14dezc[4] ; 10.183 ; 10.183 ; 10.183 ; 10.183 ;
+; valor2[3]  ; saida_seg14dezc[5] ; 10.183 ; 10.183 ; 10.183 ; 10.183 ;
+; valor2[3]  ; saida_seg14dezr[0] ; 9.822  ; 9.822  ; 9.822  ; 9.822  ;
+; valor2[3]  ; saida_seg14dezr[3] ; 9.792  ; 9.792  ; 9.792  ; 9.792  ;
+; valor2[3]  ; saida_seg14dezr[4] ; 9.792  ; 9.792  ; 9.792  ; 9.792  ;
+; valor2[3]  ; saida_seg14dezr[5] ; 9.840  ; 9.840  ; 9.840  ; 9.840  ;
+; valor2[3]  ; saida_seg14unic[0] ; 10.173 ; 10.173 ; 10.173 ; 10.173 ;
+; valor2[3]  ; saida_seg14unic[1] ; 10.170 ; 10.170 ; 10.170 ; 10.170 ;
+; valor2[3]  ; saida_seg14unic[2] ; 10.058 ; 10.058 ; 10.058 ; 10.058 ;
+; valor2[3]  ; saida_seg14unic[3] ; 9.887  ; 9.887  ; 9.887  ; 9.887  ;
+; valor2[3]  ; saida_seg14unic[4] ; 9.897  ; 9.897  ; 9.897  ; 9.897  ;
+; valor2[3]  ; saida_seg14unic[5] ; 9.900  ; 9.900  ; 9.900  ; 9.900  ;
+; valor2[3]  ; saida_seg14unic[6] ; 10.068 ; 10.068 ; 10.068 ; 10.068 ;
+; valor2[3]  ; saida_seg14unir[0] ; 9.695  ; 9.695  ; 9.695  ; 9.695  ;
+; valor2[3]  ; saida_seg14unir[1] ; 9.692  ; 9.692  ; 9.692  ; 9.692  ;
+; valor2[3]  ; saida_seg14unir[2] ; 9.722  ; 9.722  ; 9.722  ; 9.722  ;
+; valor2[3]  ; saida_seg14unir[3] ; 9.917  ; 9.917  ; 9.917  ; 9.917  ;
+; valor2[3]  ; saida_seg14unir[4] ; 9.938  ; 9.938  ; 9.938  ; 9.938  ;
+; valor2[3]  ; saida_seg14unir[5] ; 9.920  ; 9.920  ; 9.920  ; 9.920  ;
+; valor2[3]  ; saida_seg14unir[6] ; 9.920  ; 9.920  ; 9.920  ; 9.920  ;
++------------+--------------------+--------+--------+--------+--------+
+
+
++-----------------------------------------------------------------+
+; Minimum Progagation Delay                                       ;
++------------+--------------------+-------+-------+-------+-------+
+; Input Port ; Output Port        ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------------+-------+-------+-------+-------+
+; posicao[0] ; saida_led          ; 4.572 ;       ;       ; 4.572 ;
+; posicao[0] ; saida_posicao_n[0] ; 3.963 ; 3.963 ; 3.963 ; 3.963 ;
+; posicao[0] ; saida_posicao_n[1] ; 4.026 ;       ;       ; 4.026 ;
+; posicao[0] ; saida_posicao_n[2] ;       ; 3.947 ; 3.947 ;       ;
+; posicao[0] ; saida_posicao_n[3] ; 4.078 ; 4.078 ; 4.078 ; 4.078 ;
+; posicao[0] ; saida_posicao_n[4] ; 4.082 ;       ;       ; 4.082 ;
+; posicao[0] ; saida_posicao_n[5] ;       ; 4.160 ; 4.160 ;       ;
+; posicao[0] ; saida_posicao_n[6] ; 4.069 ; 4.069 ; 4.069 ; 4.069 ;
+; posicao[0] ; saida_seg14dezc[0] ; 4.732 ; 4.732 ; 4.732 ; 4.732 ;
+; posicao[0] ; saida_seg14dezc[3] ; 4.744 ; 4.744 ; 4.744 ; 4.744 ;
+; posicao[0] ; saida_seg14dezc[4] ; 4.724 ; 4.724 ; 4.724 ; 4.724 ;
+; posicao[0] ; saida_seg14dezc[5] ; 4.724 ; 4.724 ; 4.724 ; 4.724 ;
+; posicao[0] ; saida_seg14dezr[0] ; 5.201 ; 5.201 ; 5.201 ; 5.201 ;
+; posicao[0] ; saida_seg14dezr[3] ; 5.171 ; 5.171 ; 5.171 ; 5.171 ;
+; posicao[0] ; saida_seg14dezr[4] ; 5.171 ; 5.171 ; 5.171 ; 5.171 ;
+; posicao[0] ; saida_seg14dezr[5] ; 5.215 ; 5.215 ; 5.215 ; 5.215 ;
+; posicao[0] ; saida_seg14unic[0] ; 4.715 ; 4.715 ; 4.715 ; 4.715 ;
+; posicao[0] ; saida_seg14unic[1] ; 4.721 ; 4.721 ; 4.721 ; 4.721 ;
+; posicao[0] ; saida_seg14unic[2] ; 4.676 ; 4.676 ; 4.676 ; 4.676 ;
+; posicao[0] ; saida_seg14unic[3] ; 4.584 ; 4.584 ; 4.584 ; 4.584 ;
+; posicao[0] ; saida_seg14unic[4] ; 4.602 ; 4.602 ; 4.602 ; 4.602 ;
+; posicao[0] ; saida_seg14unic[5] ; 4.605 ; 4.605 ; 4.605 ; 4.605 ;
+; posicao[0] ; saida_seg14unic[6] ; 4.678 ; 4.678 ; 4.678 ; 4.678 ;
+; posicao[0] ; saida_seg14unir[0] ; 5.048 ; 5.048 ; 5.048 ; 5.048 ;
+; posicao[0] ; saida_seg14unir[1] ; 5.039 ; 5.039 ; 5.039 ; 5.039 ;
+; posicao[0] ; saida_seg14unir[2] ; 5.046 ; 5.046 ; 5.046 ; 5.046 ;
+; posicao[0] ; saida_seg14unir[3] ; 5.205 ; 5.205 ; 5.205 ; 5.205 ;
+; posicao[0] ; saida_seg14unir[4] ; 5.196 ; 5.196 ; 5.196 ; 5.196 ;
+; posicao[0] ; saida_seg14unir[5] ; 5.181 ; 5.181 ; 5.181 ; 5.181 ;
+; posicao[0] ; saida_seg14unir[6] ; 5.174 ; 5.174 ; 5.174 ; 5.174 ;
+; posicao[1] ; saida_led          ; 4.403 ;       ;       ; 4.403 ;
+; posicao[1] ; saida_posicao_n[0] ;       ; 3.786 ; 3.786 ;       ;
+; posicao[1] ; saida_posicao_n[1] ; 3.845 ; 3.845 ; 3.845 ; 3.845 ;
+; posicao[1] ; saida_posicao_n[2] ; 3.787 ;       ;       ; 3.787 ;
+; posicao[1] ; saida_posicao_n[3] ; 3.906 ; 3.906 ; 3.906 ; 3.906 ;
+; posicao[1] ; saida_posicao_n[4] ;       ; 3.910 ; 3.910 ;       ;
+; posicao[1] ; saida_posicao_n[5] ; 3.987 ;       ;       ; 3.987 ;
+; posicao[1] ; saida_posicao_n[6] ; 3.898 ; 3.898 ; 3.898 ; 3.898 ;
+; posicao[1] ; saida_seg14dezc[0] ; 4.725 ; 4.725 ; 4.725 ; 4.725 ;
+; posicao[1] ; saida_seg14dezc[3] ; 4.737 ; 4.737 ; 4.737 ; 4.737 ;
+; posicao[1] ; saida_seg14dezc[4] ; 4.717 ; 4.717 ; 4.717 ; 4.717 ;
+; posicao[1] ; saida_seg14dezc[5] ; 4.717 ; 4.717 ; 4.717 ; 4.717 ;
+; posicao[1] ; saida_seg14dezr[0] ; 5.147 ; 5.147 ; 5.147 ; 5.147 ;
+; posicao[1] ; saida_seg14dezr[3] ; 5.117 ; 5.117 ; 5.117 ; 5.117 ;
+; posicao[1] ; saida_seg14dezr[4] ; 5.117 ; 5.117 ; 5.117 ; 5.117 ;
+; posicao[1] ; saida_seg14dezr[5] ; 5.161 ; 5.161 ; 5.161 ; 5.161 ;
+; posicao[1] ; saida_seg14unic[0] ; 4.719 ; 4.719 ; 4.719 ; 4.719 ;
+; posicao[1] ; saida_seg14unic[1] ; 4.725 ; 4.725 ; 4.725 ; 4.725 ;
+; posicao[1] ; saida_seg14unic[2] ; 4.680 ; 4.680 ; 4.680 ; 4.680 ;
+; posicao[1] ; saida_seg14unic[3] ; 4.582 ; 4.582 ; 4.582 ; 4.582 ;
+; posicao[1] ; saida_seg14unic[4] ; 4.598 ; 4.598 ; 4.598 ; 4.598 ;
+; posicao[1] ; saida_seg14unic[5] ; 4.597 ; 4.597 ; 4.597 ; 4.597 ;
+; posicao[1] ; saida_seg14unic[6] ; 4.671 ; 4.671 ; 4.671 ; 4.671 ;
+; posicao[1] ; saida_seg14unir[0] ; 4.847 ; 4.847 ; 4.847 ; 4.847 ;
+; posicao[1] ; saida_seg14unir[1] ; 4.838 ; 4.838 ; 4.838 ; 4.838 ;
+; posicao[1] ; saida_seg14unir[2] ; 4.845 ; 4.845 ; 4.845 ; 4.845 ;
+; posicao[1] ; saida_seg14unir[3] ; 5.004 ; 5.004 ; 5.004 ; 5.004 ;
+; posicao[1] ; saida_seg14unir[4] ; 4.995 ; 4.995 ; 4.995 ; 4.995 ;
+; posicao[1] ; saida_seg14unir[5] ; 4.980 ; 4.980 ; 4.980 ; 4.980 ;
+; posicao[1] ; saida_seg14unir[6] ; 4.973 ; 4.973 ; 4.973 ; 4.973 ;
+; posicao[2] ; saida_led          ; 4.645 ;       ;       ; 4.645 ;
+; posicao[2] ; saida_posicao_n[0] ; 4.035 ; 4.035 ; 4.035 ; 4.035 ;
+; posicao[2] ; saida_posicao_n[1] ; 4.102 ; 4.102 ; 4.102 ; 4.102 ;
+; posicao[2] ; saida_posicao_n[2] ;       ; 4.023 ; 4.023 ;       ;
+; posicao[2] ; saida_posicao_n[3] ; 4.150 ; 4.150 ; 4.150 ; 4.150 ;
+; posicao[2] ; saida_posicao_n[4] ; 4.154 ;       ;       ; 4.154 ;
+; posicao[2] ; saida_posicao_n[5] ; 4.234 ;       ;       ; 4.234 ;
+; posicao[2] ; saida_posicao_n[6] ; 4.144 ;       ;       ; 4.144 ;
+; posicao[2] ; saida_seg14dezc[0] ; 4.845 ; 4.845 ; 4.845 ; 4.845 ;
+; posicao[2] ; saida_seg14dezc[3] ; 4.857 ; 4.857 ; 4.857 ; 4.857 ;
+; posicao[2] ; saida_seg14dezc[4] ; 4.837 ; 4.837 ; 4.837 ; 4.837 ;
+; posicao[2] ; saida_seg14dezc[5] ; 4.837 ; 4.837 ; 4.837 ; 4.837 ;
+; posicao[2] ; saida_seg14dezr[0] ; 5.314 ; 5.314 ; 5.314 ; 5.314 ;
+; posicao[2] ; saida_seg14dezr[3] ; 5.284 ; 5.284 ; 5.284 ; 5.284 ;
+; posicao[2] ; saida_seg14dezr[4] ; 5.284 ; 5.284 ; 5.284 ; 5.284 ;
+; posicao[2] ; saida_seg14dezr[5] ; 5.328 ; 5.328 ; 5.328 ; 5.328 ;
+; posicao[2] ; saida_seg14unic[0] ; 4.750 ; 4.750 ; 4.750 ; 4.750 ;
+; posicao[2] ; saida_seg14unic[1] ; 4.756 ; 4.756 ; 4.756 ; 4.756 ;
+; posicao[2] ; saida_seg14unic[2] ; 4.707 ; 4.707 ; 4.707 ; 4.707 ;
+; posicao[2] ; saida_seg14unic[3] ; 4.612 ; 4.612 ; 4.612 ; 4.612 ;
+; posicao[2] ; saida_seg14unic[4] ; 4.627 ; 4.627 ; 4.627 ; 4.627 ;
+; posicao[2] ; saida_seg14unic[5] ; 4.623 ; 4.623 ; 4.623 ; 4.623 ;
+; posicao[2] ; saida_seg14unic[6] ; 4.697 ; 4.697 ; 4.697 ; 4.697 ;
+; posicao[2] ; saida_seg14unir[0] ; 5.053 ; 5.053 ; 5.053 ; 5.053 ;
+; posicao[2] ; saida_seg14unir[1] ; 5.044 ; 5.044 ; 5.044 ; 5.044 ;
+; posicao[2] ; saida_seg14unir[2] ; 5.051 ; 5.051 ; 5.051 ; 5.051 ;
+; posicao[2] ; saida_seg14unir[3] ; 5.210 ; 5.210 ; 5.210 ; 5.210 ;
+; posicao[2] ; saida_seg14unir[4] ; 5.201 ; 5.201 ; 5.201 ; 5.201 ;
+; posicao[2] ; saida_seg14unir[5] ; 5.186 ; 5.186 ; 5.186 ; 5.186 ;
+; posicao[2] ; saida_seg14unir[6] ; 5.179 ; 5.179 ; 5.179 ; 5.179 ;
+; valor1[0]  ; overflow           ; 6.437 ;       ;       ; 6.437 ;
+; valor1[0]  ; saida_seg14dezc[0] ; 7.410 ; 7.410 ; 7.410 ; 7.410 ;
+; valor1[0]  ; saida_seg14dezc[3] ; 7.422 ; 7.422 ; 7.422 ; 7.422 ;
+; valor1[0]  ; saida_seg14dezc[4] ; 7.402 ; 7.402 ; 7.402 ; 7.402 ;
+; valor1[0]  ; saida_seg14dezc[5] ; 7.402 ; 7.402 ; 7.402 ; 7.402 ;
+; valor1[0]  ; saida_seg14dezr[0] ; 7.296 ; 7.296 ; 7.296 ; 7.296 ;
+; valor1[0]  ; saida_seg14dezr[3] ; 7.266 ; 7.266 ; 7.266 ; 7.266 ;
+; valor1[0]  ; saida_seg14dezr[4] ; 7.266 ; 7.266 ; 7.266 ; 7.266 ;
+; valor1[0]  ; saida_seg14dezr[5] ; 7.310 ; 7.310 ; 7.310 ; 7.310 ;
+; valor1[0]  ; saida_seg14unic[0] ; 7.409 ; 7.409 ; 7.409 ; 7.409 ;
+; valor1[0]  ; saida_seg14unic[1] ; 7.416 ; 7.416 ; 7.416 ; 7.416 ;
+; valor1[0]  ; saida_seg14unic[2] ; 7.373 ; 7.373 ; 7.373 ; 7.373 ;
+; valor1[0]  ; saida_seg14unic[3] ; 7.271 ; 7.271 ; 7.271 ; 7.271 ;
+; valor1[0]  ; saida_seg14unic[4] ; 7.284 ; 7.284 ; 7.284 ; 7.284 ;
+; valor1[0]  ; saida_seg14unic[5] ; 7.279 ; 7.279 ; 7.279 ; 7.279 ;
+; valor1[0]  ; saida_seg14unic[6] ; 7.351 ; 7.351 ; 7.351 ; 7.351 ;
+; valor1[0]  ; saida_seg14unir[0] ; 7.308 ; 7.308 ; 7.308 ; 7.308 ;
+; valor1[0]  ; saida_seg14unir[1] ; 7.301 ; 7.301 ; 7.301 ; 7.301 ;
+; valor1[0]  ; saida_seg14unir[2] ; 7.302 ; 7.302 ; 7.302 ; 7.302 ;
+; valor1[0]  ; saida_seg14unir[3] ; 7.464 ; 7.464 ; 7.464 ; 7.464 ;
+; valor1[0]  ; saida_seg14unir[4] ; 7.454 ; 7.454 ; 7.454 ; 7.454 ;
+; valor1[0]  ; saida_seg14unir[5] ; 7.437 ; 7.437 ; 7.437 ; 7.437 ;
+; valor1[0]  ; saida_seg14unir[6] ; 7.436 ; 7.436 ; 7.436 ; 7.436 ;
+; valor1[1]  ; overflow           ; 6.677 ;       ;       ; 6.677 ;
+; valor1[1]  ; saida_seg14dezc[0] ; 6.618 ; 6.618 ; 6.618 ; 6.618 ;
+; valor1[1]  ; saida_seg14dezc[3] ; 6.630 ; 6.630 ; 6.630 ; 6.630 ;
+; valor1[1]  ; saida_seg14dezc[4] ; 6.610 ; 6.610 ; 6.610 ; 6.610 ;
+; valor1[1]  ; saida_seg14dezc[5] ; 6.610 ; 6.610 ; 6.610 ; 6.610 ;
+; valor1[1]  ; saida_seg14dezr[0] ; 6.953 ; 6.953 ; 6.953 ; 6.953 ;
+; valor1[1]  ; saida_seg14dezr[3] ; 6.923 ; 6.923 ; 6.923 ; 6.923 ;
+; valor1[1]  ; saida_seg14dezr[4] ; 6.923 ; 6.923 ; 6.923 ; 6.923 ;
+; valor1[1]  ; saida_seg14dezr[5] ; 6.967 ; 6.967 ; 6.967 ; 6.967 ;
+; valor1[1]  ; saida_seg14unic[0] ; 6.614 ; 6.614 ; 6.614 ; 6.614 ;
+; valor1[1]  ; saida_seg14unic[1] ; 6.646 ; 6.646 ; 6.646 ; 6.646 ;
+; valor1[1]  ; saida_seg14unic[2] ; 6.574 ; 6.574 ; 6.574 ; 6.574 ;
+; valor1[1]  ; saida_seg14unic[3] ; 6.475 ; 6.475 ; 6.475 ; 6.475 ;
+; valor1[1]  ; saida_seg14unic[4] ; 6.491 ; 6.491 ; 6.491 ; 6.491 ;
+; valor1[1]  ; saida_seg14unic[5] ; 6.490 ; 6.490 ; 6.490 ; 6.490 ;
+; valor1[1]  ; saida_seg14unic[6] ; 6.564 ; 6.564 ; 6.564 ; 6.564 ;
+; valor1[1]  ; saida_seg14unir[0] ; 6.841 ; 6.841 ; 6.841 ; 6.841 ;
+; valor1[1]  ; saida_seg14unir[1] ; 6.835 ; 6.835 ; 6.835 ; 6.835 ;
+; valor1[1]  ; saida_seg14unir[2] ; 6.836 ; 6.836 ; 6.836 ; 6.836 ;
+; valor1[1]  ; saida_seg14unir[3] ; 6.998 ; 6.998 ; 6.998 ; 6.998 ;
+; valor1[1]  ; saida_seg14unir[4] ; 6.988 ; 6.988 ; 6.988 ; 6.988 ;
+; valor1[1]  ; saida_seg14unir[5] ; 6.971 ; 6.971 ; 6.971 ; 6.971 ;
+; valor1[1]  ; saida_seg14unir[6] ; 6.970 ; 6.970 ; 6.970 ; 6.970 ;
+; valor1[2]  ; overflow           ; 6.933 ;       ;       ; 6.933 ;
+; valor1[2]  ; saida_seg14dezc[0] ; 6.777 ; 6.777 ; 6.777 ; 6.777 ;
+; valor1[2]  ; saida_seg14dezc[3] ; 6.789 ; 6.789 ; 6.789 ; 6.789 ;
+; valor1[2]  ; saida_seg14dezc[4] ; 6.769 ; 6.769 ; 6.769 ; 6.769 ;
+; valor1[2]  ; saida_seg14dezc[5] ; 6.769 ; 6.769 ; 6.769 ; 6.769 ;
+; valor1[2]  ; saida_seg14dezr[0] ; 7.151 ; 7.151 ; 7.151 ; 7.151 ;
+; valor1[2]  ; saida_seg14dezr[3] ; 7.121 ; 7.121 ; 7.121 ; 7.121 ;
+; valor1[2]  ; saida_seg14dezr[4] ; 7.121 ; 7.121 ; 7.121 ; 7.121 ;
+; valor1[2]  ; saida_seg14dezr[5] ; 7.165 ; 7.165 ; 7.165 ; 7.165 ;
+; valor1[2]  ; saida_seg14unic[0] ; 6.773 ; 6.773 ; 6.773 ; 6.773 ;
+; valor1[2]  ; saida_seg14unic[1] ; 6.805 ; 6.805 ; 6.805 ; 6.805 ;
+; valor1[2]  ; saida_seg14unic[2] ; 6.733 ; 6.733 ; 6.733 ; 6.733 ;
+; valor1[2]  ; saida_seg14unic[3] ; 6.634 ; 6.634 ; 6.634 ; 6.634 ;
+; valor1[2]  ; saida_seg14unic[4] ; 6.650 ; 6.650 ; 6.650 ; 6.650 ;
+; valor1[2]  ; saida_seg14unic[5] ; 6.649 ; 6.649 ; 6.649 ; 6.649 ;
+; valor1[2]  ; saida_seg14unic[6] ; 6.723 ; 6.723 ; 6.723 ; 6.723 ;
+; valor1[2]  ; saida_seg14unir[0] ; 6.906 ; 6.906 ; 6.906 ; 6.906 ;
+; valor1[2]  ; saida_seg14unir[1] ; 6.897 ; 6.897 ; 6.897 ; 6.897 ;
+; valor1[2]  ; saida_seg14unir[2] ; 6.904 ; 6.904 ; 6.904 ; 6.904 ;
+; valor1[2]  ; saida_seg14unir[3] ; 7.063 ; 7.063 ; 7.063 ; 7.063 ;
+; valor1[2]  ; saida_seg14unir[4] ; 7.054 ; 7.054 ; 7.054 ; 7.054 ;
+; valor1[2]  ; saida_seg14unir[5] ; 7.039 ; 7.039 ; 7.039 ; 7.039 ;
+; valor1[2]  ; saida_seg14unir[6] ; 7.032 ; 7.032 ; 7.032 ; 7.032 ;
+; valor1[3]  ; overflow           ; 6.904 ;       ;       ; 6.904 ;
+; valor1[3]  ; saida_seg14dezc[0] ; 6.748 ; 6.748 ; 6.748 ; 6.748 ;
+; valor1[3]  ; saida_seg14dezc[3] ; 6.760 ; 6.760 ; 6.760 ; 6.760 ;
+; valor1[3]  ; saida_seg14dezc[4] ; 6.740 ; 6.740 ; 6.740 ; 6.740 ;
+; valor1[3]  ; saida_seg14dezc[5] ; 6.740 ; 6.740 ; 6.740 ; 6.740 ;
+; valor1[3]  ; saida_seg14dezr[0] ; 6.906 ; 6.906 ; 6.906 ; 6.906 ;
+; valor1[3]  ; saida_seg14dezr[3] ; 6.876 ; 6.876 ; 6.876 ; 6.876 ;
+; valor1[3]  ; saida_seg14dezr[4] ; 6.876 ; 6.876 ; 6.876 ; 6.876 ;
+; valor1[3]  ; saida_seg14dezr[5] ; 6.920 ; 6.920 ; 6.920 ; 6.920 ;
+; valor1[3]  ; saida_seg14unic[0] ; 6.744 ; 6.744 ; 6.744 ; 6.744 ;
+; valor1[3]  ; saida_seg14unic[1] ; 6.776 ; 6.776 ; 6.776 ; 6.776 ;
+; valor1[3]  ; saida_seg14unic[2] ; 6.704 ; 6.704 ; 6.704 ; 6.704 ;
+; valor1[3]  ; saida_seg14unic[3] ; 6.605 ; 6.605 ; 6.605 ; 6.605 ;
+; valor1[3]  ; saida_seg14unic[4] ; 6.621 ; 6.621 ; 6.621 ; 6.621 ;
+; valor1[3]  ; saida_seg14unic[5] ; 6.620 ; 6.620 ; 6.620 ; 6.620 ;
+; valor1[3]  ; saida_seg14unic[6] ; 6.694 ; 6.694 ; 6.694 ; 6.694 ;
+; valor1[3]  ; saida_seg14unir[0] ; 6.606 ; 6.606 ; 6.606 ; 6.606 ;
+; valor1[3]  ; saida_seg14unir[1] ; 6.597 ; 6.597 ; 6.597 ; 6.597 ;
+; valor1[3]  ; saida_seg14unir[2] ; 6.604 ; 6.604 ; 6.604 ; 6.604 ;
+; valor1[3]  ; saida_seg14unir[3] ; 6.763 ; 6.763 ; 6.763 ; 6.763 ;
+; valor1[3]  ; saida_seg14unir[4] ; 6.754 ; 6.754 ; 6.754 ; 6.754 ;
+; valor1[3]  ; saida_seg14unir[5] ; 6.739 ; 6.739 ; 6.739 ; 6.739 ;
+; valor1[3]  ; saida_seg14unir[6] ; 6.732 ; 6.732 ; 6.732 ; 6.732 ;
+; valor2[0]  ; overflow           ; 3.933 ;       ;       ; 3.933 ;
+; valor2[0]  ; saida_seg14dezc[0] ; 4.489 ; 4.489 ; 4.489 ; 4.489 ;
+; valor2[0]  ; saida_seg14dezc[3] ; 4.501 ; 4.501 ; 4.501 ; 4.501 ;
+; valor2[0]  ; saida_seg14dezc[4] ; 4.481 ; 4.481 ; 4.481 ; 4.481 ;
+; valor2[0]  ; saida_seg14dezc[5] ; 4.481 ; 4.481 ; 4.481 ; 4.481 ;
+; valor2[0]  ; saida_seg14dezr[0] ; 4.505 ; 4.505 ; 4.505 ; 4.505 ;
+; valor2[0]  ; saida_seg14dezr[3] ; 4.475 ; 4.475 ; 4.475 ; 4.475 ;
+; valor2[0]  ; saida_seg14dezr[4] ; 4.475 ; 4.475 ; 4.475 ; 4.475 ;
+; valor2[0]  ; saida_seg14dezr[5] ; 4.519 ; 4.519 ; 4.519 ; 4.519 ;
+; valor2[0]  ; saida_seg14unic[0] ; 4.488 ; 4.488 ; 4.488 ; 4.488 ;
+; valor2[0]  ; saida_seg14unic[1] ; 4.495 ; 4.495 ; 4.495 ; 4.495 ;
+; valor2[0]  ; saida_seg14unic[2] ; 4.452 ; 4.452 ; 4.452 ; 4.452 ;
+; valor2[0]  ; saida_seg14unic[3] ; 4.350 ; 4.350 ; 4.350 ; 4.350 ;
+; valor2[0]  ; saida_seg14unic[4] ; 4.363 ; 4.363 ; 4.363 ; 4.363 ;
+; valor2[0]  ; saida_seg14unic[5] ; 4.358 ; 4.358 ; 4.358 ; 4.358 ;
+; valor2[0]  ; saida_seg14unic[6] ; 4.430 ; 4.430 ; 4.430 ; 4.430 ;
+; valor2[0]  ; saida_seg14unir[0] ; 4.394 ; 4.394 ; 4.394 ; 4.394 ;
+; valor2[0]  ; saida_seg14unir[1] ; 4.387 ; 4.387 ; 4.387 ; 4.387 ;
+; valor2[0]  ; saida_seg14unir[2] ; 4.388 ; 4.388 ; 4.388 ; 4.388 ;
+; valor2[0]  ; saida_seg14unir[3] ; 4.550 ; 4.550 ; 4.550 ; 4.550 ;
+; valor2[0]  ; saida_seg14unir[4] ; 4.540 ; 4.540 ; 4.540 ; 4.540 ;
+; valor2[0]  ; saida_seg14unir[5] ; 4.523 ; 4.523 ; 4.523 ; 4.523 ;
+; valor2[0]  ; saida_seg14unir[6] ; 4.522 ; 4.522 ; 4.522 ; 4.522 ;
+; valor2[1]  ; overflow           ; 4.307 ;       ;       ; 4.307 ;
+; valor2[1]  ; saida_seg14dezc[0] ; 4.219 ; 4.219 ; 4.219 ; 4.219 ;
+; valor2[1]  ; saida_seg14dezc[3] ; 4.231 ; 4.231 ; 4.231 ; 4.231 ;
+; valor2[1]  ; saida_seg14dezc[4] ; 4.211 ; 4.211 ; 4.211 ; 4.211 ;
+; valor2[1]  ; saida_seg14dezc[5] ; 4.211 ; 4.211 ; 4.211 ; 4.211 ;
+; valor2[1]  ; saida_seg14dezr[0] ; 4.524 ; 4.524 ; 4.524 ; 4.524 ;
+; valor2[1]  ; saida_seg14dezr[3] ; 4.494 ; 4.494 ; 4.494 ; 4.494 ;
+; valor2[1]  ; saida_seg14dezr[4] ; 4.494 ; 4.494 ; 4.494 ; 4.494 ;
+; valor2[1]  ; saida_seg14dezr[5] ; 4.538 ; 4.538 ; 4.538 ; 4.538 ;
+; valor2[1]  ; saida_seg14unic[0] ; 4.215 ; 4.215 ; 4.215 ; 4.215 ;
+; valor2[1]  ; saida_seg14unic[1] ; 4.247 ; 4.247 ; 4.247 ; 4.247 ;
+; valor2[1]  ; saida_seg14unic[2] ; 4.175 ; 4.175 ; 4.175 ; 4.175 ;
+; valor2[1]  ; saida_seg14unic[3] ; 4.076 ; 4.076 ; 4.076 ; 4.076 ;
+; valor2[1]  ; saida_seg14unic[4] ; 4.092 ; 4.092 ; 4.092 ; 4.092 ;
+; valor2[1]  ; saida_seg14unic[5] ; 4.091 ; 4.091 ; 4.091 ; 4.091 ;
+; valor2[1]  ; saida_seg14unic[6] ; 4.165 ; 4.165 ; 4.165 ; 4.165 ;
+; valor2[1]  ; saida_seg14unir[0] ; 4.304 ; 4.304 ; 4.304 ; 4.304 ;
+; valor2[1]  ; saida_seg14unir[1] ; 4.304 ; 4.304 ; 4.304 ; 4.304 ;
+; valor2[1]  ; saida_seg14unir[2] ; 4.304 ; 4.304 ; 4.304 ; 4.304 ;
+; valor2[1]  ; saida_seg14unir[3] ; 4.463 ; 4.463 ; 4.463 ; 4.463 ;
+; valor2[1]  ; saida_seg14unir[4] ; 4.454 ; 4.454 ; 4.454 ; 4.454 ;
+; valor2[1]  ; saida_seg14unir[5] ; 4.438 ; 4.438 ; 4.438 ; 4.438 ;
+; valor2[1]  ; saida_seg14unir[6] ; 4.434 ; 4.434 ; 4.434 ; 4.434 ;
+; valor2[2]  ; overflow           ; 4.399 ;       ;       ; 4.399 ;
+; valor2[2]  ; saida_seg14dezc[0] ; 4.243 ; 4.243 ; 4.243 ; 4.243 ;
+; valor2[2]  ; saida_seg14dezc[3] ; 4.255 ; 4.255 ; 4.255 ; 4.255 ;
+; valor2[2]  ; saida_seg14dezc[4] ; 4.235 ; 4.235 ; 4.235 ; 4.235 ;
+; valor2[2]  ; saida_seg14dezc[5] ; 4.235 ; 4.235 ; 4.235 ; 4.235 ;
+; valor2[2]  ; saida_seg14dezr[0] ; 4.403 ; 4.403 ; 4.403 ; 4.403 ;
+; valor2[2]  ; saida_seg14dezr[3] ; 4.373 ; 4.373 ; 4.373 ; 4.373 ;
+; valor2[2]  ; saida_seg14dezr[4] ; 4.373 ; 4.373 ; 4.373 ; 4.373 ;
+; valor2[2]  ; saida_seg14dezr[5] ; 4.417 ; 4.417 ; 4.417 ; 4.417 ;
+; valor2[2]  ; saida_seg14unic[0] ; 4.239 ; 4.239 ; 4.239 ; 4.239 ;
+; valor2[2]  ; saida_seg14unic[1] ; 4.271 ; 4.271 ; 4.271 ; 4.271 ;
+; valor2[2]  ; saida_seg14unic[2] ; 4.199 ; 4.199 ; 4.199 ; 4.199 ;
+; valor2[2]  ; saida_seg14unic[3] ; 4.100 ; 4.100 ; 4.100 ; 4.100 ;
+; valor2[2]  ; saida_seg14unic[4] ; 4.116 ; 4.116 ; 4.116 ; 4.116 ;
+; valor2[2]  ; saida_seg14unic[5] ; 4.115 ; 4.115 ; 4.115 ; 4.115 ;
+; valor2[2]  ; saida_seg14unic[6] ; 4.189 ; 4.189 ; 4.189 ; 4.189 ;
+; valor2[2]  ; saida_seg14unir[0] ; 4.103 ; 4.103 ; 4.103 ; 4.103 ;
+; valor2[2]  ; saida_seg14unir[1] ; 4.094 ; 4.094 ; 4.094 ; 4.094 ;
+; valor2[2]  ; saida_seg14unir[2] ; 4.101 ; 4.101 ; 4.101 ; 4.101 ;
+; valor2[2]  ; saida_seg14unir[3] ; 4.260 ; 4.260 ; 4.260 ; 4.260 ;
+; valor2[2]  ; saida_seg14unir[4] ; 4.251 ; 4.251 ; 4.251 ; 4.251 ;
+; valor2[2]  ; saida_seg14unir[5] ; 4.236 ; 4.236 ; 4.236 ; 4.236 ;
+; valor2[2]  ; saida_seg14unir[6] ; 4.229 ; 4.229 ; 4.229 ; 4.229 ;
+; valor2[3]  ; overflow           ; 4.494 ;       ;       ; 4.494 ;
+; valor2[3]  ; saida_seg14dezc[0] ; 4.338 ; 4.338 ; 4.338 ; 4.338 ;
+; valor2[3]  ; saida_seg14dezc[3] ; 4.350 ; 4.350 ; 4.350 ; 4.350 ;
+; valor2[3]  ; saida_seg14dezc[4] ; 4.330 ; 4.330 ; 4.330 ; 4.330 ;
+; valor2[3]  ; saida_seg14dezc[5] ; 4.330 ; 4.330 ; 4.330 ; 4.330 ;
+; valor2[3]  ; saida_seg14dezr[0] ; 4.497 ; 4.497 ; 4.497 ; 4.497 ;
+; valor2[3]  ; saida_seg14dezr[3] ; 4.467 ; 4.467 ; 4.467 ; 4.467 ;
+; valor2[3]  ; saida_seg14dezr[4] ; 4.467 ; 4.467 ; 4.467 ; 4.467 ;
+; valor2[3]  ; saida_seg14dezr[5] ; 4.511 ; 4.511 ; 4.511 ; 4.511 ;
+; valor2[3]  ; saida_seg14unic[0] ; 4.271 ; 4.271 ; 4.271 ; 4.271 ;
+; valor2[3]  ; saida_seg14unic[1] ; 4.277 ; 4.277 ; 4.277 ; 4.277 ;
+; valor2[3]  ; saida_seg14unic[2] ; 4.228 ; 4.228 ; 4.228 ; 4.228 ;
+; valor2[3]  ; saida_seg14unic[3] ; 4.133 ; 4.133 ; 4.133 ; 4.133 ;
+; valor2[3]  ; saida_seg14unic[4] ; 4.148 ; 4.148 ; 4.148 ; 4.148 ;
+; valor2[3]  ; saida_seg14unic[5] ; 4.144 ; 4.144 ; 4.144 ; 4.144 ;
+; valor2[3]  ; saida_seg14unic[6] ; 4.218 ; 4.218 ; 4.218 ; 4.218 ;
+; valor2[3]  ; saida_seg14unir[0] ; 4.197 ; 4.197 ; 4.197 ; 4.197 ;
+; valor2[3]  ; saida_seg14unir[1] ; 4.188 ; 4.188 ; 4.188 ; 4.188 ;
+; valor2[3]  ; saida_seg14unir[2] ; 4.195 ; 4.195 ; 4.195 ; 4.195 ;
+; valor2[3]  ; saida_seg14unir[3] ; 4.354 ; 4.354 ; 4.354 ; 4.354 ;
+; valor2[3]  ; saida_seg14unir[4] ; 4.345 ; 4.345 ; 4.345 ; 4.345 ;
+; valor2[3]  ; saida_seg14unir[5] ; 4.330 ; 4.330 ; 4.330 ; 4.330 ;
+; valor2[3]  ; saida_seg14unir[6] ; 4.323 ; 4.323 ; 4.323 ; 4.323 ;
++------------+--------------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 11    ; 11   ;
+; Unconstrained Input Port Paths  ; 274   ; 274  ;
+; Unconstrained Output Ports      ; 31    ; 31   ;
+; Unconstrained Output Port Paths ; 274   ; 274  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Jul 03 10:50:14 2015
+Info: Command: quartus_sta trabalhototal -c trabalhototal
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'trabalhototal.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 393 megabytes
+    Info: Processing ended: Fri Jul 03 10:50:15 2015
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
